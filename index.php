@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>- Sublee -</title>
+  <title>- The Crohnicles or Colitis -</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -40,11 +40,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-        <a class="navbar-brand" href="#"><b>Sublee</b></a>
+        <a class="navbar-brand" href="#"><b>The Crohnicles</b></a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#" class="smoothscroll"><b>Sign in</b></a></li>
+          <li><a href="#" class="smoothscroll"><b></b></a></li>
         </ul>
       </div>
       <!--/.nav-collapse -->
@@ -55,18 +55,19 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <h1>Making Subletting<br/>
-					feel really easy.</h1>
+          <h1>A community of care<br/>
+					for those suffering from <br/>
+					Irritable Bowel Syndrome.</h1>
           <form class="form-inline" role="form">
             <div class="form-group">
               <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
             </div>
-            <button type="submit" class="btn btn-warning btn-lg">Sign me up!</button>
+            <button type="submit" class="btn btn-warning btn-lg">Send me your story!</button>
           </form>
         </div>
         <!-- /col-lg-6 -->
         <div class="col-lg-6">
-          <img class="img-responsive" src="img/icons8-home-400.png" alt="">
+          <img class="img-responsive" src="img/Hands-400.png" alt="">
         </div>
         <!-- /col-lg-6 -->
 
@@ -81,32 +82,32 @@
   <div class="container">
     <div class="row mt centered">
       <div class="col-lg-6 col-lg-offset-3">
-        <h1>How it works.</h1>
-        <h3>Subletting is a pain in the ass. Let us help.</h3>
+        <h1>Share publicly or anonymously</h1>
+        <h3>We want to hear your story</h3>
       </div>
     </div>
     <!-- /row -->
 
     <div class="row mt centered">
       <div class="col-lg-4">
-        <img src="img/Dealio-300.png" width="180" alt="">
-        <h4>1 - Tenants Finding Landlords </h4>
-        <p>Some Text.</p>
+        <img src="img/Care-300.png" width="180" alt="">
+        <h4>1 - Share your Story </h4>
+        <p></p>
       </div>
       <!--/col-lg-4 -->
 
       <div class="col-lg-4">
-        <img src="img/QuickCash-300.png" width="180" alt="">
-        <h4>2 - Landlords Finding Tenants </h4>
-        <p>Some Text.</p>
+        <img src="img/Needle.png" width="180" alt="">
+        <h4>2 - Read about other's journeys </h4>
+        <p></p>
 
       </div>
       <!--/col-lg-4 -->
 
       <div class="col-lg-4">
-        <img src="img/Contract-300.png" width="180" alt="">
-        <h4>3 - Reliable Contract Transferals</h4>
-        <p>Some Text.</p>
+        <img src="img/Old.png" width="180" alt="">
+        <h4>3 - Find comfort together</h4>
+        <p></p>
 
       </div>
       <!--/col-lg-4 -->
@@ -123,10 +124,9 @@
   <div class="container">
     <div class="row mt centered">
       <div class="col-lg-6 col-lg-offset-3">
-        <h1>Too simple?</h1>
-        <h3>Subletting was never supposed to be hard.<br/>
-        Let us take care of the heavy lifting.</h3>
-        <img src="img/Easy-400.png" width="300" alt="">
+        <h1>2018 Featured Stories</h1>
+        <h3>When I found out, I was devastated. <br/>But now, through this site <br/>I feel that I am able to talk to others.<br/> <br/>Thanks for making this blog for us to share, Crohnicles!! 
+- @IBDon't98</h3>
       </div>
     </div>
     <!-- /row -->
@@ -141,31 +141,20 @@
   <div class="container">
     <div class="row mt centered">
       <div class="col-lg-6 col-lg-offset-3">
-        <h1>Meet the Team.</h1>
+        <h1>Meet the Founder.</h1>
         
       </div>
     </div>
     <!-- /row -->
 
     <div class="row mt centered">
-      <div class="col-lg-4">
-        <img class="img-circle" src="img/DS.jpg" width="140" alt="">
-        <h4>Daniel Szwimer</h4>
-        <p>Some Text.</p>
+      <div class="col-lg-12">
+        <img class="img-circle" src="img/Roohel.jpeg" width="140" alt="">
+        <h4>Rachel Szwimer</h4>
+        <p>Each of our narratives has a unique twist,<br/> yet we can still come together as members<br/> of the IBD community to share our stories and inspire others. </p>
         </div>
       <!--/col-lg-4 -->
 
-      <div class="col-lg-4">
-        <img class="img-circle" src="img/JZ.jpg" width="140" alt="">
-        <h4>Jason Zoltak</h4>
-        <p>Some Text.</p>
-        </div>
-      <!--/col-lg-4 -->
-
-      <div class="col-lg-4">
-        <img class="img-circle" src="img/JD.jpg" width="140" alt="">
-        <h4>Jon Drew</h4>
-        <p>Some Text.</p>
        
       </div>
       <!--/col-lg-4 -->

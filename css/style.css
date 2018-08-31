@@ -1,9 +1,4 @@
-/**
-* Template Name: Flatty
-* Template URL: https://templatemag.com/flatty-bootstrap-app-landing-page-template/
-* Author: TemplateMag.com
-* License: https://templatemag.com/license/
-*/
+
 
 body {
   background-color: #f2f2f2;
@@ -86,7 +81,7 @@ hr {
 }
 
 .navbar-default {
-  background-color: #1abc9c;
+  background-color: #ffa64d;
   border-color: transparent;
 }
 
@@ -124,7 +119,7 @@ i {
 
 #headerwrap {
   /* background: url(../img/bg01.jpg) no-repeat center top; */
-  background-color: #1abc9c;
+  background-color: #ffa64d;
   margin-top: -20px;
   padding-top: 200px;
   background-attachment: relative;
