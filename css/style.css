@@ -1,9 +1,4 @@
-/**
-* Template Name: Flatty
-* Template URL: https://templatemag.com/flatty-bootstrap-app-landing-page-template/
-* Author: TemplateMag.com
-* License: https://templatemag.com/license/
-*/
+
 
 body {
   background-color: #f2f2f2;
@@ -233,25 +228,4 @@ i {
   padding: 15px;
   font-weight: 600;
   margin: 15px 0;
-}
-
-/* Copyrights */
-
-#copyrights {
-  background: #3498db;
-  padding: 20px 0;
-  text-align: center;
-}
-
-#copyrights p {
-  margin-bottom: 5px;
-  color: #fff;
-}
-
-#copyrights a {
-  color: #fff;
-}
-
-.credits {
-  color: #fff;
 }

@@ -1,3 +1,7 @@
+<?php
+require_once 'vendor/autoload.php';
+
+require_once 'FormHandler.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,6 +49,7 @@
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#" class="smoothscroll"><b>Sign in</b></a></li>
+
         </ul>
       </div>
       <!--/.nav-collapse -->
@@ -57,16 +62,71 @@
         <div class="col-lg-6">
           <h1>Making Subletting<br/>
 					feel really easy.</h1>
-          <form class="form-inline" role="form">
-            <div class="form-group">
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
-            </div>
-            <button type="submit" class="btn btn-warning btn-lg">Sign me up!</button>
-          </form>
+          
+           <div class="container-box rotated">
+<button type="button" class="btn btn-info btn-lg turned-button" data-toggle="modal" data-target="#myModal">Sign Up!</button>
+</div>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+<!-- Modal content-->
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">×</button>
+<h4 class="modal-title">1/1 Personal Information</h4>
+</div>
+<div class="modal-body">
+
+        <form role="form" method="post" id="reused_form" >
+        <p>
+            We will be sure to keep your data private. </br> You have our word.
+        </p>
+
+        <div class="form-group">
+            <label for="name">
+                Name:</label>
+            <input type="text" class="form-control"
+            id="name" name="name"   required maxlength="50">
+
         </div>
-        <!-- /col-lg-6 -->
-        <div class="col-lg-6">
-          <img class="img-responsive" src="img/icons8-home-400.png" alt="">
+        <div class="form-group">
+            <label for="email">
+                Email:</label>
+            <input type="email" class="form-control"
+            id="email" name="email" required maxlength="50">
+        </div>
+        <div class="form-group">
+            <label for="name">
+                Role</label>
+            <textarea class="form-control" type="textarea" name="message"
+            id="message" placeholder="This should be tick box, tenante, landlord, both"
+            maxlength="6000" rows="7"></textarea>
+        </div>
+
+
+
+
+
+        <button type="submit" class="btn btn-lg btn-success btn-block" id="btnContactUs">Submit</button>
+
+    </form>
+    <div id="success_message" style="width:100%; height:100%; display:none; ">
+        <h3>Sent your message successfully!</h3>
+    </div>
+    <div id="error_message"
+    style="width:100%; height:100%; display:none; ">
+        <h3>Error</h3>
+        Sorry there was an error sending your form.
+
+    </div>
+</div>
+
+</div>
+
+ </div>
+</div>
         </div>
         <!-- /col-lg-6 -->
 
@@ -189,6 +249,10 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+
+
+
+
 
 </body>
 </html>
