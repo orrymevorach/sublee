@@ -66,67 +66,56 @@ require_once 'FormHandler.php';?>
            <div class="container-box rotated">
 <button type="button" class="btn btn-info btn-lg turned-button" data-toggle="modal" data-target="#myModal">Sign Up!</button>
 </div>
-
 <!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLabel">Sign Up</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<form method="post" action="dbcalls.php">
+  <div class="form-group">
+    <label for="first_name">First Name</label>
+    <input type="text" name="first_name" class="form-control" id="FName" aria-describedby="emailHelp" placeholder="Enter First Name">
+  </div>
 
-<!-- Modal content-->
-<div class="modal-content">
-<div class="modal-header">
-<button type="button" class="close" data-dismiss="modal">×</button>
-<h4 class="modal-title">1/1 Personal Information</h4>
+  <div class="form-group">
+    <label for="last_name">Last Name</label>
+    <input type="text" name="last_name" class="form-control" id="LName" aria-describedby="emailHelp" placeholder="Enter Last Name">
+  </div>
+        <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="Email" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+
+  
+    <legend>Landlords</legend>
+    
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Are you a landlord looking for tenants?
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+</form>
+      </div>
+      
+    </div>
+  </div>
 </div>
-<div class="modal-body">
 
-        <form role="form" method="post" id="reused_form" >
-        <p>
-            We will be sure to keep your data private. </br> You have our word.
-        </p>
-
-        <div class="form-group">
-            <label for="name">
-                Name:</label>
-            <input type="text" class="form-control"
-            id="name" name="name"   required maxlength="50">
-
-        </div>
-        <div class="form-group">
-            <label for="email">
-                Email:</label>
-            <input type="email" class="form-control"
-            id="email" name="email" required maxlength="50">
-        </div>
-        <div class="form-group">
-            <label for="name">
-                Role</label>
-            <textarea class="form-control" type="textarea" name="message"
-            id="message" placeholder="This should be tick box, tenante, landlord, both"
-            maxlength="6000" rows="7"></textarea>
-        </div>
-
-
-
-
-
-        <button type="submit" class="btn btn-lg btn-success btn-block" id="btnContactUs">Submit</button>
-
-    </form>
-    <div id="success_message" style="width:100%; height:100%; display:none; ">
-        <h3>Sent your message successfully!</h3>
-    </div>
-    <div id="error_message"
-    style="width:100%; height:100%; display:none; ">
-        <h3>Error</h3>
-        Sorry there was an error sending your form.
-
-    </div>
 </div>
 
 </div>
 
  </div>
-</div>
+
         </div>
         <!-- /col-lg-6 -->
 
