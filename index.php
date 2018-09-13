@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,16 +52,17 @@
     </div>
   </div>
 
+ 
   <div id="headerwrap">
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <h1>Making Subletting<br/>
-					feel really easy.</h1>
+          <h1>Sublee.<br/>
+          Tag line</h1>
           
-           <div class="container-box rotated">
-<button type="button" class="btn btn-info btn-lg turned-button" data-toggle="modal" data-target="#myModal">Sign Up!</button>
-</div>
+            <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Sign up!</button>
+          </div>
+
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -106,13 +106,9 @@
     </div>
   </div>
 </div>
-
-</div>
-
-</div>
-
- </div>
-
+        <!-- /col-lg-6 -->
+        <div class="col-lg-6">
+          <img class="img-responsive" src="img/greendelv.png" alt="">
         </div>
         <!-- /col-lg-6 -->
 
