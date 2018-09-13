@@ -1,7 +1,4 @@
-<?php
-require_once 'vendor/autoload.php';
 
-require_once 'FormHandler.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
