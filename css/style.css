@@ -1,5 +1,3 @@
-
-
 body {
   background-color: #f2f2f2;
   font-family: 'Lato', sans-serif;
@@ -58,7 +56,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #7b7b7b;
+  color: #A9A9A9;
   text-decoration: none;
   outline: 0;
 }
@@ -80,8 +78,8 @@ hr {
   padding: 0;
 }
 
-.navbar-default {
-  background-color: #ffa64d;
+.navbar-default #navbar #navbar-default navbar-fixed-top{
+  background-color: #1abc9c;
   border-color: transparent;
 }
 
@@ -94,7 +92,7 @@ hr {
 }
 
 .navbar-toggle {
-  background: #fff;
+  background: #1abc9c;
 }
 
 /* Helpers */
@@ -119,7 +117,7 @@ i {
 
 #headerwrap {
   /* background: url(../img/bg01.jpg) no-repeat center top; */
-  background-color: #ffa64d;
+  background-color: #1abc9c;
   margin-top: -20px;
   padding-top: 200px;
   background-attachment: relative;
@@ -228,4 +226,9 @@ i {
   padding: 15px;
   font-weight: 600;
   margin: 15px 0;
+}
+.ImageBorder
+{
+    border-width: 10px;
+    border-color: White;
 }

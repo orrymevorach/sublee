@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -21,12 +21,7 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-    Template Name: Flatty
-    Template URL: https://templatemag.com/flatty-bootstrap-app-landing-page-template/
-    Author: TemplateMag.com
-    License: https://templatemag.com/license/
-  ======================================================= -->
+ 
 </head>
 
 <body>
@@ -41,10 +36,14 @@
             <span class="icon-bar"></span>
           </button>
         <a class="navbar-brand" href="#"><b>Sublee</b></a>
+        <img class="img-responsive" src="img/icons8-home-50.png" alt="">
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#" class="smoothscroll"><b>Sign in</b></a></li>
+          <li><a href="#howitworks" class="smoothscroll"><b>How it works</b></a></li>
+          <li><a href="#tenants" class="smoothscroll"><b>Tenants</b></a></li>
+          <li><a href="#renters" class="smoothscroll"><b>Renters</b></a></li>
+          <li><a href="#aboutus" class="smoothscroll"><b>About Us</b></a></li>
 
         </ul>
       </div>
@@ -54,18 +53,27 @@
 
  
   <div id="headerwrap">
-    <div class="container">
+    <div class="container" id="topofpage">
       <div class="row">
         <div class="col-lg-6">
-          <h1>Sublee.<br/>
-          Tag line</h1>
+          <h1>Subletting,<br/>
+          simplified</h1>
+          <p>Sublee makes getting out of your lease or into a sublet, easy. </br></br>
+
+Whether it’s a new job in a new city, a 6-month back packing trip across the globe, or a new condo you’ve set your sights on – don’t let a contract stop you from life’s journey
+</p>
           
-            <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Sign up!</button>
+            <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Post my lease</button>
+
+
+
           </div>
 
+            <div class="col-lg-6"><img class="img-responsive" style='border:1px solid white' src="img/apartment-architectural-design-architecture-279614.jpg" alt=""></div>
+
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+<div class="modal fade" id="exampleModal" tabindex="" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h2 class="modal-title" id="exampleModalLabel">Sign Up</h2>
@@ -75,31 +83,100 @@
       </div>
       <div class="modal-body">
 <form method="post" action="dbcalls.php">
-  <div class="form-group">
-    <label for="first_name">First Name</label>
-    <input type="text" name="first_name" class="form-control" id="FName" aria-describedby="emailHelp" placeholder="Enter First Name">
+
+
+
+
+
+<form>
+  <div class="form-row">
+    <div class="form-group col-lg-4">
+      <label for="inputPassword4">First Name</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="First Name">
+    </div>
+    <div class="form-group col-lg-4">
+      <label for="inputPassword4">Last Name</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="First Name">
+    </div>
+        <div class="form-group col-lg-4">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+      <small id="Email" class="form-text text-muted">We'll never share it with anyone</small>
+    </div>
+  </div>
+  <div class="form-group col-lg-12">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-group col-lg-12">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-lg-4">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-lg-4">
+      <label for="inputProvince">Province</label>
+      <select id="inputProvince" class="form-control">
+        <option selected>Select</option>
+        <option>QC</option>
+        <option>ON</option>
+        <option>BC</option>
+        <option>AB</option>
+        <option>MB</option>
+        <option>SK</option>
+        <option>NS</option>
+        <option>NB</option>
+        <option>NL</option>
+        <option>PE</option>
+        <option>NT</option>
+        <option>YT</option>
+        <option>NU</option>
+      </select>
+    </div>
+    <div class="form-group col-lg-4">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
   </div>
 
-  <div class="form-group">
-    <label for="last_name">Last Name</label>
-    <input type="text" name="last_name" class="form-control" id="LName" aria-describedby="emailHelp" placeholder="Enter Last Name">
+   <div class="form-row">
+    <div class="form-group col-lg-12">
+      <label for="exampleTextarea">Tell us about your lease situation.</label>
+    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+    </div>
   </div>
-        <div class="form-group">
-    <label for="email">Email address</label>
-    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="Email" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-
   
-    <legend>Landlords</legend>
-    
+<div class="form-group">
   <div class="form-check">
-    <label class="form-check-label">
+    <label class="STL">
       <input type="checkbox" class="form-check-input">
-      Are you a landlord looking for tenants?
+      I am looking for a short-term lease.
     </label>
+
   </div>
-  <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+ 
+  
+  <div class="form-check">
+    <label class="LCL">
+      <input type="checkbox" class="form-check-input">
+      I am trying to get out of my current lease.
+    </label>
+
+
+  </div>
+ 
+  <div class="form-check">
+    <label class="LPM">
+      <input type="checkbox" class="form-check-input">
+      I am a landlord/property manager.
+    </label>
+
+  </div>
+  </div>
+  <button type="submit" class="btn btn-primary btn-lg" name="submit">Submit</button>
 </form>
       </div>
       
@@ -120,94 +197,42 @@
   <!-- /headerwrap -->
 
 
-  <div class="container">
+  <div class="container" id="howitworks">
     <div class="row mt centered">
       <div class="col-lg-6 col-lg-offset-3">
         <h1>How it works.</h1>
-        <h3>Subletting is a pain in the ass. Let us help.</h3>
+        <h3>Sublee is designed to streamline the subletting process, taking you from apartment search to close within one day
+</h3>
       </div>
     </div>
     <!-- /row -->
 
     <div class="row mt centered">
-      <div class="col-lg-4">
-        <img src="img/Dealio-300.png" width="180" alt="">
-        <h4>1 - Tenants Finding Landlords </h4>
-        <p>Some Text.</p>
+      <div class="col-lg-2 col-lg-offset-1">
+        <img src="img/Picture1.png" width="180" alt="">
+        <h4>Marketplace</h4>
+       
       </div>
       <!--/col-lg-4 -->
-
-      <div class="col-lg-4">
-        <img src="img/QuickCash-300.png" width="180" alt="">
-        <h4>2 - Landlords Finding Tenants </h4>
-        <p>Some Text.</p>
-
+       <div class="col-lg-2">
+        <img src="img/Picture2.png" width="180" alt="">
+        <h4>Connect with </br> Interested Tenants</h4>
+       
       </div>
-      <!--/col-lg-4 -->
 
-      <div class="col-lg-4">
-        <img src="img/Contract-300.png" width="180" alt="">
-        <h4>3 - Reliable Contract Transferals</h4>
-        <p>Some Text.</p>
-
+        <div class="col-lg-2">
+        <img src="img/Picture3.png" width="180" alt="">
+        <h4>Verification, </br> Notification, Approval</h4>
+       
       </div>
-      <!--/col-lg-4 -->
-    </div>
-    <!-- /row -->
-  </div>
-  <!-- /container -->
-
-  <div class="container">
-  
-  </div>
-  <!-- /container -->
-
-  <div class="container">
-    <div class="row mt centered">
-      <div class="col-lg-6 col-lg-offset-3">
-        <h1>Too simple?</h1>
-        <h3>Subletting was never supposed to be hard.<br/>
-        Let us take care of the heavy lifting.</h3>
-        <img src="img/Easy-400.png" width="300" alt="">
+       <div class="col-lg-2">
+        <img src="img/Picture4.png" width="180" alt="">
+        <h4>Agree to terms & </br> sign</h4>
+       
       </div>
-    </div>
-    <!-- /row -->
-
-    
-
-  <div class="container">
-    
-  </div>
-  <!-- /container -->
-
-  <div class="container">
-    <div class="row mt centered">
-      <div class="col-lg-6 col-lg-offset-3">
-        <h1>Meet the Team.</h1>
-        
-      </div>
-    </div>
-    <!-- /row -->
-
-    <div class="row mt centered">
-      <div class="col-lg-4">
-        <img class="img-circle" src="img/DS.jpg" width="140" alt="">
-        <h4>Daniel Szwimer</h4>
-        <p>Some Text.</p>
-        </div>
-      <!--/col-lg-4 -->
-
-      <div class="col-lg-4">
-        <img class="img-circle" src="img/JZ.jpg" width="140" alt="">
-        <h4>Jason Zoltak</h4>
-        <p>Some Text.</p>
-        </div>
-      <!--/col-lg-4 -->
-
-      <div class="col-lg-4">
-        <img class="img-circle" src="img/JD.jpg" width="140" alt="">
-        <h4>Jon Drew</h4>
-        <p>Some Text.</p>
+       <div class="col-lg-2">
+        <img src="img/Picture5.png" width="180" alt="">
+        <h4>Submit payment </br> and relax </h4>
        
       </div>
       <!--/col-lg-4 -->
@@ -216,7 +241,93 @@
   </div>
   <!-- /container -->
 
-  <div class="container">
+
+
+  <div class="container" id="renters">
+    <div class="row mt centered">
+      <div class="col-lg-6 col-lg-offset-3">
+        <h2>Subletting your apartment shouldn’t be complicated</h2><h2> so we’ve built a product with you in mind</h2>
+      </div>
+    </div>
+      <h3 class="text-center">Benefits</br></h3>
+
+<div class="row">
+
+  <div class="col-lg-2 col-lg-offset-1"><p class="text">Appartment lead generation</p><img src="img/Lead_generation.png" width="180"></div>
+  
+  <div class="col-lg-2"><p class="text">Background tentant verification</p><img  src="img/Verification.png" width="180"></div>
+  
+  <div class="col-lg-2"><p class="text">Customized contracts</p><img src="img/contracts.png" width="180"></div>
+
+  <div class="col-lg-2"><p class="text">Landlord management</p><img src="img/landlord management.png" width="180"></div>
+
+  <div class="col-lg-2"><p class="text">Payment handeling</p><img src="img/payment handeling.png" width="180"></div>
+  
+</div>
+
+ <div class="container">
+    <div class="row mt centered">
+      <div class="col-lg-6 col-lg-offset-3">
+       <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Start my sublet</button>
+        </div>
+        </div>
+        </div>
+
+
+
+
+<div class="container" id="tenants">
+<div class="row mt centered">
+    <div class="col-lg-6 col-lg-offset-3">
+      
+        <h2>Stay a while -</br>actually, stay for however long you want</h2>
+         <h3>find the right lease, for the right length of time</h3>
+      </div>
+    </div>
+      <h3 class="text-center">Benefits</br></h3>
+      </div>
+      </div>
+
+<div class="row">
+<div class="row mt centered">
+  <div class="col-lg-2 col-lg-offset-3"><p class="text">Short-term leasing options to fit your life’s plans
+</p><img src="img/short-term contracts.png" width="180"></div>
+
+  <div class="col-lg-2"><p class="text">Automated payments
+</p><img  src="img/auto payment.png" width="180"></div>
+
+  <div class="col-lg-2"><p class="text">Lease from anywhere; can’t visit the apartment before signing? Don’t worry – if we can vet you, you’re in.
+</p><img src="img/lease from anywhere.png" width="180"></div>
+
+</div>
+</div>
+
+
+
+ <div class="container">
+    <div class="row mt centered">
+      <div class="col-lg-6 col-lg-offset-3">
+       <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Start my sublet</button>
+      
+</div>
+</div>
+</div>
+
+
+
+  <!-- /container -->
+
+  <div class="container" id="aboutus">
+    <div class="row mt centered">
+      <div class="col-lg-6 col-lg-offset-3">
+        <h1>About us</h1>
+        
+      </div>
+    </div>
+    <!-- /row -->
+
+    <div><p>Sublee is designed to democratize the Canadian leasing process. Let’s face it, long-term commitments such as 12 month leases don’t work for everyone. Sublee is here to lift the constraints on year long leases enabling renters to find flexible, short-term, market rate leases. Our team is excited to bring Canadians the flexibility they deserve. 
+</p></div>
    
   </div>
   <!-- /container -->
