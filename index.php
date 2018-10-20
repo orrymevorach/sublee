@@ -344,7 +344,7 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
 <div class="row mt centered">
     <div class="col-lg-12">
       
-        <h2>Stay a while -</br>actually, stay for however long you want</h2>
+        <h2>Stay a while - actually, stay for however long you want</h2>
          <h3>find the right lease, for the right length of time</h3>
       </div>
     </div>
