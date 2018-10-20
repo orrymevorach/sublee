@@ -47,7 +47,7 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#howitworks" class="smoothscroll"><b>How it works</b></a></li>
+          <li><a href="#howitworks" class="smoothscroll"><b>How It Works</b></a></li>
           <li><a href="#tenants" class="smoothscroll"><b>Tenants</b></a></li>
           <li><a href="#renters" class="smoothscroll"><b>Renters</b></a></li>
           <li><a href="#aboutus" class="smoothscroll"><b>About Us</b></a></li>
@@ -253,7 +253,7 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
   <div class="container" id="howitworks">
       <div class="col-lg-6 col-lg-offset-3">
       <div class="row mt centered">
-        <h1>How it works</h1>
+        <h1>How It Works</h1>
         </div>
         </div>
         <div class="col-lg-12">
