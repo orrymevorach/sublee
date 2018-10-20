@@ -298,7 +298,7 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
 
 
 
-  <div class="container" id="renters">
+  <div class="container" id="tenants">
     <div class="row mt centered">
       <div class="col-lg-12">
         <h2>Subletting your apartment shouldn’t be complicated, </br>so we’ve built a product with you in mind</h2>
@@ -344,7 +344,7 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
 
 
 
-<div class="container" id="tenants">
+<div class="container" id="renters">
 <div class="row mt centered">
     <div class="col-lg-12">
       
