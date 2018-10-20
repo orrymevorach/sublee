@@ -103,6 +103,7 @@ hr {
   background-color: #1abc9c;
   margin-top: -20px;
   padding-top: 40px;
+  padding-bottom: 20px;
   background-attachment: relative;
   background-position: center center;
   min-height: 650px;
@@ -255,3 +256,5 @@ i {
     border-width: 10px;
     border-color: White;
 }
+
+.container{padding-bottom: 20px;}

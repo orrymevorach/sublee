@@ -333,12 +333,7 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
       
 </div>
 <div class="row mt centered"> <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Post my lease</button></p></div>
- <div class="container">
-    <div class="row mt centered">
-      <div class="col-lg-6 col-lg-offset-3">
-        </div>
-        </div>
-        </div>
+
 
 
 
