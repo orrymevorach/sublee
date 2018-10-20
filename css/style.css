@@ -103,7 +103,7 @@ hr {
   background-color: #1abc9c;
   margin-top: -20px;
   padding-top: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
   background-attachment: relative;
   background-position: center center;
   min-height: 650px;
@@ -160,7 +160,7 @@ i {
 
 #headerwrap h1 {
   margin-top: 60px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   color: white;
   font-size: 45px;
   font-weight: 300;

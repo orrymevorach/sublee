@@ -79,25 +79,25 @@
         <div class="item active">
           <img src="img/kitchen-stove-sink-kitchen-counter-349749.jpeg" alt="...">
           <div class="carousel-caption">
-           <h1> Stay here for a few months</h1>
+          
           </div>
         </div>
         <div class="item">
           <img src="img/living-room-couch-interior-room-584399.jpeg" alt="...">
           <div class="carousel-caption">
-           <h1> Or here </h1>
+           
           </div>
         </div>
         <div class="item">
           <img src="img/pexels-photo-1234462.jpeg" alt="...">
           <div class="carousel-caption">
-           <h1> Or even here </h1>
+           
           </div>
         </div>
         <div class="item">
           <img src="img/7fc1b709383a42d0022bb3598a41e870.jpg" alt="...">
           <div class="carousel-caption">
-           <h1> How about here </h1>
+           
           </div>
         </div>
         
@@ -120,12 +120,13 @@
         <div class="col-lg-6">
           <h1>Subletting,<br/>
           simplified.</h1>
-          <p>Sublee makes getting out of your lease or into a sublet, easy. </br></br>
+          <h3>Sublee makes getting out of your lease or into a sublet, easy. </br></br>
 
-Whether it’s a new job in a new city, a 6-month back packing trip across the globe, or a new condo you’ve set your sights on – don’t let a contract stop you from life’s journey
-</p>
+Whether it’s a new job in a new city, a 6-month back packing trip across the globe, or a new condo you’ve set your sights on – don’t let a contract stop you from life’s journey </br>
+</h3> 
+
           
-            <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Start my sublet</button>
+            <button type="submit" class="btn btn-warning btn-lg col-lg-offset-6" data-toggle="modal" data-target="#exampleModal">Start my sublet</button>
 
 
 
@@ -249,10 +250,11 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
   <!-- /headerwrap -->
 
 
-  <div class="container" id="tenants">
+  <div class="container" id="howitworks">
       <div class="col-lg-6 col-lg-offset-3">
       <div class="row mt centered">
         <h1>How it works</h1>
+        </div>
         </div>
         <div class="col-lg-12">
         <h3>Sublee is designed to streamline the subletting process, taking you from apartment search to close within one day
@@ -297,7 +299,7 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
 
 
 
-  <div class="container" id="renters">
+  <div class="container" id="tenants">
     <div class="row mt centered">
       <div class="col-lg-12">
         <h2>Subletting your apartment shouldn’t be complicated, </br>so we’ve built a product with you in mind</h2>
@@ -338,7 +340,7 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
 
 
 
-<div class="container" id="howitworks">
+<div class="container" id="renters">
 <div class="row mt centered">
     <div class="col-lg-12">
       
@@ -389,7 +391,7 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
     </div>
     <!-- /row -->
 
-    <div class="col-lg-6 col-lg-offset-3"><h3>Sublee is designed to democratize the Canadian leasing process. Let’s face it, long-term commitments like 12 month leases don’t work for everyone. Sublee is here to lift the constraints on year long leases enabling renters to find flexible, short-term, market rate options. Our team is excited to bring Canadians the flexible apartment living you deserve.</h3>
+    <div class="col-lg-6 col-lg-offset-3"><h3>Sublee is designed to democratize the Canadian leasing process. Let’s face it, long- </br>term commitments like 12 month leases don’t work for everyone. Sublee is here to lift </br>the constraints on year long leases enabling renters to find flexible, short-term,</br> market rate options. Our team is excited to bring Canadians the flexible apartment</br> living you deserve.</h3>
     </div>
    
   </div>
