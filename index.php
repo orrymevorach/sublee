@@ -70,6 +70,8 @@
         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
       </ol>
     
       <!-- Wrapper for slides -->
@@ -86,10 +88,16 @@
            <h1> Or here </h1>
           </div>
         </div>
-        <div class="item active">
+        <div class="item">
           <img src="img/pexels-photo-1234462.jpeg" alt="...">
           <div class="carousel-caption">
            <h1> Or even here </h1>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/7fc1b709383a42d0022bb3598a41e870.jpg" alt="...">
+          <div class="carousel-caption">
+           <h1> How about here </h1>
           </div>
         </div>
         
