@@ -384,7 +384,7 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
 
   <div class="container" id="aboutus">
     <div class="row mt centered">
-      <div class="col-lg-6 col-lg-offset-3">
+      <div class="col-lg-12">
         <h1>About us</h1>
         
       </div>
