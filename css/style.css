@@ -8,6 +8,24 @@ body {
   -webkit-overflow-scrolling: touch;
   height:100%;
 }
+.aboutus{
+  background-color: #1abc9c;
+  margin-top: -20px;
+  padding-top: 200px;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 650px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
 html{height:100%;}
 .carousel,.item,.active{height:100%;}
 .carousel-inner{height:100%;
