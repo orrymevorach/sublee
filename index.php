@@ -138,10 +138,11 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h2 class="modal-title" id="exampleModalLabel">Sign Up</h2>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
         </button>
+        <h2 class="modal-title" id="exampleModalLabel">Sign Up</br></h2>
+          
+        
       </div>
       <div class="modal-body">
 <form method="post" action="dbcalls.php">
@@ -150,15 +151,15 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
 
 
 
-<form>
+
   <div class="form-row">
     <div class="form-group col-lg-4">
       <label for="inputPassword4">First Name</label>
-      <input type="password" class="form-control" id="inputPassword4" placeholder="First Name">
+      <input type="text" class="form-control" id="inputPassword4" placeholder="First Name">
     </div>
     <div class="form-group col-lg-4">
       <label for="inputPassword4">Last Name</label>
-      <input type="password" class="form-control" id="inputPassword4" placeholder="First Name">
+      <input type="text" class="form-control" id="inputPassword4" placeholder="Last Name">
     </div>
         <div class="form-group col-lg-4">
       <label for="inputEmail4">Email</label>
@@ -166,14 +167,7 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
       <small id="Email" class="form-text text-muted">We'll never share it with anyone</small>
     </div>
   </div>
-  <div class="form-group col-lg-12">
-    <label for="inputAddress">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-  </div>
-  <div class="form-group col-lg-12">
-    <label for="inputAddress2">Address 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-  </div>
+  
   <div class="form-row">
     <div class="form-group col-lg-4">
       <label for="inputCity">City</label>
@@ -198,46 +192,42 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
         <option>NU</option>
       </select>
     </div>
-    <div class="form-group col-lg-4">
-      <label for="inputZip">Zip</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
+   
   </div>
 
    <div class="form-row">
     <div class="form-group col-lg-12">
-      <label for="exampleTextarea">Tell us about your lease situation.</label>
+      <label for="exampleTextarea">Tell us how we can help you.</label>
     <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
     </div>
   </div>
   
-<div class="form-group">
-  <div class="form-check">
-    <label class="STL">
-      <input type="checkbox" class="form-check-input">
-      I am looking for a short-term lease.
-    </label>
 
-  </div>
- 
-  
+<div class="form-row">  
   <div class="form-check">
     <label class="LCL">
       <input type="checkbox" class="form-check-input">
       I am trying to get out of my current lease.
     </label>
+</div>
 
-
-  </div>
+   <div class="form-check">
+    <label class="STL">
+      <input type="checkbox" class="form-check-input">
+      I am looking for a short-term lease.
+    </label>
+    </div>
  
   <div class="form-check">
     <label class="LPM">
       <input type="checkbox" class="form-check-input">
       I am a landlord/property manager.
     </label>
-
+    
+    </div>
   </div>
-  </div>
+  
+ 
   <button type="submit" class="btn btn-primary btn-lg" name="submit">Submit</button>
 </form>
       </div>
@@ -259,10 +249,11 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
   <!-- /headerwrap -->
 
 
-  <div class="container" id="howitworks">
-    <div class="row mt centered">
+  <div class="container" id="tenants">
       <div class="col-lg-6 col-lg-offset-3">
-        <h1>How it works.</h1>
+      <div class="row mt centered">
+        <h1>How it works</h1>
+        </div>
         <div class="col-lg-12">
         <h3>Sublee is designed to streamline the subletting process, taking you from apartment search to close within one day
 </h3></div>
@@ -273,7 +264,7 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
     <div class="row mt centered">
       <div class="col-lg-2 col-lg-offset-1">
         <img src="img/Picture1.png" width="180" alt="">
-        <h4>Browse marketplace </br>of listings</h4>
+        <h4>Search our marketplace </br>of listings</h4>
        
       </div>
       <!--/col-lg-4 -->
@@ -306,7 +297,7 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
 
 
 
-  <div class="container" id="tenants">
+  <div class="container" id="renters">
     <div class="row mt centered">
       <div class="col-lg-12">
         <h2>Subletting your apartment shouldn’t be complicated, </br>so we’ve built a product with you in mind</h2>
@@ -352,7 +343,7 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
 
 
 
-<div class="container" id="renters">
+<div class="container" id="howitworks">
 <div class="row mt centered">
     <div class="col-lg-12">
       
@@ -403,9 +394,8 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
     </div>
     <!-- /row -->
 
-    <div><p>Sublee is designed to democratize the Canadian leasing process. Let’s face it, long-term commitments like 12 month leases don’t work for everyone. Sublee is here to lift the constraints on year long leases enabling renters to find flexible, short-term, market rate options. Our team is excited to bring Canadians the flexible apartment living you deserve. 
-
-</p></div>
+    <div><h3>Sublee is designed to democratize the Canadian leasing process. Let’s face it, long-term commitments like 12 month leases don’t work for everyone. Sublee is here to lift the constraints on year long leases enabling renters to find flexible, short-term, market rate options. Our team is excited to bring Canadians the flexible apartment living you deserve.</h3>
+    </div>
    
   </div>
   <!-- /container -->
