@@ -35,8 +35,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-        <a class="navbar-brand" href="#"><b>Sublee</b></a>
-        <img class="img-responsive" src="img/icons8-home-50.png" alt="">
+        <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-left">
+          
+          <li><img class="img-responsive" src="img/icons8-home-50.png" alt=""></li>
+          <li><a href="#howitworks" class="smoothscroll">Sublee</a></li>
+
+        </ul>
+      </div>
+        
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
@@ -51,25 +58,72 @@
     </div>
   </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+    
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="img/kitchen-stove-sink-kitchen-counter-349749.jpeg" alt="...">
+          <div class="carousel-caption">
+           <h1> Stay here for a few months</h1>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/living-room-couch-interior-room-584399.jpeg" alt="...">
+          <div class="carousel-caption">
+           <h1> Or here </h1>
+          </div>
+        </div>
+        <div class="item active">
+          <img src="img/pexels-photo-1234462.jpeg" alt="...">
+          <div class="carousel-caption">
+           <h1> Or even here </h1>
+          </div>
+        </div>
+        
+      </div>
+    
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
  
   <div id="headerwrap">
     <div class="container" id="topofpage">
       <div class="row">
         <div class="col-lg-6">
           <h1>Subletting,<br/>
-          simplified</h1>
+          simplified.</h1>
           <p>Sublee makes getting out of your lease or into a sublet, easy. </br></br>
 
 Whether it’s a new job in a new city, a 6-month back packing trip across the globe, or a new condo you’ve set your sights on – don’t let a contract stop you from life’s journey
 </p>
           
-            <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Post my lease</button>
+            <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Start my sublet</button>
 
 
 
           </div>
 
-            <div class="col-lg-6"><img class="img-responsive" style='border:1px solid white' src="img/apartment-architectural-design-architecture-279614.jpg" alt=""></div>
+           
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -201,8 +255,9 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
     <div class="row mt centered">
       <div class="col-lg-6 col-lg-offset-3">
         <h1>How it works.</h1>
+        <div class="col-lg-12">
         <h3>Sublee is designed to streamline the subletting process, taking you from apartment search to close within one day
-</h3>
+</h3></div>
       </div>
     </div>
     <!-- /row -->
@@ -210,29 +265,29 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
     <div class="row mt centered">
       <div class="col-lg-2 col-lg-offset-1">
         <img src="img/Picture1.png" width="180" alt="">
-        <h4>Marketplace</h4>
+        <h4>Browse marketplace </br>of listings</h4>
        
       </div>
       <!--/col-lg-4 -->
        <div class="col-lg-2">
-        <img src="img/Picture2.png" width="180" alt="">
-        <h4>Connect with </br> Interested Tenants</h4>
+        <img src="img/Connect with tenants (how it works).png" width="180" alt="">
+        <h4>Connect with </br> interested tenants</h4>
        
       </div>
 
         <div class="col-lg-2">
-        <img src="img/Picture3.png" width="180" alt="">
-        <h4>Verification, </br> Notification, Approval</h4>
+        <img src="img/Profile approval (how it works).png" width="180" alt="">
+        <h4>Get verified</br> & approved</h4>
        
       </div>
        <div class="col-lg-2">
-        <img src="img/Picture4.png" width="180" alt="">
-        <h4>Agree to terms & </br> sign</h4>
+        <img src="img/handshake (how it works).png" width="180" alt="">
+        <h4>Agree to terms  </br>& sign</h4>
        
       </div>
        <div class="col-lg-2">
-        <img src="img/Picture5.png" width="180" alt="">
-        <h4>Submit payment </br> and relax </h4>
+        <img src="img/make payment (how it works).png" width="180" alt="">
+        <h4>Submit payment </br> & relax </h4>
        
       </div>
       <!--/col-lg-4 -->
@@ -245,30 +300,43 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
 
   <div class="container" id="renters">
     <div class="row mt centered">
-      <div class="col-lg-6 col-lg-offset-3">
-        <h2>Subletting your apartment shouldn’t be complicated</h2><h2> so we’ve built a product with you in mind</h2>
+      <div class="col-lg-12">
+        <h2>Subletting your apartment shouldn’t be complicated, </br>so we’ve built a product with you in mind</h2>
       </div>
     </div>
-      <h3 class="text-center">Benefits</br></h3>
+      
 
 <div class="row">
 
-  <div class="col-lg-2 col-lg-offset-1"><p class="text">Appartment lead generation</p><img src="img/Lead_generation.png" width="180"></div>
-  
-  <div class="col-lg-2"><p class="text">Background tentant verification</p><img  src="img/Verification.png" width="180"></div>
-  
-  <div class="col-lg-2"><p class="text">Customized contracts</p><img src="img/contracts.png" width="180"></div>
+  <div class="col-lg-2 col-lg-offset-1"><img src="img/Lead_generation.png" width="180"></div><p class="text">Apartment lead generation; we’ll make sure people notice your place
+</p>
+  </div>
 
-  <div class="col-lg-2"><p class="text">Landlord management</p><img src="img/landlord management.png" width="180"></div>
-
-  <div class="col-lg-2"><p class="text">Payment handeling</p><img src="img/payment handeling.png" width="180"></div>
-  
+<div class="row">  
+  <div class="col-lg-2 col-lg-offset-1"><img  src="img/Verification.png" width="180"></div>
+  <p class="text">Tenant Background Verification; our team will do the homework for you
+</p>
 </div>
 
+  <div class="row">
+ <div class="col-lg-2 col-lg-offset-1"><img src="img/contracts.png" width="180"></div>
+ <p class="text">Customized Lease Contracts; protective over that new paint job? Include the clause in the contract
+</p>
+
+
+</div>
+
+
+<div class="row">
+ <div class="col-lg-2 col-lg-offset-1"><img src="img/payhandle.png" width="180"></div>
+  <p class="text">Payment Handling; worried about organizing  payment? We’ll make sure everyone get’s their cake
+
+      
+</div>
+<div class="row mt centered"> <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Post my lease</button></p></div>
  <div class="container">
     <div class="row mt centered">
       <div class="col-lg-6 col-lg-offset-3">
-       <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Start my sublet</button>
         </div>
         </div>
         </div>
@@ -278,25 +346,26 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
 
 <div class="container" id="tenants">
 <div class="row mt centered">
-    <div class="col-lg-6 col-lg-offset-3">
+    <div class="col-lg-12">
       
         <h2>Stay a while -</br>actually, stay for however long you want</h2>
          <h3>find the right lease, for the right length of time</h3>
       </div>
     </div>
-      <h3 class="text-center">Benefits</br></h3>
+      <div class="col-lg-offset-8"> <h3 class="text">Benefits:</h3> </div>
+      
       </div>
       </div>
 
 <div class="row">
-<div class="row mt centered">
-  <div class="col-lg-2 col-lg-offset-3"><p class="text">Short-term leasing options to fit your life’s plans
+
+  <div class="col-lg-offset-7"><p class="text">Short-term leasing options to fit your life’s plans
 </p><img src="img/short-term contracts.png" width="180"></div>
 
-  <div class="col-lg-2"><p class="text">Automated payments
+  <div class="col-lg-offset-7"><p class="text">Automated payments
 </p><img  src="img/auto payment.png" width="180"></div>
 
-  <div class="col-lg-2"><p class="text">Lease from anywhere; can’t visit the apartment before signing? Don’t worry – if we can vet you, you’re in.
+  <div class="col-lg-offset-7"><p class="text">Lease from anywhere; can’t visit the apartment before signing? Don’t worry – if we can vet you, you’re in.
 </p><img src="img/lease from anywhere.png" width="180"></div>
 
 </div>
@@ -326,7 +395,8 @@ Whether it’s a new job in a new city, a 6-month back packing trip across the g
     </div>
     <!-- /row -->
 
-    <div><p>Sublee is designed to democratize the Canadian leasing process. Let’s face it, long-term commitments such as 12 month leases don’t work for everyone. Sublee is here to lift the constraints on year long leases enabling renters to find flexible, short-term, market rate leases. Our team is excited to bring Canadians the flexibility they deserve. 
+    <div><p>Sublee is designed to democratize the Canadian leasing process. Let’s face it, long-term commitments like 12 month leases don’t work for everyone. Sublee is here to lift the constraints on year long leases enabling renters to find flexible, short-term, market rate options. Our team is excited to bring Canadians the flexible apartment living you deserve. 
+
 </p></div>
    
   </div>

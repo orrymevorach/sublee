@@ -3287,8 +3287,8 @@ fieldset[disabled] .btn-info.focus {
 }
 .btn-warning {
   color: #fff;
-  background-color: #D3D3D3;
-  border-color: #D3D3D3;
+  background-color: #616A6B;
+  border-color: #616A6B;
 }
 .btn-warning:focus,
 .btn-warning.focus {
@@ -4540,7 +4540,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #e7e7e7;
+  border-color: #1abc9c;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,

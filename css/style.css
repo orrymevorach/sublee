@@ -6,11 +6,15 @@ body {
   color: #555;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
+  height:100%;
 }
-
+html{height:100%;}
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;
+}
 /* Titles */
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h6 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: #333;
@@ -83,7 +87,7 @@ hr {
   border-color: transparent;
 }
 
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand h5{
   color: white;
 }
 
@@ -179,7 +183,7 @@ i {
 }
 
 .contact-form .form-send button {
-  background: #f0ad4e;
+  background: #616A6B;
   border: 0;
   padding: 12px 30px;
   color: #fff;
