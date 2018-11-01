@@ -21,36 +21,26 @@
 <body>
 
   <!-- Fixed navbar -->
-  <div class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-left">
-          <li><img class="img-responsive" src="img/icons8-home-50.png" alt=""></li>
-          <li><a href="#topofpage" class="smoothscroll">Sublee</a></li>
-        </ul>
-      </div> <!-- Closing Navbar Header -->
+  <div class="nav clearfix">
+    <div class="nav-left">
+      <img class="img-responsive" src="img/icons8-home-50.png" alt="">
+      <a href="#topofpage" class="smoothscroll">Sublee</a>
+    </div>
         
-      </div> <!-- Closing Container -->
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#aboutus" class="smoothscroll"><b>About Us</b></a></li>
-          <li><a href="#howitworks" class="smoothscroll"><b>How It Works</b></a></li>
-          <li><a href="#tenants" class="smoothscroll"><b>Current Tenants</b></a></li>
-          <li><a href="#renters" class="smoothscroll"><b>Sublet Seekers</b></a></li>
-        </ul>
-      </div> <!--/.nav-collapse -->
-    </div> <!-- Closing Container -->
+    <div class="nav-right">
+      <ul>
+        <li><a href="#aboutus" class="smoothscroll"><b>About Us</b></a></li>
+        <li><a href="#howitworks" class="smoothscroll"><b>How It Works</b></a></li>
+        <li><a href="#tenants" class="smoothscroll"><b>Current Tenants</b></a></li>
+        <li><a href="#renters" class="smoothscroll"><b>Sublet Seekers</b></a></li>
+      </ul>
+    </div>
   </div> <!-- Closing Navbar -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+  <!-- Opening Header -->
   <header class="clearfix" id="topofpage">
           
     <div class="left">
@@ -172,22 +162,22 @@
   <!-- About Us -->
   <section id="aboutus">
     
-    <!-- Black Screen -->
-    <div class="black-screen"></div>
-    
     <!-- Text Container -->
     <div class="text-container">
       <h1>About us</h1>
 
       <h3>Sublee is designed to democratize the Canadian leasing process. Let’s face it, long-term commitments like 12 month leases don’t work for everyone. Sublee is here to lift the constraints on year long leases enabling renters to find flexible, short-term, market rate options. Our team is excited to bring Canadians the flexible apartment living you deserve.</h3>
     </div> <!-- Closing Text Container -->
+
+    <!-- Black Screen -->
+    <div class="black-screen"></div>
   </section> <!-- Closing About Us Container -->
   
   <!-- How It Works Section -->
   <section id="howitworks" class="howitworks">
     <div class="heading">
       <h1>How It Works</h1>
-      <h3>Sublee is designed to streamline the subletting process, taking you from apartment search to close within one day</h3>
+      <h2>Sublee is designed to streamline the subletting process, taking you from apartment search to close within one day</h2>
     </div> <!-- Closing Conatiner -->
 
     <!-- Icons -->
@@ -236,7 +226,7 @@
     <h1>Current Tenants</h1>
     <div class="row centered">
       <div class="col-lg-12">
-        <h2>Subletting your apartment shouldn’t be complicated, </br>so we’ve built a product with you in mind</h2>
+        <h2>Subletting your apartment shouldn’t be complicated, so we’ve built a product with you in mind</h2>
       </div>
     </div>
     <div class="tenants-icon-container">

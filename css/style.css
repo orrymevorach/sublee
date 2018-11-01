@@ -115,30 +115,45 @@ hr {
   padding: 0;
 }
 
-.navbar {
+.nav {
+  position: fixed;
+  top: 0;
   transform: translateX(-100vw);
-}
-
-.navbar-default #navbar #navbar-default navbar-fixed-top{
   background-color: #1abc9c;
   border-color: transparent;
-}
-
-.navbar-default .navbar-brand h5{
-  color: white;
-}
-
-.navbar-default .navbar-nav>li>a {
   color: white;
   font-size: 18px;
+  padding: 5px 50px;
+  z-index: 1000;
+  width: 100%;
 }
 
-.navbar-toggle {
-  background: #1abc9c;
+.nav a {
+  color: white;
 }
 
-.navbar .container {
-  padding: 3px 0;
+.nav ul {
+  display: flex;
+  list-style: none;
+  padding: none;
+}
+
+.nav-left {
+  float: left;
+  display: flex;
+}
+
+.nav-left a {
+  font-size: 20px;
+  padding-top: 11px;
+}
+
+.nav-right {
+  float: right;
+}
+
+.nav li {
+  padding: 13px 15px 0 15px;
 }
 
 .nav-slide {
@@ -158,8 +173,15 @@ hr {
 
 header {
   background-color: #1abc9c;
-  padding-top: 57px;
+  padding-top: 10%;
 }
+
+@media (max-height: 750px) {
+  header {
+    padding-top: 4%;
+  }
+}
+
 
 header h1 {
   padding: 74px 0 0 0;
@@ -183,6 +205,14 @@ header .left {
   opacity: 0;
 }
 
+header .right {
+  padding: 0 120px 0 25px;
+}
+
+header button {
+  margin-top: 40px;
+}
+
 .fade-in {
   animation: fadeIn 2s linear;
 }
@@ -196,15 +226,6 @@ header .left {
   }
 }
 
-header .right {
-  padding: 0 120px 0 25px;
-}
-
-header button {
-  margin-top: 40px;
-}
-
-
 .header-logo {
   display: block;
   width: 500px;
@@ -212,7 +233,7 @@ header button {
   opacity: 0;
 }
 
-.logo-animate {
+/* .logo-animate {
   animation: logoAnimate 3s linear;
 }
 
@@ -236,7 +257,7 @@ header button {
     transform: translateX(0);
     width: 500px;
   }
-}
+} */
 
 /* About Us */
 
@@ -363,7 +384,7 @@ padding-top: 5px;}
   padding-top: 50px;
 }
 
-.howitworks h3 {
+.howitworks h2 {
   width: 900px;
   margin: 30px auto 50px;
 }

@@ -38,18 +38,20 @@ function div_hide(){
 }
 
 // Function to Animate Home Page
-$('.header-logo').addClass('logo-animate')
-$('.header-logo').css({ 'opacity': '1' })
+// $('.header-logo').addClass('logo-animate')
+// $('.header-logo').css({ 'opacity': '1' })
 
-function fadeIn() {
+// function fadeIn() {
   $('header .left').addClass('fade-in')
   $('header .left').css({ 'opacity': '1' })
-}
+  $('.header-logo').addClass('fade-in')
+  $('.header-logo').css({ 'opacity': '1' })
+// }
 
-function navSlide() {
-  $('.navbar').addClass('nav-slide')
-  $('.navbar').css({ 'transform': 'translateX(0)' })
-}
+// function navSlide() {
+  $('.nav').addClass('nav-slide')
+  $('.nav').css({ 'transform': 'translateX(0)' })
+// }
 
-setTimeout(navSlide, 4100)
-setTimeout(fadeIn, 3100)
+// setTimeout(navSlide, 4100)
+// setTimeout(fadeIn, 3100)
