@@ -51,6 +51,5 @@ function navSlide() {
   $('.navbar').css({ 'transform': 'translateX(0)' })
 }
 
-
 setTimeout(navSlide, 4100)
 setTimeout(fadeIn, 3100)

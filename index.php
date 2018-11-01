@@ -60,7 +60,7 @@
         Whether it’s a new job in a new city, a 6-month back packing trip across the globe, or a new condo you’ve set your sights on – don’t let a contract stop you from life’s journey </br>
       </h3> 
 
-      <button type="submit" data-toggle="modal" data-target="#exampleModal">Start my sublet</button>
+      <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Start my sublet</button>
     </div> <!-- Closing Left -->
 
     <div class="right">
