@@ -26,10 +26,12 @@ h1, h2, h3, h4, h6 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: #333;
+  margin: 0;
 }
 
 h1 {
   font-size: 40px;
+  text-align: center;
 }
 
 h3 {
@@ -53,6 +55,29 @@ p {
 
 .centered {
   text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+/* Helpers */
+
+.form-control {
+  height: 42px;
+  font-size: 18px;
+  width: 280px;
+}
+
+i {
+  margin: 8px;
+  color: #3498db;
+}
+
+/* General Height Formatting */
+header, section {
+  height: 100vh;
 }
 
 /* Links */
@@ -112,43 +137,97 @@ hr {
   padding: 3px 0;
 }
 
-#aboutus{
+/* Header */
+
+header {
   background-color: #1abc9c;
-  margin-top: -20px;
-  padding-top: 40px;
-  padding-bottom: 5px;
-  background-attachment: relative;
-  background-position: center center;
-  min-height: 650px;
-  width: 100%;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
+  margin-top: 57px;
 }
 
-/* Helpers */
-
-.mt {
-  margin-top: 40px;
-  margin-bottom: 40px;
+header h1 {
+  padding: 74px 0 0 0;
+  margin: 0 0 15px 0;
+  color: white;
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-align: left;
 }
 
-.form-control {
-  height: 42px;
+header .left,
+header .right {
+  float: left;
+  width: 50%;
+}
+
+header .left {
+  padding: 0 25px 0 120px;
+}
+
+header .right {
+  padding: 0 120px 0 25px;
+}
+
+header button {
   font-size: 18px;
-  width: 280px;
+  border-radius: 0px;
+  padding: 10px 16px;
+  color: white;
+  background-color: #616A6B;
+  border-color: #616A6B;
+  text-align: center;
+  cursor: pointer;
+  text-transform: capitalize;
+  width: 200px;
+  margin: 0 auto;
 }
 
-i {
-  margin: 8px;
-  color: #3498db;
+header button:hover {
+  text-decoration: none;
+  background-color: #A9A9A9;
+  border-color: #A9A9A9;
 }
+
+.header-logo {
+  border-radius: 50%;
+  display: block;
+  width: 500px;
+  margin: 0px auto 0;
+
+}
+
+/* About Us */
+
+#aboutus{
+  background: url(../img/7fc1b709383a42d0022bb3598a41e870.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.black-screen {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+#aboutus .text-container {
+  width: 45%;
+  padding-top: 15vh;
+  margin-left: 180px;
+  z-index: 100;
+}
+
+#aboutus h1 {
+  margin-bottom: 20px;
+}
+
 
 /* Contact Form */
 
@@ -231,68 +310,7 @@ i {
 .container{padding-bottom: 20px;
 padding-top: 5px;}
 
-/* Start of Orrys Styles */
-
-header {
-  height: 100vh;
-  background-color: #1abc9c;
-  margin-top: 57px;
-}
-
-header h1 {
-  padding: 74px 0 0 0;
-  margin: 0 0 5px 0;
-  color: white;
-  font-size: 50px;
-  font-weight: 300;
-  letter-spacing: 1px;
-}
-
-header .left,
-header .right {
-  float: left;
-  width: 50%;
-}
-
-header .left {
-  padding: 0 25px 0 120px;
-}
-
-header .right {
-  padding: 0 120px 0 25px;
-}
-
-header button {
-  font-size: 18px;
-  border-radius: 0px;
-  padding: 10px 16px;
-  color: white;
-  background-color: #616A6B;
-  border-color: #616A6B;
-  text-align: center;
-  cursor: pointer;
-  text-transform: capitalize;
-  width: 200px;
-  margin: 0 auto;
-}
-
-header button:hover {
-  text-decoration: none;
-  background-color: #A9A9A9;
-  border-color: #A9A9A9;
-}
-
-.header-logo {
-  border-radius: 50%;
-  display: block;
-  width: 500px;
-  margin: 0px auto 0;
-
-}
-
-#howitworks {
-  height: 100vh;
-}
+/* How It works */
 
 .howitworks h1,
 .howitworks h3 {
@@ -320,12 +338,24 @@ header button:hover {
   text-align: center;
 }
 
+.howitworks .fa-arrow-circle-right  {
+  font-size: 30px;
+  margin-top: 60px;
+  color: #1abc9c;
+}
+
+.howitworks .arrow-right-1 {
+  margin-left: -30px;
+}
+
+/* Tenants */
+
 .tenants {
   padding-top: 25px;
 }
 
 .tenants h1 {
-  text-align: center;
+  margin: 20px 0;
 }
 
 .tenants h2 {
@@ -333,8 +363,9 @@ header button:hover {
   font-size: 22px;
 }
 
-.tenants-icons {
+.tenants-icon-container {
   display: flex;
+  margin: 20px 0 40px 0;
 }
 
 .tenants-box {
@@ -397,6 +428,52 @@ header button:hover {
 .tenants-box-4 .text {
   padding-top: 25px;
 }
+
+.renters-main-container {
+  display: flex;
+}
+
+/* Renters */
+
+.renters-heading h1 {
+  margin: 30px 0 20px 0;
+}
+
+.renters-left, .renters-right {
+  width: 50%;
+  margin: 40px 0 40px 0;
+}
+
+.renters-left {
+  padding: 90px;
+  margin-top: -50px;
+}
+
+.renters-right h3 {
+  margin-top: 0;
+}
+
+.renters-right .icon {
+  display: flex;
+  align-items: center;
+  margin: 1% 0;
+}
+.renters-right .icon img {
+  width: 90px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.renters-right button {
+  display: block;
+  margin: 0 auto;
+}
+
+.renters-right p {
+  line-height: 22px;
+}
+
+
 
 
 

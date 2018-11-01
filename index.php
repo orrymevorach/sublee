@@ -32,17 +32,17 @@
         <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-left">
           <li><img class="img-responsive" src="img/icons8-home-50.png" alt=""></li>
-          <li><a href="#howitworks" class="smoothscroll">Sublee</a></li>
+          <li><a href="#topofpage" class="smoothscroll">Sublee</a></li>
         </ul>
       </div> <!-- Closing Navbar Header -->
         
       </div> <!-- Closing Container -->
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#howitworks" class="smoothscroll"><b>How It Works</b></a></li>
-          <li><a href="#tenants" class="smoothscroll"><b>Tenants</b></a></li>
-          <li><a href="#renters" class="smoothscroll"><b>Renters</b></a></li>
           <li><a href="#aboutus" class="smoothscroll"><b>About Us</b></a></li>
+          <li><a href="#howitworks" class="smoothscroll"><b>How It Works</b></a></li>
+          <li><a href="#tenants" class="smoothscroll"><b>Current Tenants</b></a></li>
+          <li><a href="#renters" class="smoothscroll"><b>Sublet Seekers</b></a></li>
         </ul>
       </div> <!--/.nav-collapse -->
     </div> <!-- Closing Container -->
@@ -168,69 +168,23 @@
         </div> <!-- Closing Modal Fade -->
 
   </header>
+
+  <!-- About Us -->
+  <section id="aboutus">
+    
+    <!-- Black Screen -->
+    <div class="black-screen"></div>
+    
+    <!-- Text Container -->
+    <div class="text-container">
+      <h1>About us</h1>
+
+      <h3>Sublee is designed to democratize the Canadian leasing process. Let’s face it, long-term commitments like 12 month leases don’t work for everyone. Sublee is here to lift the constraints on year long leases enabling renters to find flexible, short-term, market rate options. Our team is excited to bring Canadians the flexible apartment living you deserve.</h3>
+    </div> <!-- Closing Text Container -->
+  </section> <!-- Closing About Us Container -->
   
-
-  <!-- Carousel Section -->
-  <section>
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-
-          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-        </ol>
-      
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img src="img/kitchen-stove-sink-kitchen-counter-349749.jpeg" alt="...">
-            <div class="carousel-caption">
-            
-            </div>
-          </div>
-          
-          <div class="item">
-            <img src="img/living-room-couch-interior-room-584399.jpeg" alt="...">
-            <div class="carousel-caption">
-            
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="img/pexels-photo-1234462.jpeg" alt="...">
-            <div class="carousel-caption">
-            
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="img/7fc1b709383a42d0022bb3598a41e870.jpg" alt="...">
-            <div class="carousel-caption">
-            
-            </div>
-          </div>
-          
-        </div> <!-- Closing Carousel Inner -->
-      
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-
-    </div> <!-- Closing Carousel Main Div -->
-
-  </section> <!-- Closing Carousel Section -->
-
   <!-- How It Works Section -->
-  <div id="howitworks" class="howitworks">
+  <section id="howitworks" class="howitworks">
     <div class="heading">
       <h1>How It Works</h1>
       <h3>Sublee is designed to streamline the subletting process, taking you from apartment search to close within one day</h3>
@@ -238,48 +192,54 @@
 
     <!-- Icons -->
     <div class="icons-container">
+      
       <div class="icon icon-first">
         <img src="img/Picture1.png" alt="">
         <h4>Search our marketplace </br>of listings</h4>
-        
       </div>
-      <!--/col-lg-4 -->
+
+      <i class="fas fa-arrow-circle-right arrow-right-1"></i>
+      
       <div class="icon">
         <img src="img/Connect with tenants (how it works).png" alt="">
         <h4>Connect with </br> interested tenants</h4>
-        
       </div>
+
+      <i class="fas fa-arrow-circle-right arrow-right-2"></i>
 
       <div class="icon">
         <img src="img/Profile approval (how it works).png" alt="">
         <h4>Get verified</br> & approved</h4>
-        
       </div>
+
+      <i class="fas fa-arrow-circle-right arrow-right-3"></i>
+      
       <div class="icon">
         <img src="img/handshake (how it works).png" alt="">
         <h4>Agree to terms  </br>& sign</h4>
-        
       </div>
+
+      <i class="fas fa-arrow-circle-right arrow-right-4"></i>
+      
       <div class="icon">
         <img src="img/make payment (how it works).png" alt="">
         <h4>Submit payment </br> & relax </h4>
-      
       </div>
       
     </div> <!-- /row Closing Icons-->
-  </div> <!-- Closing How It Works -->
+  </section> <!-- Closing How It Works -->
 
   
 
   <!-- Opening Tenants -->
-  <div id="tenants" class="tenants">
-    <h1>Tenants</h1>
+  <section id="tenants" class="tenants">
+    <h1>Current Tenants</h1>
     <div class="row centered">
       <div class="col-lg-12">
         <h2>Subletting your apartment shouldn’t be complicated, </br>so we’ve built a product with you in mind</h2>
       </div>
     </div>
-    <div class="tenants-icons">
+    <div class="tenants-icon-container">
       <div class="tenants-left">
         <div class="tenants-box tenants-box-1">
           <img src="img/Lead_generation.png" width="180">
@@ -309,67 +269,106 @@
     <div class="row mt centered"> 
       <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Post my lease</button>
     </div>
-  </div> <!-- Closing Tenants Container  -->
+  </section> <!-- Closing Tenants  -->
 
   <!-- Renters Section -->
   <!-- Renters Heading Text -->
-  <div class="container" id="renters">
+  <section id="renters">
 
-    <div class="row centered">
-      <div class="col-lg-12">
-        <h2>Stay a while - actually, stay for however long you want</h2>
-        <h3>find the right lease, for the right length of time</h3>
+    <div class="row centered renters-heading">
+      <h1>Sublet Seekers</h1>  
+      <h2>Stay a while - actually, stay for however long you want</h2>
+      <h3>find the right lease, for the right length of time</h3>
+    </div>
+    
+    <div class="renters-main-container">
+      <div class="renters-left">
+        <!-- Carousel Section -->
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+
+            </ol>
+          
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="img/kitchen-stove-sink-kitchen-counter-349749.jpeg" alt="...">
+                <div class="carousel-caption">
+                
+                </div>
+              </div>
+              
+              <div class="item">
+                <img src="img/living-room-couch-interior-room-584399.jpeg" alt="...">
+                <div class="carousel-caption">
+                
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="img/pexels-photo-1234462.jpeg" alt="...">
+                <div class="carousel-caption">
+                
+                </div>
+              </div>
+
+            </div> <!-- Closing Carousel Inner -->
+          
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+
+        </div> <!-- Closing Carousel Main Div -->
       </div>
-    </div>
-        
-    <div class="col-lg-offset-8">
-      <h3 class="text">Benefits:</h3>
-    </div>
-  </div> <!-- Closing Container + Renters Heading Text-->
+      
+      <div class="renters-right">
+        <h3 class="text centered">Benefits:</h3>
 
-  <!-- Icons -->
-  <div class="row">
+        <!-- Icons -->
+        <div class="icon-container">
 
-    <div class="col-lg-offset-7">
-      <p class="text">Short-term leasing options to fit your life’s plans</p>
-      <img src="img/short-term contracts.png" width="180">
-    </div>
+          <div class="icon icon-1">
+            <img src="img/short-term contracts.png">
+            <p class="text">
+              <span class="bold">Short-term leasing options;</span> find lease options between 2-12 months
+            </p>
+          </div>
 
-    <div class="col-lg-offset-7">
-      <p class="text">Automated payments</p>
-      <img  src="img/auto payment.png" width="180">
-    </div>
+          <div class="icon icon-2">
+            <img  src="img/auto payment.png">
+            <p class="text">
+              <span class="bold">Automated rent payments;</span> rip up those rent checks, we’ll send your payment to the appropriate party
+            </p>
+          </div>
 
-    <div class="col-lg-offset-7">
-      <p class="text">Lease from anywhere; can’t visit the apartment before signing? Don’t worry – if we can vet you, you’re in.</p>
-      <img src="img/lease from anywhere.png" width="180">
-    </div>
+          <div class="icon icon-3">
+            <img src="img/lease from anywhere.png">
+            <p class="text">
+              <span class="bold">Get approved from anywhere;</span> can’t visit the apartment before signing? Don’t worry – if we can vet you, you’re in
+            </p>
+          </div>
 
-  </div> <!-- Closing Row of Icons -->
-
-
-  <!-- Start Sublet Button -->
-  <div class="container">
-    <div class="row mt centered">
-      <div class="col-lg-6 col-lg-offset-3">
+        </div> <!-- Closing Icon Container -->
+        <!-- Start Sublet Button -->
         <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Start my sublet</button>
-      </div>
-    </div>
-  </div> <!-- Closing Button Container -->
 
-  <!-- About Us -->
-  <div class="container" id="aboutus">
-    <div class="row mt centered">
-      <div class="col-lg-12">
-        <h1>About us</h1>
-      </div>
-    </div>
+      </div> <!-- Closing Renter's Right -->
 
-    <div class="col-lg-6 col-lg-offset-3">
-      <h3>Sublee is designed to democratize the Canadian leasing process. Let’s face it, long- </br>term commitments like 12 month leases don’t work for everyone. Sublee is here to lift </br>the constraints on year long leases enabling renters to find flexible, short-term,</br> market rate options. Our team is excited to bring Canadians the flexible apartment</br> living you deserve.</h3>
     </div>
-   
-  </div> <!-- Closing About Us Container -->
+  </section> <!-- CLosing Renters -->
+
+  
 
 
   <!-- JavaScript Libraries -->
