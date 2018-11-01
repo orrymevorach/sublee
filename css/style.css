@@ -15,7 +15,9 @@ body {
   height:100%;
 }
 html{height:100%;}
-.carousel,.item,.active{height:100%;}
+.carousel,.item,.active{
+  height: 100%;
+}
 .carousel-inner{height:100%;
 }
 /* Titles */
@@ -104,6 +106,10 @@ hr {
 
 .navbar-toggle {
   background: #1abc9c;
+}
+
+.navbar .container {
+  padding: 3px 0;
 }
 
 #aboutus{
@@ -230,7 +236,7 @@ padding-top: 5px;}
 header {
   height: 100vh;
   background-color: #1abc9c;
-  margin-top: 76px;
+  margin-top: 57px;
 }
 
 header h1 {
@@ -245,12 +251,15 @@ header h1 {
 header .left,
 header .right {
   float: left;
-  width: 550px;
-  padding: 0 25px;
+  width: 50%;
 }
 
 header .left {
-  margin-left: 80px;
+  padding: 0 25px 0 120px;
+}
+
+header .right {
+  padding: 0 120px 0 25px;
 }
 
 header button {
@@ -274,13 +283,126 @@ header button:hover {
 }
 
 .header-logo {
-  border: 1px solid red;
   border-radius: 50%;
-  /* display: inline-block; */
-  width: 100px;
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
+  width: 500px;
+  margin: 0px auto 0;
 
-  
 }
+
+#howitworks {
+  height: 100vh;
+}
+
+.howitworks h1,
+.howitworks h3 {
+  text-align: center;
+}
+
+.howitworks h1 {
+  padding-top: 50px;
+}
+
+.howitworks h3 {
+  width: 900px;
+  margin: 30px auto 50px;
+}
+
+#howitworks img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+
+.howitworks .icons-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.tenants {
+  padding-top: 25px;
+}
+
+.tenants h1 {
+  text-align: center;
+}
+
+.tenants h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.tenants-icons {
+  display: flex;
+}
+
+.tenants-box {
+  display: flex;
+  align-items: center;
+}
+
+.tenants-box-1 {
+  margin-top: 20px;
+}
+
+.tenants-box-2 {
+  margin-top: 20px;
+}
+
+.tenants-left, .tenants-right {
+  width: 50%;
+}
+
+.tenants-left .tenants-box {
+  padding: 0 12.5px 0 50px;
+}
+
+.tenants-right .tenants-box {
+  padding: 0 50px 0 12.5px;
+}
+
+.tenants-box img {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+}
+
+.tenants-box-1 img {
+  height: 75px;
+  width: 55px;
+  margin-right: 40px;
+}
+
+.tenants-box-2 img {
+  width: 75px;
+}
+
+.tenants-box-4 img {
+  height: 65px;
+}
+
+.tenants-box-1 .text {
+  padding-top: 20px;
+}
+
+.tenants-box-2 .text {
+  padding-top: 30px;
+}
+
+.tenants-box-3 .text {
+  padding-top: 25px;
+}
+
+.tenants-box-4 .text {
+  padding-top: 25px;
+}
+
+
+
+
+
+
+
+
 

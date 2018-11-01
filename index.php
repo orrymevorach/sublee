@@ -13,9 +13,6 @@
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
@@ -233,84 +230,81 @@
   </section> <!-- Closing Carousel Section -->
 
   <!-- How It Works Section -->
-  <div class="container" id="howitworks">
-    <div class="col-lg-6 col-lg-offset-3">
-      <div class="row mt centered">
-        <h1>How It Works</h1>
-      </div>
-    </div>
-    <div class="col-lg-12">
+  <div id="howitworks" class="howitworks">
+    <div class="heading">
+      <h1>How It Works</h1>
       <h3>Sublee is designed to streamline the subletting process, taking you from apartment search to close within one day</h3>
-    </div>
-  </div> <!-- Closing Conatiner -->
+    </div> <!-- Closing Conatiner -->
 
-  <!-- Icons -->
-  <div class="row mt centered">
-    <div class="col-lg-2 col-lg-offset-1">
-      <img src="img/Picture1.png" width="180" alt="">
-      <h4>Search our marketplace </br>of listings</h4>
-      
-    </div>
-    <!--/col-lg-4 -->
-    <div class="col-lg-2">
-      <img src="img/Connect with tenants (how it works).png" width="180" alt="">
-      <h4>Connect with </br> interested tenants</h4>
-      
-    </div>
+    <!-- Icons -->
+    <div class="icons-container">
+      <div class="icon icon-first">
+        <img src="img/Picture1.png" alt="">
+        <h4>Search our marketplace </br>of listings</h4>
+        
+      </div>
+      <!--/col-lg-4 -->
+      <div class="icon">
+        <img src="img/Connect with tenants (how it works).png" alt="">
+        <h4>Connect with </br> interested tenants</h4>
+        
+      </div>
 
-    <div class="col-lg-2">
-      <img src="img/Profile approval (how it works).png" width="180" alt="">
-      <h4>Get verified</br> & approved</h4>
+      <div class="icon">
+        <img src="img/Profile approval (how it works).png" alt="">
+        <h4>Get verified</br> & approved</h4>
+        
+      </div>
+      <div class="icon">
+        <img src="img/handshake (how it works).png" alt="">
+        <h4>Agree to terms  </br>& sign</h4>
+        
+      </div>
+      <div class="icon">
+        <img src="img/make payment (how it works).png" alt="">
+        <h4>Submit payment </br> & relax </h4>
       
-    </div>
-    <div class="col-lg-2">
-      <img src="img/handshake (how it works).png" width="180" alt="">
-      <h4>Agree to terms  </br>& sign</h4>
+      </div>
       
-    </div>
-    <div class="col-lg-2">
-      <img src="img/make payment (how it works).png" width="180" alt="">
-      <h4>Submit payment </br> & relax </h4>
-    
-    </div>
-    
-  </div> <!-- /row Closing Icons-->
+    </div> <!-- /row Closing Icons-->
+  </div> <!-- Closing How It Works -->
+
+  
 
   <!-- Opening Tenants -->
-  <div class="container" id="tenants">
-    <div class="row mt centered">
+  <div id="tenants" class="tenants">
+    <h1>Tenants</h1>
+    <div class="row centered">
       <div class="col-lg-12">
         <h2>Subletting your apartment shouldn’t be complicated, </br>so we’ve built a product with you in mind</h2>
       </div>
     </div>
-
-    <div class="row">
-      <div class="col-lg-2 col-lg-offset-1">
-        <img src="img/Lead_generation.png" width="180">
-      </div>
-      <p class="text">Apartment lead generation; we’ll make sure people notice your place</p>
-    </div> 
-
-    <div class="row">  
-      <div class="col-lg-2 col-lg-offset-1">
-        <img  src="img/Verification.png" width="180">
-      </div>
-      <p class="text">Tenant Background Verification; our team will do the homework for you</p>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-2 col-lg-offset-1">
-        <img src="img/contracts.png" width="180">
-      </div>
-      <p class="text">Customized Lease Contracts; protective over that new paint job? Include the clause in the contract</p>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-2 col-lg-offset-1">
-        <img src="img/payhandle.png" width="180">
+    <div class="tenants-icons">
+      <div class="tenants-left">
+        <div class="tenants-box tenants-box-1">
+          <img src="img/Lead_generation.png" width="180">
+          <p class="text">Apartment lead generation; we’ll make sure people notice your place</p>
+        </div> 
+    
+        
+        <div class="tenants-box tenants-box-2">
+          <img  src="img/Verification.png" width="180">
+          <p class="text">Tenant Background Verification; our team will do the homework for you</p>
         </div>
-      <p class="text">Payment Handling; worried about organizing  payment? We’ll make sure everyone get’s their cake<p>
-    </div>
+      </div>
+  
+      <div class="tenants-right">
+        <div class="tenants-box tenants-box-3">
+          <img src="img/contracts.png" width="180">
+          <p class="text">Customized Lease Contracts; protective over that new paint job? Include the clause in the contract</p>
+        </div>
+    
+        <div class="tenants-box tenants-box-4">
+          <img src="img/payhandle.png" width="180">
+          <p class="text">Payment Handling; worried about organizing  payment? We’ll make sure everyone get’s their cake<p>
+        </div>
+      </div>
+    </div> <!-- Closing Tenants Icons -->
     
     <div class="row mt centered"> 
       <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Post my lease</button>
@@ -321,7 +315,7 @@
   <!-- Renters Heading Text -->
   <div class="container" id="renters">
 
-    <div class="row mt centered">
+    <div class="row centered">
       <div class="col-lg-12">
         <h2>Stay a while - actually, stay for however long you want</h2>
         <h3>find the right lease, for the right length of time</h3>
@@ -383,6 +377,7 @@
   <script src="lib/bootstrap/js/bootstrap.min.js"></script>
   <script src="lib/php-mail-form/validate.js"></script>
   <script src="lib/easing/easing.min.js"></script>
+  <script defer src='https://use.fontawesome.com/releases/v5.0.10/js/all.js' integrity='sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+' crossorigin='anonymous'></script>
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
