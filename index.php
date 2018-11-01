@@ -8,7 +8,7 @@
   <meta content="" name="description">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700|Roboto+Slab:300,400,600,700" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -21,9 +21,9 @@
 <body>
 
   <!-- Fixed navbar -->
-  <div class="nav clearfix">
+  <nav class="nav clearfix">
     <div class="nav-left">
-      <img class="img-responsive" src="img/icons8-home-50.png" alt="">
+      <img src="img/icons8-home-100.png" alt="Sublee Icon">
       <a href="#topofpage" class="smoothscroll">Sublee</a>
     </div>
         
@@ -35,7 +35,7 @@
         <li><a href="#renters" class="smoothscroll"><b>Sublet Seekers</b></a></li>
       </ul>
     </div>
-  </div> <!-- Closing Navbar -->
+  </nav> <!-- Closing Navbar -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -46,9 +46,8 @@
     <div class="left">
       <h1>Subletting,<br/>
       simplified.</h1>
-      <h3>Sublee makes getting out of your lease or into a sublet, easy. </br></br>
-        Whether it’s a new job in a new city, a 6-month back packing trip across the globe, or a new condo you’ve set your sights on – don’t let a contract stop you from life’s journey </br>
-      </h3> 
+      <h3>Sublee makes getting out of your lease or into a sublet, easy. 
+        Whether it’s a new job in a new city, a 6-month back packing trip across the globe, or a new condo you’ve set your sights on – don’t let a contract stop you from life’s journey</h3> 
 
       <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Start my sublet</button>
     </div> <!-- Closing Left -->
@@ -161,16 +160,18 @@
 
   <!-- About Us -->
   <section id="aboutus">
-    
+            
+    <!-- Black Screen -->
+    <div class="black-screen"></div>
+
     <!-- Text Container -->
     <div class="text-container">
-      <h1>About us</h1>
+      <h1>About Us</h1>
 
       <h3>Sublee is designed to democratize the Canadian leasing process. Let’s face it, long-term commitments like 12 month leases don’t work for everyone. Sublee is here to lift the constraints on year long leases enabling renters to find flexible, short-term, market rate options. Our team is excited to bring Canadians the flexible apartment living you deserve.</h3>
     </div> <!-- Closing Text Container -->
 
-    <!-- Black Screen -->
-    <div class="black-screen"></div>
+    
   </section> <!-- Closing About Us Container -->
   
   <!-- How It Works Section -->
