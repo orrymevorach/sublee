@@ -115,6 +115,10 @@ hr {
   padding: 0;
 }
 
+.navbar {
+  transform: translateX(-100vw);
+}
+
 .navbar-default #navbar #navbar-default navbar-fixed-top{
   background-color: #1abc9c;
   border-color: transparent;
@@ -137,11 +141,24 @@ hr {
   padding: 3px 0;
 }
 
+.nav-slide {
+  animation: navSlide 0.5s linear;
+}
+
+@keyframes navSlide {
+  0% {
+    transform: translateX(-100vw)
+  }
+  100% {
+    transform: translateX(0)
+  }
+}
+
 /* Header */
 
 header {
   background-color: #1abc9c;
-  margin-top: 57px;
+  padding-top: 57px;
 }
 
 header h1 {
@@ -162,6 +179,21 @@ header .right {
 
 header .left {
   padding: 0 25px 0 120px;
+  /* For animation purposes */
+  opacity: 0;
+}
+
+.fade-in {
+  animation: fadeIn 2s linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 header .right {
@@ -189,11 +221,36 @@ header button:hover {
 }
 
 .header-logo {
-  border-radius: 50%;
   display: block;
   width: 500px;
   margin: 0px auto 0;
+  opacity: 0;
+}
 
+.logo-animate {
+  animation: logoAnimate 3s linear;
+}
+
+@keyframes logoAnimate {
+  0% {
+    opacity: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    margin-top: -100px;
+  }
+  60% {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    margin-top: -100px;
+    opacity: 1;
+  }
+  100% {
+    left: 0;
+    transform: translateX(0);
+    width: 500px;
+  }
 }
 
 /* About Us */

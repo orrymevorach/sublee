@@ -53,119 +53,119 @@
 
   <header class="clearfix" id="topofpage">
           
-        <div class="left">
-          <h1>Subletting,<br/>
-          simplified.</h1>
-          <h3>Sublee makes getting out of your lease or into a sublet, easy. </br></br>
-            Whether it’s a new job in a new city, a 6-month back packing trip across the globe, or a new condo you’ve set your sights on – don’t let a contract stop you from life’s journey </br>
-          </h3> 
+    <div class="left">
+      <h1>Subletting,<br/>
+      simplified.</h1>
+      <h3>Sublee makes getting out of your lease or into a sublet, easy. </br></br>
+        Whether it’s a new job in a new city, a 6-month back packing trip across the globe, or a new condo you’ve set your sights on – don’t let a contract stop you from life’s journey </br>
+      </h3> 
 
-          <button type="submit" data-toggle="modal" data-target="#exampleModal">Start my sublet</button>
-        </div> <!-- Closing Left -->
+      <button type="submit" data-toggle="modal" data-target="#exampleModal">Start my sublet</button>
+    </div> <!-- Closing Left -->
 
-        <div class="right">
-          <img src="img/icons8-home-500.png" alt="Sublee Logo" class="header-logo">
-        </div>
+    <div class="right">
+      <img src="img/icons8-home-500.png" alt="Sublee Logo" class="header-logo">
+    </div>
 
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+            </button>
+            <h2 class="modal-title" id="exampleModalLabel">Sign Up</br></h2>
+          </div> <!-- Closing Modal Header -->
+          
+          <!-- Modal Body -->
+          <div class="modal-body">
+    
+            <form method="post" action="dbcalls.php">
+
+              <!-- Form -->
+              <div class="form-row">
+                <div class="form-group col-lg-4">
+                  <label for="inputPassword4">First Name</label>
+                  <input type="text" class="form-control" id="inputPassword4" placeholder="First Name">
+                </div>
+                <div class="form-group col-lg-4">
+                  <label for="inputPassword4">Last Name</label>
+                  <input type="text" class="form-control" id="inputPassword4" placeholder="Last Name">
+                </div>
+                    <div class="form-group col-lg-4">
+                  <label for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                  <small id="Email" class="form-text text-muted">We'll never share it with anyone</small>
+                </div>
+              </div> <!-- Closing Form Row -->
               
-              <!-- Modal Header -->
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
-                </button>
-                <h2 class="modal-title" id="exampleModalLabel">Sign Up</br></h2>
-              </div> <!-- Closing Modal Header -->
+              <div class="form-row">
+                <div class="form-group col-lg-4">
+                  <label for="inputCity">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-lg-4">
+                  <label for="inputProvince">Province</label>
+                  <select id="inputProvince" class="form-control">
+                    <option selected>Select</option>
+                    <option>QC</option>
+                    <option>ON</option>
+                    <option>BC</option>
+                    <option>AB</option>
+                    <option>MB</option>
+                    <option>SK</option>
+                    <option>NS</option>
+                    <option>NB</option>
+                    <option>NL</option>
+                    <option>PE</option>
+                    <option>NT</option>
+                    <option>YT</option>
+                    <option>NU</option>
+                  </select>
+                </div> <!-- Closing Form Group -->
               
-              <!-- Modal Body -->
-              <div class="modal-body">
-        
-                <form method="post" action="dbcalls.php">
+              </div> <!-- Closing Form Row -->
 
-                  <!-- Form -->
-                  <div class="form-row">
-                    <div class="form-group col-lg-4">
-                      <label for="inputPassword4">First Name</label>
-                      <input type="text" class="form-control" id="inputPassword4" placeholder="First Name">
-                    </div>
-                    <div class="form-group col-lg-4">
-                      <label for="inputPassword4">Last Name</label>
-                      <input type="text" class="form-control" id="inputPassword4" placeholder="Last Name">
-                    </div>
-                        <div class="form-group col-lg-4">
-                      <label for="inputEmail4">Email</label>
-                      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                      <small id="Email" class="form-text text-muted">We'll never share it with anyone</small>
-                    </div>
-                  </div> <!-- Closing Form Row -->
-                  
-                  <div class="form-row">
-                    <div class="form-group col-lg-4">
-                      <label for="inputCity">City</label>
-                      <input type="text" class="form-control" id="inputCity">
-                    </div>
-                    <div class="form-group col-lg-4">
-                      <label for="inputProvince">Province</label>
-                      <select id="inputProvince" class="form-control">
-                        <option selected>Select</option>
-                        <option>QC</option>
-                        <option>ON</option>
-                        <option>BC</option>
-                        <option>AB</option>
-                        <option>MB</option>
-                        <option>SK</option>
-                        <option>NS</option>
-                        <option>NB</option>
-                        <option>NL</option>
-                        <option>PE</option>
-                        <option>NT</option>
-                        <option>YT</option>
-                        <option>NU</option>
-                      </select>
-                    </div> <!-- Closing Form Group -->
-                  
-                  </div> <!-- Closing Form Row -->
+              <div class="form-row">
+                <div class="form-group col-lg-12">
+                  <label for="exampleTextarea">Tell us how we can help you.</label>
+                <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                </div>
+              </div>
+              
 
-                  <div class="form-row">
-                    <div class="form-group col-lg-12">
-                      <label for="exampleTextarea">Tell us how we can help you.</label>
-                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-                    </div>
-                  </div>
-                  
+              <!-- Form Row -->
+              <div class="form-row">  
+                <div class="form-check">
+                  <label class="LCL">
+                    <input type="checkbox" class="form-check-input">
+                    I am trying to get out of my current lease.
+                  </label>
+                </div>
 
-                  <!-- Form Row -->
-                  <div class="form-row">  
-                    <div class="form-check">
-                      <label class="LCL">
-                        <input type="checkbox" class="form-check-input">
-                        I am trying to get out of my current lease.
-                      </label>
-                    </div>
-
-                    <div class="form-check">
-                      <label class="STL">
-                        <input type="checkbox" class="form-check-input">
-                        I am looking for a short-term lease.
-                      </label>
-                    </div>
-                  
-                    <div class="form-check">
-                      <label class="LPM">
-                        <input type="checkbox" class="form-check-input">
-                        I am a landlord/property manager.
-                      </label>
-                    </div>
-                  </div> <!-- Closing Form Row -->
-                
-                  <button type="submit" class="btn btn-primary btn-lg" name="submit">Submit</button>
-                </form> <!-- Closing Form -->
-              </div> <!-- Closing Modal Body -->
-            </div> <!-- Closing Modal Content -->
-          </div>  <!-- Closing Modal Dialogue -->
-        </div> <!-- Closing Modal Fade -->
+                <div class="form-check">
+                  <label class="STL">
+                    <input type="checkbox" class="form-check-input">
+                    I am looking for a short-term lease.
+                  </label>
+                </div>
+              
+                <div class="form-check">
+                  <label class="LPM">
+                    <input type="checkbox" class="form-check-input">
+                    I am a landlord/property manager.
+                  </label>
+                </div>
+              </div> <!-- Closing Form Row -->
+            
+              <button type="submit" class="btn btn-primary btn-lg" name="submit">Submit</button>
+            </form> <!-- Closing Form -->
+          </div> <!-- Closing Modal Body -->
+        </div> <!-- Closing Modal Content -->
+      </div>  <!-- Closing Modal Dialogue -->
+    </div> <!-- Closing Modal Fade -->
 
   </header>
 
@@ -361,7 +361,7 @@
 
         </div> <!-- Closing Icon Container -->
         <!-- Start Sublet Button -->
-        <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Start my sublet</button>
+        <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Find A Short Term Lease</button>
 
       </div> <!-- Closing Renter's Right -->
 
