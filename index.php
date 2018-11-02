@@ -33,7 +33,7 @@
         <li><a href="#aboutus" class="smoothscroll"><b>About Us</b></a></li>
         <li><a href="#howitworks" class="smoothscroll"><b>How It Works</b></a></li>
         <li><a href="#tenants" class="smoothscroll"><b>Current Tenants</b></a></li>
-        <li><a href="#renters" class="smoothscroll"><b>Sublet Seekers</b></a></li>
+        <li><a href="#seekers" class="smoothscroll"><b>Sublet Seekers</b></a></li>
       </ul>
     </div>
   </nav> <!-- Closing Navbar -->
@@ -44,7 +44,7 @@
   <!-- Opening Header -->
   <header class="clearfix" id="topofpage">
           
-    <div class="left">
+    <div class="header-left">
       <h1>Subletting,<br/>
       simplified.</h1>
       <h3>Sublee makes getting out of your lease or into a sublet, easy. 
@@ -54,7 +54,7 @@
       <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Start my sublet</button>
     </div> <!-- Closing Left -->
 
-    <div class="right">
+    <div class="header-right">
       <img src="img/icons8-home-500.png" alt="Sublee Logo" class="header-logo">
     </div>
 
@@ -162,28 +162,21 @@
 
   <!-- About Us -->
   <section id="aboutus">
-            
     <!-- Black Screen -->
     <div class="black-screen"></div>
-
-    <!-- Text Container -->
-    <div class="text-container">
-      <h1>About Us</h1>
-
-      <h3>Sublee is designed to democratize the Canadian leasing process. Let’s face it, long-term commitments like 12 month leases don’t work for everyone. Sublee is here to lift the constraints on year long leases enabling renters to find flexible, short-term, market rate options. Our team is excited to bring Canadians the flexible apartment living you deserve.</h3>
-    </div> <!-- Closing Text Container -->
-
-    
+      <!-- Text Container -->
+      <div class="text-container">
+        <h1>About Us</h1>
+        <h3>Sublee is designed to democratize the Canadian leasing process. Let’s face it, long-term commitments like 12 month leases don’t work for everyone. Sublee is here to lift the constraints on year long leases enabling renters to find flexible, short-term, market rate options. Our team is excited to bring Canadians the flexible apartment living you deserve.</h3>
+      </div> <!-- Closing Text Container -->
   </section> <!-- Closing About Us Container -->
   
   <!-- How It Works Section -->
   <section id="howitworks" class="howitworks">
-    <div class="section-padding">
-      <div class="heading">
-        <h1>How It Works</h1>
-        <h2>Sublee is designed to streamline the subletting process, taking you from apartment search to close within one day</h2>
-      </div> <!-- Closing Conatiner -->
-
+    <div class="wrapper">
+      <h1>How It Works</h1>
+      <h2>Sublee is designed to streamline the subletting process, taking you from apartment search to close within one day</h2>
+  
       <!-- Icons -->
       <div class="icons-container">
         
@@ -191,28 +184,28 @@
           <img src="img/Picture1.png" alt="">
           <h4>Search our marketplace </br>of listings</h4>
         </div>
-
+  
         <i class="fas fa-arrow-circle-right arrow-right-1"></i>
         
         <div class="icon">
           <img src="img/Connect with tenants (how it works).png" alt="">
           <h4>Connect with </br> interested tenants</h4>
         </div>
-
+  
         <i class="fas fa-arrow-circle-right arrow-right-2"></i>
-
+  
         <div class="icon">
           <img src="img/Profile approval (how it works).png" alt="">
           <h4>Get verified</br> & approved</h4>
         </div>
-
+  
         <i class="fas fa-arrow-circle-right arrow-right-3"></i>
         
         <div class="icon">
           <img src="img/handshake (how it works).png" alt="">
           <h4>Agree to terms  </br>& sign</h4>
         </div>
-
+  
         <i class="fas fa-arrow-circle-right arrow-right-4"></i>
         
         <div class="icon">
@@ -221,198 +214,211 @@
         </div>
         
       </div> <!-- /row Closing Icons-->
+
     </div>
     
   </section> <!-- Closing How It Works -->
   
-  <div class="review">
+  <section class="review">
     <div class="black-screen"></div>
-  </div>
+  </section>
 
   <!-- Opening Tenants -->
   <section id="tenants" class="tenants">
-    <h1>Current Tenants</h1>
-    <div class="centered">
+    <div class="wrapper">
+      <h1>Current Tenants</h1>
       <h2>Subletting your apartment shouldn’t be complicated, so we’ve built a product with you in mind</h2>
-    </div>
-    <div class="tenants-icon-container">
-      <div class="tenants-left">
-        <div class="tenants-box tenants-box-1">
-          <img src="img/Lead_generation.png" width="180">
-          <p class="text">Apartment lead generation; we’ll make sure people notice your place</p>
-        </div> 
-    
-        
-        <div class="tenants-box tenants-box-2">
-          <img  src="img/Verification.png" width="180">
-          <p class="text">Tenant Background Verification; our team will do the homework for you</p>
-        </div>
-      </div>
-  
-      <div class="tenants-right">
-        <div class="tenants-box tenants-box-3">
-          <img src="img/contracts.png" width="180">
-          <p class="text">Customized Lease Contracts; protective over that new paint job? Include the clause in the contract</p>
+      <div class="tenants-icon-container">
+        <div class="tenants-left">
+          <div class="tenants-box tenants-box-1">
+            <img src="img/Lead_generation.png" width="180">
+            <p class="text"><span class="bold">Apartment lead generation;</span> we’ll make sure people notice your place</p>
+          </div> 
+      
+          
+          <div class="tenants-box tenants-box-2">
+            <img  src="img/Verification.png" width="180">
+            <p class="text"><span class="bold">Tenant Background Verification;</span> our team will do the homework for you</p>
+          </div>
         </div>
     
-        <div class="tenants-box tenants-box-4">
-          <img src="img/payhandle.png" width="180">
-          <p class="text">Payment Handling; worried about organizing  payment? We’ll make sure everyone get’s their cake<p>
+        <div class="tenants-right">
+          <div class="tenants-box tenants-box-3">
+            <img src="img/contracts.png" width="180">
+            <p class="text"><span class="bold">Customized Lease Contracts;</span> protective over that new paint job? Include the clause in the contract</p>
+          </div>
+      
+          <div class="tenants-box tenants-box-4">
+            <img src="img/payhandle.png" width="180">
+            <p class="text"><span class="bold">Payment Handling;</span> worried about organizing  payment? We’ll make sure everyone get’s their cake<p>
+          </div>
         </div>
-      </div>
-    </div> <!-- Closing Tenants Icons -->
-    
-    <div class="centered"> 
+      </div> <!-- Closing Tenants Icons -->
+      
       <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Post my lease</button>
+
     </div>
   </section> <!-- Closing Tenants  -->
 
-  <!-- Renters Section -->
-  <!-- Renters Heading Text -->
-  <section id="renters">
-
-    <div class="centered renters-heading">
-      <h1>Sublet Seekers</h1>  
-      <h2>Stay a while - actually, stay for however long you want</h2>
-      <h3>find the right lease, for the right length of time</h3>
-    </div>
-    
-    <div class="renters-main-container">
-      <div class="renters-left">
-        <!-- Carousel Section -->
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-
-            </ol>
-          
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <img src="img/kitchen-stove-sink-kitchen-counter-349749.jpeg" alt="...">
-                <div class="carousel-caption">
-                
-                </div>
-              </div>
-              
-              <div class="item">
-                <img src="img/living-room-couch-interior-room-584399.jpeg" alt="...">
-                <div class="carousel-caption">
-                
-                </div>
-              </div>
-
-              <div class="item">
-                <img src="img/pexels-photo-1234462.jpeg" alt="...">
-                <div class="carousel-caption">
-                
-                </div>
-              </div>
-
-            </div> <!-- Closing Carousel Inner -->
-          
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-
-        </div> <!-- Closing Carousel Main Div -->
+  <!-- seekers Section -->
+  <!-- seekers Heading Text -->
+  <section id="seekers">
+    <div class="wrapper">
+      <div class="seekers-heading">
+        <h1>Sublet Seekers</h1>  
+        <h2>Stay a while - actually, stay for however long you want</h2>
+        <h3>find the right lease, for the right length of time</h3>
       </div>
       
-      <div class="renters-right">
-        <h3 class="text centered">Benefits:</h3>
-
-        <!-- Icons -->
-        <div class="icon-container">
-
-          <div class="icon icon-1">
-            <img src="img/short-term contracts.png">
-            <p class="text">
-              <span class="bold">Short-term leasing options;</span> find lease options between 2-12 months
-            </p>
-          </div>
-
-          <div class="icon icon-2">
-            <img  src="img/auto payment.png">
-            <p class="text">
-              <span class="bold">Automated rent payments;</span> rip up those rent checks, we’ll send your payment to the appropriate party
-            </p>
-          </div>
-
-          <div class="icon icon-3">
-            <img src="img/lease from anywhere.png">
-            <p class="text">
-              <span class="bold">Get approved from anywhere;</span> can’t visit the apartment before signing? Don’t worry – if we can vet you, you’re in
-            </p>
-          </div>
-
-        </div> <!-- Closing Icon Container -->
-        <!-- Start Sublet Button -->
-        <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Find A Short Term Lease</button>
-
-      </div> <!-- Closing Renter's Right -->
-
-    </div>
-  </section> <!-- CLosing Renters -->
+      <div class="seekers-main-container">
+        <div class="seekers-left">
+          <!-- Carousel Section -->
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  
+              </ol>
+            
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="img/kitchen-stove-sink-kitchen-counter-349749.jpeg" alt="...">
+                  <div class="carousel-caption">
+                  
+                  </div>
+                </div>
+                
+                <div class="item">
+                  <img src="img/living-room-couch-interior-room-584399.jpeg" alt="...">
+                  <div class="carousel-caption">
+                  
+                  </div>
+                </div>
+  
+                <div class="item">
+                  <img src="img/pexels-photo-1234462.jpeg" alt="...">
+                  <div class="carousel-caption">
+                  
+                  </div>
+                </div>
+  
+              </div> <!-- Closing Carousel Inner -->
+            
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+  
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+  
+          </div> <!-- Closing Carousel Main Div -->
+        </div>
+        
+        <div class="seekers-right">
+          <h3 class="text centered">Benefits:</h3>
+  
+          <!-- Icons -->
+          <div class="icon-container">
+  
+            <div class="icon icon-1">
+              <img src="img/short-term contracts.png">
+              <p class="text">
+                <span class="bold">Short-term leasing options;</span> find lease options between 2-12 months
+              </p>
+            </div>
+  
+            <div class="icon icon-2">
+              <img  src="img/auto payment.png">
+              <p class="text">
+                <span class="bold">Automated rent payments;</span> rip up those rent checks, we’ll send your payment to the appropriate party
+              </p>
+            </div>
+  
+            <div class="icon icon-3">
+              <img src="img/lease from anywhere.png">
+              <p class="text">
+                <span class="bold">Get approved from anywhere;</span> can’t visit the apartment before signing? Don’t worry – if we can vet you, you’re in
+              </p>
+            </div>
+  
+          </div> <!-- Closing Icon Container -->
+          <!-- Start Sublet Button -->
+          <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Find A Short Term Lease</button>
+  
+        </div> <!-- Closing Renter's Right -->
+  
+      </div> <!-- Closing seekers Main Container -->
+    </div> <!-- Closing Wrapper -->
+  </section> <!-- CLosing seekers -->
 
   <footer>
-    <!-- Opening Footer Top w/ Lighter Background -->
+    <!-- Opening Footer Top w/ Grey Background -->
     <div class="footer-top">
-      <div class="box box1"> <!-- Box 1 Address -->
-        <div class="footer-icon">
-          <i class="fas fa-map-marker-alt"></i>
+      <div class="wrapper">
 
-        </div>
-        <div class="text">
-          <p class="footer-top-text">123 Jasons Office Address, Toronto</p>
-          <p class="footer-top-text">Canada, M9M1M1</p>
-        </div>
-      </div> <!-- Closing Box -->
-
-      <div class="footer-divider footer-divider-left"></div>
-
-      <a href="#">
-        <div class="box box2"> <!-- Box 2 Phone Number -->
+        <!-- Box 1 - Address -->
+        <div class="footer-top-column footer-top-column1"> 
           <div class="footer-icon">
-            <i class="fas fa-mobile-alt"></i>
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="text-container">
+            <p class="footer-top-text">123 Jasons Office Address, Toronto</p>
+            <p class="footer-top-text">Canada, M9M1M1</p>
+          </div>
+        </div> <!-- Closing footer-top-column 1 -->
   
-          </div>
-          <div class="text">
-            <p class="footer-top-text">+1 (800) 123 4567</p>
-          </div>
-        </div> <!-- Closing Box -->
-      </a>
-
-      <div class="footer-divider footer-divider-right"></div>
-
-      <a href="#">
-        <div class="box box3"> <!-- Box 3 Email -->
-          <div class="footer-icon">
-            <i class="far fa-envelope"></i>
-          </div>
-          <div class="text">
-            <p class="footer-top-text">jason@sublee.com</p>
-          </div>
-        </div> <!-- Closing Box -->
-      </a>
-
+        <!-- Vertical Line Divider -->
+        <div class="footer-divider footer-divider-left"></div>
+  
+        <!-- footer-top-column 2 Phone Number -->
+        <a href="#">
+          <div class="footer-top-column footer-top-column2"> 
+            <div class="footer-icon">
+              <i class="fas fa-mobile-alt"></i>
+    
+            </div>
+            <div class="text-container">
+              <p class="footer-top-text">+1 (800) 123 4567</p>
+            </div>
+          </div> 
+        </a> <!-- Closing footer-top-column 2 -->
+  
+        <!-- Vertical Line Divider -->
+        <div class="footer-divider footer-divider-right"></div>
+  
+        <!-- footer-top-column 3 Email -->
+        <a href="#">
+          <div class="footer-top-column footer-top-column3"> 
+            <div class="footer-icon">
+              <i class="far fa-envelope"></i>
+            </div>
+            <div class="text-container">
+              <p class="footer-top-text">jason@sublee.com</p>
+            </div>
+          </div> 
+        </a> <!-- Closing footer-top-column 3 -->
+      </div> <!-- Closing Wrapper -->
     </div> <!-- Closing Footer Top -->
-    <div class="footer-bottom">
-      <p class="company">Sublee</p>
-      <h3>Copyright &copy; Sublee 2018</h3>
-    </div>
-  </footer>
 
-  
+    <!-- Opening Footer Bottom w/ Green Background -->
+    <div class="footer-bottom">
+      <div class="wrapper">
+        <div class="footer-left">
+          <img src="img/icons8-home-50.png" alt="Sublee Icon">
+          <p class="company">Sublee</p>
+        </div>
+        <h3>Copyright &copy; Sublee 2018</h3>
+      </div>
+    </div> <!-- Closing Footer Bottom -->
+
+  </footer>
 
 
   <!-- JavaScript Libraries -->

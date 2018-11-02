@@ -37,21 +37,14 @@ function div_hide(){
   document.getElementById('abc').style.display = "none";
 }
 
-// Function to Animate Home Page
-// $('.header-logo').addClass('logo-animate')
-// $('.header-logo').css({ 'opacity': '1' })
+// Left Side of Header Fade In Effect
+$('.header-left').addClass('fade-in')
+$('.header-left').css({ 'opacity': '1' })
 
-// function fadeIn() {
-  $('header .left').addClass('fade-in')
-  $('header .left').css({ 'opacity': '1' })
-  $('.header-logo').addClass('fade-in')
-  $('.header-logo').css({ 'opacity': '1' })
-// }
+// Ride side of Header Fade In Effect
+$('.header-logo').addClass('fade-in')
+$('.header-logo').css({ 'opacity': '1' })
 
-// function navSlide() {
-  $('.nav').addClass('nav-slide')
-  $('.nav').css({ 'transform': 'translateX(0)' })
-// }
-
-// setTimeout(navSlide, 4100)
-// setTimeout(fadeIn, 3100)
+// Navigation Slide Feect
+$('.nav').addClass('nav-slide')
+$('.nav').css({ 'transform': 'translateX(0)' })

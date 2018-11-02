@@ -74,6 +74,26 @@ p {
 
 /* Helpers */
 
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* For smaller screen sizes, add padding so nothing touches side of screen */
+@media (max-width: 1200px) {
+  .wrapper {
+    padding: 0 50px;
+  }
+}
+
+/* Darkening the background image */
+.black-screen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
 .form-control {
   height: 42px;
   font-size: 18px;
@@ -198,6 +218,7 @@ header {
   padding-top: 10%;
 }
 
+/* Reduce space at top for smaller screen sizes */
 @media (max-height: 750px) {
   header {
     padding-top: 4%;
@@ -217,7 +238,8 @@ header h3 {
   margin: 25px 0;
 }
 
-header .left {
+/* Left side of header */
+.header-left {
   float: left;
   width: 50%;
   padding: 0 25px 0 120px;
@@ -225,12 +247,21 @@ header .left {
   opacity: 0;
 }
 
-header .right {
+/* Right side of header */
+.header-right {
   float: right;
   width: 50%;
 }
 
+/* Formatting The Logo */
+.header-logo {
+  display: block;
+  width: 500px;
+  margin: 0px auto 0;
+  opacity: 0;
+}
 
+/* Animation on load, called in main.js */
 .fade-in {
   animation: fadeIn 1.5s linear;
 }
@@ -244,12 +275,6 @@ header .right {
   }
 }
 
-.header-logo {
-  display: block;
-  width: 500px;
-  margin: 0px auto 0;
-  opacity: 0;
-}
 
 /* About Us */
 
@@ -261,22 +286,12 @@ header .right {
   position: relative;
 }
 
-.black-screen {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0,0,0,0.5);
-  z-index: 0;
-}
-
+/* Formatting Text Container */
 #aboutus .text-container {
   width: 45%;
   top: 130px;
-  left: 120px;
-  position: absolute;
-  z-index: 100;
+  left: 120px; 
+  position: absolute; 
 }
 
 #aboutus h1 {
@@ -290,6 +305,7 @@ header .right {
   font-size: 18px;
 }
 
+/* Reduce top spacing for smaller screens */
 @media (max-height: 800px) {
   #aboutus .text-container {
     top: 80px;
@@ -299,6 +315,7 @@ header .right {
   }
 }
 
+/* Reduce left space for smaller screens */
 @media (max-width: 1400px) {
   #aboutus .text-container {
     left: 180px;
@@ -390,7 +407,8 @@ padding-top: 5px;}
 
 .howitworks h1,
 .howitworks h2 {
-  padding: 0 120px;
+  /* padding: 0 120px; */
+  padding: 0 50px;
 }
 
 .howitworks h1 {
@@ -414,13 +432,41 @@ padding-top: 5px;}
   justify-content: space-around;
   text-align: center;
   z-index: 200;
-  padding: 0 50px;
 }
 
 .howitworks img {
   width: 100px;
   margin-bottom: 20px;
 }
+
+.howitworks .fa-arrow-circle-right  {
+  font-size: 30px;
+  margin-top: 60px;
+  color: #1abc9c;
+}
+
+.howitworks .arrow-right-1 {
+  margin-left: -30px;
+}
+
+/* Starting at 700px, give the section a fixed height */
+@media (min-height: 700px) {
+  .howitworks {
+    height: 500px;
+  }
+}
+
+/* Starting at 575px, increase the spacing around the headers */
+@media (min-height: 575px) {
+  .howitworks h1 {
+    padding-top: 100px;
+  }
+  .howitworks h2 {
+    margin: 50px auto 50px;
+  }
+}
+
+/* Review */
 
 .review {
   background-image: url(../img/apartment\ 2.jpg);
@@ -434,36 +480,9 @@ padding-top: 5px;}
   margin-top: 50px;
 }
 
+/* Darkening the black screen */
 .review .black-screen {
   background-color: rgba(0,0,0,0.7);
-}
-
-@media (min-height: 700px) {
-  .howitworks {
-    height: 500px;
-  }
-}
-
-
-@media (min-height: 575px) {
-  .howitworks h1 {
-    padding-top: 100px;
-  }
-  .howitworks h2 {
-    margin: 50px auto 50px;
-  }
-}
-
-
-
-.howitworks .fa-arrow-circle-right  {
-  font-size: 30px;
-  margin-top: 60px;
-  color: #1abc9c;
-}
-
-.howitworks .arrow-right-1 {
-  margin-left: -30px;
 }
 
 /* Tenants */
@@ -491,7 +510,6 @@ padding-top: 5px;}
 .tenants-icon-container {
   display: flex;
   margin: 20px 0 40px 0;
-  padding: 0 50px;
 }
 
 .tenants-box {
@@ -559,47 +577,60 @@ padding-top: 5px;}
   padding-top: 25px;
 }
 
-/* Renters */
-  
-.renters-main-container {
-    display: flex;
-  }
+.tenants button {
+  display: block;
+  margin: 0 auto;
+}
 
-.renters-heading h1 {
+/* seekers */
+  
+.seekers-main-container {
+  display: flex;
+}
+
+.seekers-heading h1 {
   margin: 30px 0 20px 0;
 }
 
-.renters-left, .renters-right {
+.seekers-heading {
+  text-align: center;
+}
+
+.seekers-left, .seekers-right {
   width: 50%;
   margin: 40px 0 40px 0;
 }
 
-.renters-left {
-  padding: 90px;
-  margin-top: -50px;
+.seekers-left {
+  margin-right: 25px;
 }
 
-.renters-right h3 {
+.seekers-right {
+  margin-left: 25px;
+
+}
+
+.seekers-right h3 {
   margin-top: 0;
 }
 
-.renters-right .icon {
+.seekers-right .icon {
   display: flex;
   align-items: center;
   margin: 1% 0;
 }
-.renters-right .icon img {
+.seekers-right .icon img {
   width: 90px;
   margin-right: 10px;
   padding: 10px;
 }
 
-.renters-right button {
+.seekers-right button {
   display: block;
   margin: 0 auto;
 }
 
-.renters-right p {
+.seekers-right p {
   line-height: 22px;
 }
 
@@ -609,39 +640,43 @@ footer {
   margin-top: 100px;
 }
 
-.footer-bottom {
-  background-color: #1abc9c;
-  height: 80px;
-  padding: 10px 80px 0 80px;
-  display: flex;
-  justify-content: space-around;
-}
-
 footer h3 {
   color: white;
   font-weight: 600;
 }
-.company {
-  font-size: 22px;
-  color: white;
-  padding-top: 8px;
-}
 
 .footer-top {
   background-color: #a9a9a9;
-  height: 150px;
   width: 100%;
   display: flex;
   justify-content: center;
   color: #fff;
-  padding-top: 50px;
+  padding: 35px 0;
 }
 
-.footer-top .box {
+.footer-top .wrapper,
+.footer-top .footer-top-column {
   display: flex;
 }
 
-.footer-icon {
+/* Spacing out the columns */
+.footer-top .footer-top-column2 {
+  margin: 0 50px;
+}
+
+.footer-top-text {
+  margin-bottom: 5px;
+  color: white;
+}
+
+/* Moving down text in columns 2 and 3 */
+.footer-top-column2 .footer-top-text,
+.footer-top-column3 .footer-top-text {
+  padding-top: 13px;
+}
+
+/* Formatting the grey circle around the svg icon */
+.footer-top .footer-icon {
   width: 50px;
   height: 50px;
   background: rgb(189, 189, 189);
@@ -650,37 +685,26 @@ footer h3 {
   margin-top: 5px;
 }
 
-.footer-top .box2 {
-  margin: 0 50px;
-}
+/* Formatting the svg icons */
 
-.footer-top .box2 .footer-top-text,
-.footer-top .box3 .footer-top-text {
-  padding-top: 13px;
-}
-
-.footer-top-text {
-  margin-bottom: 5px;
-  color: white;
-}
-
-.box svg {
+.footer-top-column svg {
   font-size: 60px;
   color: #fff;
 }
 
-.footer-top .box1 svg {
+.footer-top-column1 svg {
   padding: 10px 8px 20px 14px;
 }
 
-.footer-top .box2 svg {
+.footer-top-column2 svg {
   padding: 10px 4px 20px 17px;
 }
 
-.footer-top .box3 svg {
+.footer-top-column3 svg {
   padding: 10px 21px 18px 11px;
 }
 
+/* column dividers in Footer Top */
 .footer-divider {
   background-color: rgb(207, 207, 207);
   height: 50px;
@@ -696,6 +720,35 @@ footer h3 {
   margin-right: 50px;
 }
 
+/* Footer Bottom */
+
+.footer-bottom {
+  background-color: #1abc9c;
+  height: 80px;
+  padding: 10px 80px 0 80px;
+}
+
+.footer-bottom .wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-bottom .footer-left {
+  display: flex;
+  align-items: center;
+}
+
+/* Sublee Text */
+.footer-left .company {
+  font-size: 22px;
+  color: white;
+  padding-top: 8px;
+}
+
+/* Sublee Logo */
+.footer-bottom .footer-left img {
+ padding-bottom: 20px;
+}
 
 
 
