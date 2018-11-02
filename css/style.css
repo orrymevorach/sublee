@@ -431,6 +431,7 @@ padding-top: 5px;}
   height: 400px;
   position: relative;
   margin-bottom: 100px;
+  margin-top: 50px;
 }
 
 .review .black-screen {
@@ -469,6 +470,13 @@ padding-top: 5px;}
 
 .tenants {
   padding-top: 40px;
+}
+
+@media (min-height: 700px) {
+  .tenants {
+    padding-top: 60px;
+    height: 700px;
+  }
 }
 
 .tenants h1 {
@@ -551,7 +559,6 @@ padding-top: 5px;}
   padding-top: 25px;
 }
 
-
 /* Renters */
   
 .renters-main-container {
@@ -594,6 +601,12 @@ padding-top: 5px;}
 
 .renters-right p {
   line-height: 22px;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 100px;
 }
 
 .footer-bottom {

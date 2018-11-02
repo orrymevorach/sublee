@@ -6,6 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
+  <link rel="icon" href="img/icons8-home-50.png" type="image/png">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700|Roboto+Slab:300,400,600,700" rel="stylesheet">
@@ -231,10 +232,8 @@
   <!-- Opening Tenants -->
   <section id="tenants" class="tenants">
     <h1>Current Tenants</h1>
-    <div class="row centered">
-      <div class="col-lg-12">
-        <h2>Subletting your apartment shouldn’t be complicated, so we’ve built a product with you in mind</h2>
-      </div>
+    <div class="centered">
+      <h2>Subletting your apartment shouldn’t be complicated, so we’ve built a product with you in mind</h2>
     </div>
     <div class="tenants-icon-container">
       <div class="tenants-left">
@@ -263,7 +262,7 @@
       </div>
     </div> <!-- Closing Tenants Icons -->
     
-    <div class="row mt centered"> 
+    <div class="centered"> 
       <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Post my lease</button>
     </div>
   </section> <!-- Closing Tenants  -->
@@ -272,7 +271,7 @@
   <!-- Renters Heading Text -->
   <section id="renters">
 
-    <div class="row centered renters-heading">
+    <div class="centered renters-heading">
       <h1>Sublet Seekers</h1>  
       <h2>Stay a while - actually, stay for however long you want</h2>
       <h3>find the right lease, for the right length of time</h3>
