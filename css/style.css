@@ -6,7 +6,10 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 
 body {
   background-color: #f2f2f2;
-  font-family: 'Lato', sans-serif;
+  background-image: url(../img/7fc1b709383a42d0022bb3598a41e870.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   font-weight: 300;
   font-size: 16px;
   color: #555;
@@ -20,6 +23,7 @@ html{height:100%;}
 }
 .carousel-inner{height:100%;
 }
+
 /* Titles */
 
 /* font-family: 'Roboto Slab', serif;
@@ -38,11 +42,15 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 24px;
+}
+
 h3 {
   font-family: 'Roboto Slab', serif;
   color: #000000;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 46px;
   font-size: 18px;
 }
 
@@ -67,7 +75,6 @@ p {
 .bold {
   font-weight: bold;
 }
-
 
 /* Helpers */
 
@@ -214,25 +221,19 @@ header h3 {
   margin: 25px 0;
 }
 
-header .left,
-header .right {
+header .left {
   float: left;
   width: 50%;
-}
-
-header .left {
   padding: 0 25px 0 120px;
   /* For animation purposes */
   opacity: 0;
 }
 
 header .right {
-  padding: 0 120px 0 25px;
+  float: right;
+  width: 50%;
 }
 
-header button {
-  /* margin-top: 40px; */
-}
 
 .fade-in {
   animation: fadeIn 1.5s linear;
@@ -277,29 +278,29 @@ header button {
 #aboutus .text-container {
   width: 45%;
   top: 130px;
-  left: 240px;
+  left: 120px;
   position: absolute;
   z-index: 100;
+  text-align: right;
 }
 
 #aboutus h1 {
-  color: rgb(248, 239, 239);
+  color: rgb(239, 239, 239);
   margin-bottom: 80px;
-  text-align: left;
+  text-align: right;
 }
 
 #aboutus h3 {
-  color: rgb(248, 239, 239);
-  line-height: 48px;
+  color: rgb(239, 239, 239);
   font-size: 18px;
 }
 
-@media (max-height: 900px) {
+@media (max-height: 800px) {
   #aboutus .text-container {
     top: 80px;
   }
-  #aboutus h3 {
-    line-height: 34px;
+  #aboutus h1 {
+    margin-bottom: 40px;
   }
 }
 
@@ -308,9 +309,6 @@ header button {
     left: 180px;
   }
 }
-
-
-
 
 /* Contact Form */
 
@@ -396,30 +394,71 @@ padding-top: 5px;}
 /* How It works */
 
 .howitworks h1,
-.howitworks h3 {
-  text-align: center;
+.howitworks h2 {
+  padding: 0 120px;
 }
 
 .howitworks h1 {
-  padding-top: 50px;
+  text-align: center;
+  padding-top: 70px;
+  margin: 0 auto;
 }
 
 .howitworks h2 {
-  width: 900px;
   margin: 30px auto 50px;
 }
 
-#howitworks img {
-  width: 150px;
-  margin-bottom: 20px;
+.howitworks p {
+  text-transform: capitalize;
+  font-weight: normal;
+  line-height: 20px;
 }
-
 
 .howitworks .icons-container {
   display: flex;
   justify-content: space-around;
   text-align: center;
+  z-index: 200;
+  padding: 0 50px;
 }
+
+.howitworks img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.review {
+  background-image: url(../img/apartment\ 2.jpg);
+  background-size: cover;
+  background-position: center 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.review .black-screen {
+  background-color: rgba(0,0,0,0.7);
+}
+
+@media (min-height: 700px) {
+  .howitworks {
+    height: 500px;
+  }
+}
+
+
+@media (min-height: 575px) {
+  .howitworks h1 {
+    padding-top: 100px;
+  }
+  .howitworks h2 {
+    margin: 50px auto 50px;
+  }
+}
+
+
 
 .howitworks .fa-arrow-circle-right  {
   font-size: 30px;
@@ -434,11 +473,11 @@ padding-top: 5px;}
 /* Tenants */
 
 .tenants {
-  padding-top: 25px;
+  padding-top: 40px;
 }
 
 .tenants h1 {
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 
 .tenants h2 {
@@ -449,6 +488,7 @@ padding-top: 5px;}
 .tenants-icon-container {
   display: flex;
   margin: 20px 0 40px 0;
+  padding: 0 50px;
 }
 
 .tenants-box {
@@ -466,6 +506,10 @@ padding-top: 5px;}
 
 .tenants-left, .tenants-right {
   width: 50%;
+}
+
+.tenants-right {
+  margin-top: 10px;
 }
 
 .tenants-left .tenants-box {
@@ -512,11 +556,12 @@ padding-top: 5px;}
   padding-top: 25px;
 }
 
-.renters-main-container {
-  display: flex;
-}
 
 /* Renters */
+  
+.renters-main-container {
+    display: flex;
+  }
 
 .renters-heading h1 {
   margin: 30px 0 20px 0;
@@ -554,6 +599,93 @@ padding-top: 5px;}
 
 .renters-right p {
   line-height: 22px;
+}
+
+.footer-bottom {
+  background-color: #1abc9c;
+  height: 80px;
+  padding: 10px 80px 0 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer h3 {
+  color: white;
+  font-weight: 600;
+}
+.company {
+  font-size: 22px;
+  color: white;
+  padding-top: 8px;
+}
+
+.footer-top {
+  background-color: #a9a9a9;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding-top: 50px;
+}
+
+.footer-top .box {
+  display: flex;
+}
+
+.footer-icon {
+  width: 50px;
+  height: 50px;
+  background: rgb(189, 189, 189);
+  border-radius: 50%;
+  margin-right: 25px;
+  margin-top: 5px;
+}
+
+.footer-top .box2 {
+  margin: 0 50px;
+}
+
+.footer-top .box2 .footer-top-text,
+.footer-top .box3 .footer-top-text {
+  padding-top: 13px;
+}
+
+.footer-top-text {
+  margin-bottom: 5px;
+  color: white;
+}
+
+.box svg {
+  font-size: 60px;
+  color: #fff;
+}
+
+.footer-top .box1 svg {
+  padding: 10px 8px 20px 14px;
+}
+
+.footer-top .box2 svg {
+  padding: 10px 4px 20px 17px;
+}
+
+.footer-top .box3 svg {
+  padding: 10px 21px 18px 11px;
+}
+
+.footer-divider {
+  background-color: rgb(207, 207, 207);
+  height: 50px;
+  width: 1px;
+  margin-top: 5px;
+}
+
+.footer-divider-left {
+  margin-left: 50px;
+}
+
+.footer-divider-right {
+  margin-right: 50px;
 }
 
 

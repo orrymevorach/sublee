@@ -47,7 +47,8 @@
       <h1>Subletting,<br/>
       simplified.</h1>
       <h3>Sublee makes getting out of your lease or into a sublet, easy. 
-        Whether it’s a new job in a new city, a 6-month back packing trip across the globe, or a new condo you’ve set your sights on – don’t let a contract stop you from life’s journey</h3> 
+        Whether it’s a new job in a new city, a 6-month back packing trip across the globe, or a new condo you’ve set your sights on – don’t let a contract stop you from life’s journey
+      </h3> 
 
       <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Start my sublet</button>
     </div> <!-- Closing Left -->
@@ -176,51 +177,56 @@
   
   <!-- How It Works Section -->
   <section id="howitworks" class="howitworks">
-    <div class="heading">
-      <h1>How It Works</h1>
-      <h2>Sublee is designed to streamline the subletting process, taking you from apartment search to close within one day</h2>
-    </div> <!-- Closing Conatiner -->
+    <div class="section-padding">
+      <div class="heading">
+        <h1>How It Works</h1>
+        <h2>Sublee is designed to streamline the subletting process, taking you from apartment search to close within one day</h2>
+      </div> <!-- Closing Conatiner -->
 
-    <!-- Icons -->
-    <div class="icons-container">
-      
-      <div class="icon icon-first">
-        <img src="img/Picture1.png" alt="">
-        <h4>Search our marketplace </br>of listings</h4>
-      </div>
+      <!-- Icons -->
+      <div class="icons-container">
+        
+        <div class="icon icon-first">
+          <img src="img/Picture1.png" alt="">
+          <h4>Search our marketplace </br>of listings</h4>
+        </div>
 
-      <i class="fas fa-arrow-circle-right arrow-right-1"></i>
-      
-      <div class="icon">
-        <img src="img/Connect with tenants (how it works).png" alt="">
-        <h4>Connect with </br> interested tenants</h4>
-      </div>
+        <i class="fas fa-arrow-circle-right arrow-right-1"></i>
+        
+        <div class="icon">
+          <img src="img/Connect with tenants (how it works).png" alt="">
+          <h4>Connect with </br> interested tenants</h4>
+        </div>
 
-      <i class="fas fa-arrow-circle-right arrow-right-2"></i>
+        <i class="fas fa-arrow-circle-right arrow-right-2"></i>
 
-      <div class="icon">
-        <img src="img/Profile approval (how it works).png" alt="">
-        <h4>Get verified</br> & approved</h4>
-      </div>
+        <div class="icon">
+          <img src="img/Profile approval (how it works).png" alt="">
+          <h4>Get verified</br> & approved</h4>
+        </div>
 
-      <i class="fas fa-arrow-circle-right arrow-right-3"></i>
-      
-      <div class="icon">
-        <img src="img/handshake (how it works).png" alt="">
-        <h4>Agree to terms  </br>& sign</h4>
-      </div>
+        <i class="fas fa-arrow-circle-right arrow-right-3"></i>
+        
+        <div class="icon">
+          <img src="img/handshake (how it works).png" alt="">
+          <h4>Agree to terms  </br>& sign</h4>
+        </div>
 
-      <i class="fas fa-arrow-circle-right arrow-right-4"></i>
-      
-      <div class="icon">
-        <img src="img/make payment (how it works).png" alt="">
-        <h4>Submit payment </br> & relax </h4>
-      </div>
-      
-    </div> <!-- /row Closing Icons-->
+        <i class="fas fa-arrow-circle-right arrow-right-4"></i>
+        
+        <div class="icon">
+          <img src="img/make payment (how it works).png" alt="">
+          <h4>Submit payment </br> & relax </h4>
+        </div>
+        
+      </div> <!-- /row Closing Icons-->
+    </div>
+    
   </section> <!-- Closing How It Works -->
-
   
+  <div class="review">
+    <div class="black-screen"></div>
+  </div>
 
   <!-- Opening Tenants -->
   <section id="tenants" class="tenants">
@@ -358,6 +364,54 @@
 
     </div>
   </section> <!-- CLosing Renters -->
+
+  <footer>
+    <!-- Opening Footer Top w/ Lighter Background -->
+    <div class="footer-top">
+      <div class="box box1"> <!-- Box 1 Address -->
+        <div class="footer-icon">
+          <i class="fas fa-map-marker-alt"></i>
+
+        </div>
+        <div class="text">
+          <p class="footer-top-text">123 Jasons Office Address, Toronto</p>
+          <p class="footer-top-text">Canada, M9M1M1</p>
+        </div>
+      </div> <!-- Closing Box -->
+
+      <div class="footer-divider footer-divider-left"></div>
+
+      <a href="#">
+        <div class="box box2"> <!-- Box 2 Phone Number -->
+          <div class="footer-icon">
+            <i class="fas fa-mobile-alt"></i>
+  
+          </div>
+          <div class="text">
+            <p class="footer-top-text">+1 (800) 123 4567</p>
+          </div>
+        </div> <!-- Closing Box -->
+      </a>
+
+      <div class="footer-divider footer-divider-right"></div>
+
+      <a href="#">
+        <div class="box box3"> <!-- Box 3 Email -->
+          <div class="footer-icon">
+            <i class="far fa-envelope"></i>
+          </div>
+          <div class="text">
+            <p class="footer-top-text">jason@sublee.com</p>
+          </div>
+        </div> <!-- Closing Box -->
+      </a>
+
+    </div> <!-- Closing Footer Top -->
+    <div class="footer-bottom">
+      <p class="company">Sublee</p>
+      <h3>Copyright &copy; Sublee 2018</h3>
+    </div>
+  </footer>
 
   
 
