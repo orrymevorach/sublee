@@ -6,10 +6,6 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 
 body {
   background-color: #f2f2f2;
-  background-image: url(../img/7fc1b709383a42d0022bb3598a41e870.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   font-weight: 300;
   font-size: 16px;
   color: #555;
@@ -198,7 +194,7 @@ hr {
 /* Header */
 
 header {
-  background-color: #1abc9c;
+  /* background-color: #1abc9c; */
   padding-top: 10%;
 }
 
@@ -210,7 +206,7 @@ header {
 
 header h1 {
   padding: 74px 0 0 0;
-  color: white;
+  color: #1abc9c;
   font-size: 50px;
   font-weight: 300;
   letter-spacing: 1px;
@@ -281,13 +277,12 @@ header .right {
   left: 120px;
   position: absolute;
   z-index: 100;
-  text-align: right;
 }
 
 #aboutus h1 {
   color: rgb(239, 239, 239);
   margin-bottom: 80px;
-  text-align: right;
+  text-align: left;
 }
 
 #aboutus h3 {
