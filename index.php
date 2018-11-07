@@ -34,6 +34,9 @@
         <li><a href="#howitworks" class="smoothscroll"><b>How It Works</b></a></li>
         <li><a href="#tenants" class="smoothscroll"><b>Current Tenants</b></a></li>
         <li><a href="#seekers" class="smoothscroll"><b>Sublet Seekers</b></a></li>
+        <li><a data-toggle="modal" data-target="#exampleModal"><b>Get Started</b></a></li>
+        
+
       </ul>
     </div>
   </nav> <!-- Closing Navbar -->
@@ -51,7 +54,9 @@
         Whether it’s a new job in a new city, a 6-month back packing trip across the globe, or a new condo you’ve set your sights on – don’t let a contract stop you from life’s journey
       </h3> 
 
-      <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Start my sublet</button>
+      <a href="#howitworks" class="smoothscroll">
+        <button type="submit" class="btn btn-warning btn-lg">Learn More</button>
+      </a>
     </div> <!-- Closing Left -->
 
     <div class="header-right">
@@ -163,24 +168,54 @@
   <!-- About Us -->
   <section id="aboutus">
     <!-- Black Screen -->
-    <div class="black-screen"></div>
+    <div class="black-screen">
       <!-- Text Container -->
       <div class="text-container">
         <h1>About Us</h1>
-        <h3>Sublee is designed to democratize the Canadian leasing process. Let’s face it, long-term commitments like 12 month leases don’t work for everyone. Sublee is here to lift the constraints on year long leases enabling renters to find flexible, short-term, market rate options. Our team is excited to bring Canadians the flexible apartment living you deserve.</h3>
+        <h3>Sublee is designed to democratize the Canadian leasing process. Let’s face it, long-term commitments like 12 month leases don’t work for everyone. Sublee is here to lift the constraints on year long contracts enabling people to find flexible, short-term, market rate options, while providing current tenants the safety and peace of mind with subletting their apartment. Our team is excited to introduce Sublee, and to bring Canadians the flexible apartment living they deserve.
+        </h3>
       </div> <!-- Closing Text Container -->
+    </div>
   </section> <!-- Closing About Us Container -->
   
   <!-- How It Works Section -->
   <section id="howitworks" class="howitworks">
     <div class="wrapper">
       <h1>How It Works</h1>
-      <h2>Sublee is designed to streamline the subletting process, taking you from apartment search to close within one day</h2>
+      <h2>Sublee streamlines the subletting process, taking you from listing search to close in one day</h2>
+      <!-- <h2>Sublee is designed to streamline the subletting process, taking you from apartment search to close within one day</h2> -->
   
       <!-- Icons -->
       <div class="icons-container">
         
-        <div class="icon icon-first">
+        <div class="icons-column icons-column1">
+          <h2>Moving In?</h2>
+          <h4>Browse Marketplace of Listings</h4>
+          <h4>Connect with Current Tenants</h4>
+          <h4>Get Verified & Approved</h4>
+          <h4>Agree To Terms & Sign</h4>
+          <h4>Submit Payment and Relax</h4>
+        </div>
+
+        <div class="icons-column icons-column2">
+          <h2></h2> <!-- Empty to create space at top -->
+          <img src="img/icon-marketplace.png" alt="">
+          <img src="img/icon-chat-bubbles.png" alt="">
+          <img src="img/Profile approval (how it works).png" alt="">
+          <img src="img/handshake (how it works).png" alt="">
+          <img src="img/make payment (how it works).png" alt="">
+        </div>
+
+        <div class="icons-column icons-column3">
+          <h2>Moving Out?</h2>
+          <h4>Post Your Lease To Our Marketplace</h4>
+          <h4>Connect With Potential Subtenants</h4>
+          <h4>Verify the Incoming Tenant</h4>
+          <h4>Customize Contract and Sign</h4>
+          <h4>Let Us Handle the Payment</h4>
+        </div>
+        
+        <!-- <div class="icon icon-first">
           <img src="img/Picture1.png" alt="">
           <h4>Search our marketplace </br>of listings</h4>
         </div>
@@ -211,9 +246,12 @@
         <div class="icon">
           <img src="img/make payment (how it works).png" alt="">
           <h4>Submit payment </br> & relax </h4>
-        </div>
+        </div> -->
         
       </div> <!-- /row Closing Icons-->
+
+      <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Get Started</button>
+
 
     </div>
     
@@ -228,36 +266,79 @@
     <div class="wrapper">
       <h1>Current Tenants</h1>
       <h2>Subletting your apartment shouldn’t be complicated, so we’ve built a product with you in mind</h2>
-      <div class="tenants-icon-container">
+      <div class="tenants-main">
         <div class="tenants-left">
-          <div class="tenants-box tenants-box-1">
-            <img src="img/Lead_generation.png" width="180">
-            <p class="text"><span class="bold">Apartment lead generation;</span> we’ll make sure people notice your place</p>
-          </div> 
-      
+        
+          <div class="tenants-column1">
+            <img src="img/icon-apartment-lead-generation.png">
+            <img  src="img/icon-verification.png">
+            <img src="img/contracts.png">
+            <img src="img/icon-handling.png">
+          </div> <!-- Closing Tenants Left -->
           
-          <div class="tenants-box tenants-box-2">
-            <img  src="img/Verification.png" width="180">
+          <div class="tenants-column2">
+            <p class="text"><span class="bold">Apartment lead generation;</span> we’ll make sure people notice your place</p>
             <p class="text"><span class="bold">Tenant Background Verification;</span> our team will do the homework for you</p>
-          </div>
-        </div>
-    
-        <div class="tenants-right">
-          <div class="tenants-box tenants-box-3">
-            <img src="img/contracts.png" width="180">
             <p class="text"><span class="bold">Customized Lease Contracts;</span> protective over that new paint job? Include the clause in the contract</p>
-          </div>
-      
-          <div class="tenants-box tenants-box-4">
-            <img src="img/payhandle.png" width="180">
             <p class="text"><span class="bold">Payment Handling;</span> worried about organizing  payment? We’ll make sure everyone get’s their cake<p>
-          </div>
-        </div>
-      </div> <!-- Closing Tenants Icons -->
-      
-      <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Post my lease</button>
+          </div> <!-- Closing Tenants Right -->
+        
+        </div> <!-- Closing Tenants Icon Container -->
+        <div class="tenants-right">
+            <!-- Carousel Section -->
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
 
-    </div>
+            </ol>
+          
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="img/kitchen-stove-sink-kitchen-counter-349749.jpeg" alt="...">
+                <div class="carousel-caption">
+                
+                </div>
+              </div>
+              
+              <div class="item">
+                <img src="img/living-room-couch-interior-room-584399.jpeg" alt="...">
+                <div class="carousel-caption">
+                
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="img/pexels-photo-1234462.jpeg" alt="...">
+                <div class="carousel-caption">
+                
+                </div>
+              </div>
+
+            </div> <!-- Closing Carousel Inner -->
+          
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+  
+          </div> <!-- Closing Carousel Main Div -->
+          <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Post my lease</button>
+        </div> <!-- Closing Tenants Carousel Container -->
+      </div> <!-- CLosing Tenants Main -->
+      
+      
+
+    </div> <!-- CLosing Wrapper -->
   </section> <!-- Closing Tenants  -->
 
   <!-- seekers Section -->
@@ -322,7 +403,6 @@
         </div>
         
         <div class="seekers-right">
-          <h3 class="text centered">Benefits:</h3>
   
           <!-- Icons -->
           <div class="icon-container">
