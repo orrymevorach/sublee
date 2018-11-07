@@ -35,9 +35,8 @@
         <li><a href="#tenants" class="smoothscroll"><b>Current Tenants</b></a></li>
         <li><a href="#seekers" class="smoothscroll"><b>Sublet Seekers</b></a></li>
         <li><a data-toggle="modal" data-target="#exampleModal"><b>Get Started</b></a></li>
-        
-
       </ul>
+      <i class="fas fa-bars hamburger"></i>
     </div>
   </nav> <!-- Closing Navbar -->
 
@@ -81,28 +80,27 @@
             <form method="post" action="dbcalls.php">
 
               <!-- Form -->
-              <div class="form-row">
-                <div class="form-group col-lg-4">
-                  <label for="inputPassword4">First Name</label>
-                  <input type="text" class="form-control" id="inputPassword4" placeholder="First Name">
+              <div class="row row1">
+                <div class="col col1">
+                  <label for="inputPassword4">First Name <span class="contact-form-required">*required</span></label>
+                  <input type="text" class="form-control" id="inputPassword4" placeholder="First Name" require>
                 </div>
-                <div class="form-group col-lg-4">
+                <div class="col col2">
                   <label for="inputPassword4">Last Name</label>
                   <input type="text" class="form-control" id="inputPassword4" placeholder="Last Name">
                 </div>
-                    <div class="form-group col-lg-4">
-                  <label for="inputEmail4">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                  <small id="Email" class="form-text text-muted">We'll never share it with anyone</small>
+                  <div class="col col3">
+                  <label for="inputEmail4">Email <span class="contact-form-required">*required</span></label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email" require>
                 </div>
               </div> <!-- Closing Form Row -->
               
-              <div class="form-row">
-                <div class="form-group col-lg-4">
+              <div class="row row2">
+                <div class="col col1">
                   <label for="inputCity">City</label>
                   <input type="text" class="form-control" id="inputCity">
                 </div>
-                <div class="form-group col-lg-4">
+                <div class="col col2">
                   <label for="inputProvince">Province</label>
                   <select id="inputProvince" class="form-control">
                     <option selected>Select</option>
@@ -121,42 +119,47 @@
                     <option>NU</option>
                   </select>
                 </div> <!-- Closing Form Group -->
+                <div class="col col3"></div>
               
               </div> <!-- Closing Form Row -->
 
-              <div class="form-row">
-                <div class="form-group col-lg-12">
+              <div class="row row3">
+                <div class="col col1">
                   <label for="exampleTextarea">Tell us how we can help you.</label>
-                <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-                </div>
-              </div>
-              
-
-              <!-- Form Row -->
-              <div class="form-row">  
-                <div class="form-check">
-                  <label class="LCL">
-                    <input type="checkbox" class="form-check-input">
-                    I am trying to get out of my current lease.
-                  </label>
+                  <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
                 </div>
 
-                <div class="form-check">
-                  <label class="STL">
-                    <input type="checkbox" class="form-check-input">
-                    I am looking for a short-term lease.
-                  </label>
+                <div class="col col2">
+                  <div class="form-check">
+                    <label class="LCL">
+                      <input type="checkbox" class="form-check-input">
+                      I am trying to get out of my current lease.
+                    </label>
+                  </div>
+
+                  <div class="form-check">
+                    <label class="STL">
+                      <input type="checkbox" class="form-check-input">
+                      I am looking for a short-term lease.
+                    </label>
+                  </div>
+                
+                  <div class="form-check">
+                    <label class="LPM">
+                      <input type="checkbox" class="form-check-input">
+                      I am a landlord/property manager.
+                    </label>
+                  </div>
                 </div>
-              
-                <div class="form-check">
-                  <label class="LPM">
-                    <input type="checkbox" class="form-check-input">
-                    I am a landlord/property manager.
-                  </label>
-                </div>
+                <div class="col col3"></div>
+                
               </div> <!-- Closing Form Row -->
             
-              <button type="submit" class="btn btn-primary btn-lg" name="submit">Submit</button>
+              <div class="row row4">
+                <div class="col col1">
+                  <button type="submit" class="btn btn-primary btn-lg" name="submit">Submit</button>
+                </div>
+              </div>
             </form> <!-- Closing Form -->
           </div> <!-- Closing Modal Body -->
         </div> <!-- Closing Modal Content -->
@@ -182,7 +185,7 @@
   <section id="howitworks" class="howitworks">
     <div class="wrapper">
       <h1>How It Works</h1>
-      <h2>Sublee streamlines the subletting process, taking you from listing search to close in one day</h2>
+      <h2 class="heading">Sublee streamlines the subletting process, taking you from listing search to close in one day</h2>
       <!-- <h2>Sublee is designed to streamline the subletting process, taking you from apartment search to close within one day</h2> -->
   
       <!-- Icons -->

@@ -61,12 +61,22 @@ h4 {
   font-size: 18px;
 }
 
+@media(max-height: 700px) {
+  h1 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+
 /* Paragraph & Typographic */
 
 p {
   line-height: 28px;
   /* margin-bottom: 25px; */
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .centered {
@@ -99,19 +109,13 @@ p {
   background-color: rgba(0,0,0,0.5);
 }
 
-.form-control {
-  height: 42px;
-  font-size: 18px;
-  width: 280px;
-}
-
 i {
   margin: 8px;
   color: #3498db;
 }
 
 /* General Height Formatting */
-header, section#aboutus {
+header, section {
   height: 100vh;
 }
 
@@ -202,9 +206,15 @@ hr {
 .nav li {
   padding: 13px 15px 0 15px;
 }
+.nav li:hover {
+  cursor: pointer;
+}
 
 .nav-slide {
   animation: navSlide 0.5s linear;
+}
+.hamburger {
+  display: none;
 }
 
 @keyframes navSlide {
@@ -216,10 +226,69 @@ hr {
   }
 }
 
+@media (max-width: 1200px) {
+  .nav {
+    font-size: 16px;
+  }
+  .nav li {
+    padding: 10px 15px 0 15px;
+  }
+  .nav-left img {
+    width: 70px;
+    height: 70px;
+    top: -10px;
+  }
+  .nav-left a {
+    font-size: 23px;
+    left: 63px;
+    top: 4px;
+  }
+  .nav li:last-of-type {
+    padding-right: 0;
+  }
+}
+@media (max-width: 1000px) {
+  .nav-right {
+    display: flex;
+  }
+  .nav ul {
+    transform: translateX(100vw);
+  }
+  .fa-bars {
+    z-index: 2000;;
+  }
+  .hamburger {
+    display: block;
+    z-index: 2051;
+  }
+  .hamburger:hover {
+    cursor: pointer;
+  }
+  svg.hamburger {
+    z-index: 2051;
+    font-size: 35px;
+    padding-top: 7px;
+  }
+  .slide-left {
+    animation: slideLeft 0.5s linear;
+  }
+  .stayLeft {
+    transform: translateX(0);
+
+  }
+  @keyframes slideLeft {
+    0% {
+      transform: translateX(100vw);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
 /* Header */
 
 header {
-  /* background-color: #1abc9c; */
   padding-top: 10%;
 }
 
@@ -303,6 +372,7 @@ header h3 {
   color: rgb(239, 239, 239);
   margin-bottom: 80px;
   text-align: left;
+  font-size: 40px;
 }
 
 #aboutus h3 {
@@ -325,6 +395,17 @@ header h3 {
 
 /* Contact Form */
 
+.form-control {
+  /* height: 42px; */
+  font-size: 18px;
+  max-width: 280px;
+  min-width: 200px;
+}
+
+.modal-dialog {
+  width: 1020px;
+}
+
 #contact {
   padding: 40px 0;
 }
@@ -332,7 +413,77 @@ header h3 {
 .contact-form label {
   color: #999;
 }
+.contact-form-required {
+  font-size: 10px;
+  font-weight: normal;
+}
 
+form .row {
+  display: flex;
+}
+
+form .col {
+  max-width: 33.3%;
+}
+form .col1 {
+  padding-left: 30px;
+}
+form .col3 {
+  padding-right: 30px;
+}
+
+form .col2 {
+  padding: 0 30px;
+}
+form .row1 {
+  margin-bottom: 20px;
+}
+
+form .row3 .col2 {
+  width: 45%;
+  padding: 0;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+form .row2 {
+  margin-bottom: 30px;
+}
+
+form button {
+  display: block;
+  margin: 30px auto 0;
+}
+
+@media (max-width: 1050px) {
+  .modal-dialog {
+    width: 90%;
+    margin: 0 auto;
+  }
+  form .row {
+    flex-direction: column;
+  }
+  form .col {
+    padding: 0;
+    margin: 0 auto;
+    width: 33.3%;
+  }
+  form input {
+    margin-bottom: 10px;
+  }
+  form .row3 .col2 {
+    margin: 10px auto 0;
+  }
+}
+@media (max-width: 550px) {
+  form .form-control,
+  form label {
+    margin-left: -30px;
+  }
+}
+
+form label {
+  max-width: none;
+}
 .contact-form input, .contact-form textarea {
   padding: 10px 12px;
   border-radius: 0;
@@ -408,7 +559,6 @@ padding-top: 5px;}
 
 .howitworks h1,
 .howitworks h2 {
-  /* padding: 0 120px; */
   padding: 0 50px;
 }
 
@@ -422,18 +572,15 @@ padding-top: 5px;}
   margin: 30px auto 30px;
 }
 
-.howitworks p {
-  text-transform: capitalize;
-  font-weight: normal;
-  line-height: 20px;
-}
-
 .howitworks .icons-container {
   display: flex;
   justify-content: center;
   text-align: center;
   z-index: 200;
 }
+.howitworks .icons-container h2 {
+    margin: 0 0 20px 0;
+  }
 
 .howitworks .icons-column2 {
   display: flex;
@@ -445,13 +592,13 @@ padding-top: 5px;}
 .howitworks .icons-column h4 {
   text-align: center;
   height: 80px;
+  font-size: 16px;
 }
 
 .howitworks img {
   height: 80px;
   width: 80px;
   padding: 10px;
-  /* margin-bottom: 20px; */
 }
 
 .howitworks button {
@@ -459,16 +606,24 @@ padding-top: 5px;}
   margin: 0 auto;
 }
 
-/* .howitworks .fa-arrow-circle-right  {
-  font-size: 30px;
-  margin-top: 60px;
-  color: #1abc9c;
+@media (max-height: 700px) {
+  .howitworks img,
+  .howitworks .icons-column h4 {
+    height: 60px;
+  }
+  .howitworks img {
+    width: 60px; 
+  }
+  .howitworks h4 {
+    font-size: 15px;
+  }
+  .howitworks .icons-container h2 {
+    margin: 10px 0 20px 0;
+  }
+  .howitworks h2 {
+    margin: 15px auto 15px;
+  }
 }
-
-.howitworks .arrow-right-1 {
-  margin-left: -30px;
-} */
-
 /* Starting at 700px, give the section a fixed height */
 @media (min-height: 700px) {
   .howitworks {
@@ -500,13 +655,6 @@ padding-top: 5px;}
   padding-top: 40px;
 }
 
-@media (min-height: 700px) {
-  .tenants {
-    padding-top: 60px;
-    height: 700px;
-  }
-}
-
 .tenants h1 {
   margin-bottom: 20px;
 }
@@ -515,6 +663,7 @@ padding-top: 5px;}
   margin-bottom: 20px;
   font-size: 22px;
 }
+
 .tenants-main {
   display: flex;
 }
@@ -575,7 +724,18 @@ padding-top: 5px;}
 
 .tenants-right {
   margin-left: 25px;
+}
 
+@media (min-height: 700px) {
+  .tenants {
+    padding-top: 60px;
+    height: 700px;
+  }
+}
+@media(max-height: 700px) {
+  .tenants h2 {
+    margin-bottom: 5px;
+  }
 }
 
 /* seekers */
@@ -585,7 +745,7 @@ padding-top: 5px;}
 }
 
 .seekers-heading h1 {
-  margin: 60px 0 20px 0;
+  padding: 30px 0 20px 0;
 }
 
 .seekers-heading {
@@ -594,7 +754,7 @@ padding-top: 5px;}
 
 .seekers-left, .seekers-right {
   width: 50%;
-  margin: 40px 0 40px 0;
+  margin: 40px 0 0 0;
 }
 
 .seekers-left {
@@ -602,6 +762,7 @@ padding-top: 5px;}
 }
 
 .seekers-right {
+  padding-top: 20px;
   margin-left: 25px;
 
 }
@@ -612,25 +773,25 @@ padding-top: 5px;}
   margin: 1% 0;
 }
 .seekers-right .icon img {
-  width: 90px;
-  margin-right: 10px;
-  padding: 10px;
+  width: 60px;
+  margin-right: 20px;
+  /* padding: 10px; */
 }
 
 .seekers-right button {
   display: block;
-  margin: 0 auto;
+  margin: 20px auto 0;
 }
 
 .seekers-right p {
   line-height: 22px;
-  padding-top: 25px;
+  padding-top: 10px;
 }
 
 /* Footer */
 
 footer {
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 
 footer h3 {
@@ -740,7 +901,11 @@ footer h3 {
 
 /* Sublee Logo */
 .footer-bottom .footer-left img {
- padding-bottom: 20px;
+  padding-bottom: 6px;
+}
+
+.footer-bottom h3 {
+  padding-top: 6px;
 }
 
 

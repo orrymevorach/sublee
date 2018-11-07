@@ -48,3 +48,10 @@ $('.header-logo').css({ 'opacity': '1' })
 // Navigation Slide Feect
 $('.nav').addClass('nav-slide')
 $('.nav').css({ 'transform': 'translateX(0)' })
+
+// Hamburger Menu
+$('.nav-right').on('click', function() {
+  $('.nav ul').toggleClass('slide-left')
+  $('.nav ul').css({ 'transform': 'translateX(0)' })
+  console.log('hey dude')
+})
