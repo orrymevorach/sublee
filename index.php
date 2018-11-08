@@ -44,6 +44,13 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <!-- Opening Header -->
+  <div class="header-mobile">
+    <img src="img/icons8-home-500.png" alt="Sublee Logo" class="mobile-logo">
+    <a href="#topofpage" class="smoothscroll">
+      <i class="fas fa-angle-down"></i>
+    </a>
+    
+  </div>
   <header class="clearfix" id="topofpage">
           
     <div class="header-left">
@@ -54,7 +61,7 @@
       </h3> 
 
       <a href="#howitworks" class="smoothscroll">
-        <button type="submit" class="btn btn-warning btn-lg">Learn More</button>
+        <button type="submit" class="btn btn-warning btn-lg header-button">Learn More</button>
       </a>
     </div> <!-- Closing Left -->
 
@@ -185,19 +192,32 @@
   <section id="howitworks" class="howitworks">
     <div class="wrapper">
       <h1>How It Works</h1>
-      <h2 class="heading">Sublee streamlines the subletting process, taking you from listing search to close in one day</h2>
+      <h2>Sublee streamlines the subletting process, taking you from listing search to close in one day</h2>
       <!-- <h2>Sublee is designed to streamline the subletting process, taking you from apartment search to close within one day</h2> -->
   
       <!-- Icons -->
       <div class="icons-container">
+        <div class="icons-mobile">
+          <img src="img/icon-marketplace.png" alt="">
+          <img src="img/icon-chat-bubbles.png" alt="">
+          <img src="img/Profile approval (how it works).png" alt="">
+          <img src="img/handshake (how it works).png" alt="">
+          <img src="img/make payment (how it works).png" alt="">
+        </div>
         
         <div class="icons-column icons-column1">
-          <h2>Moving In?</h2>
-          <h4>Browse Marketplace of Listings</h4>
-          <h4>Connect with Current Tenants</h4>
-          <h4>Get Verified & Approved</h4>
-          <h4>Agree To Terms & Sign</h4>
-          <h4>Submit Payment and Relax</h4>
+          <div class="heading">
+            <h2>Moving In?
+              <i class="fas fa-bars howitworks-hamburger"></i>
+            </h2>
+          </div>
+          <ul class="moving-in-list">
+            <li><h4>Browse Marketplace of Listings</h4></li>
+            <li><h4>Connect with Current Tenants</h4></li>
+            <li><h4>Get Verified & Approved</h4></li>
+            <li><h4>Agree To Terms & Sign</h4></li>
+            <li><h4>Submit Payment and Relax</h4></li>
+          </ul>
         </div>
 
         <div class="icons-column icons-column2">
@@ -210,12 +230,18 @@
         </div>
 
         <div class="icons-column icons-column3">
-          <h2>Moving Out?</h2>
-          <h4>Post Your Lease To Our Marketplace</h4>
-          <h4>Connect With Potential Subtenants</h4>
-          <h4>Verify the Incoming Tenant</h4>
-          <h4>Customize Contract and Sign</h4>
-          <h4>Let Us Handle the Payment</h4>
+          <div class="heading">
+            <h2>Moving Out?
+              <i class="fas fa-bars howitworks-hamburger"></i>
+            </h2>
+          </div>
+          <ul class="moving-out-list">
+            <li><h4>Post Your Lease To Our Marketplace</h4></li>
+            <li><h4>Connect With Potential Subtenants</h4></li>
+            <li><h4>Verify the Incoming Tenant</h4></li>
+            <li><h4>Customize Contract and Sign</h4></li>
+            <li><h4>Let Us Handle the Payment</h4></li>
+          </ul>
         </div>
         
         <!-- <div class="icon icon-first">
@@ -346,7 +372,7 @@
 
   <!-- seekers Section -->
   <!-- seekers Heading Text -->
-  <section id="seekers">
+  <section id="seekers" class="seekers">
     <div class="wrapper">
       <div class="seekers-heading">
         <h1>Sublet Seekers</h1>  

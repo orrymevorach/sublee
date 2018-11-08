@@ -49,9 +49,24 @@ $('.header-logo').css({ 'opacity': '1' })
 $('.nav').addClass('nav-slide')
 $('.nav').css({ 'transform': 'translateX(0)' })
 
+// Mobile Logo Fade Effect
+$('.mobile-logo').addClass('fade-in')
+$('.mobile-logo').css({'opacity': '1'})
+
+// Mobile Down Arrow Fade Effect
+$('.header-mobile svg.fa-angle-down').addClass('fade-in')
+$('.header-mobile svg.fa-angle-down').css({'opacity': '1'})
+
+
 // Hamburger Menu
 $('.nav-right').on('click', function() {
-  $('.nav ul').toggleClass('slide-left')
-  $('.nav ul').css({ 'transform': 'translateX(0)' })
   console.log('hey dude')
+})
+
+$('.howitworks .icons-column1 .heading').on('click', function() {
+  $('.howitworks .moving-in-list').toggle({'display': 'block'})
+})
+
+$('.howitworks .icons-column3 .heading').on('click', function () {
+  $('.howitworks .moving-out-list').toggle({ 'display': 'block' })
 })
