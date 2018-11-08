@@ -23,6 +23,9 @@
 
   <!-- Fixed navbar -->
   <nav class="nav clearfix">
+    <div class="nav-hamburger-container">
+      <i class="fas fa-bars nav-hamburger"></i>
+    </div>
     <div class="nav-left">
       <img src="img/icons8-home-100.png" alt="Sublee Icon">
       <a href="#topofpage" class="smoothscroll">Sublee</a>
@@ -36,7 +39,6 @@
         <li><a href="#seekers" class="smoothscroll"><b>Sublet Seekers</b></a></li>
         <li><a data-toggle="modal" data-target="#exampleModal"><b>Get Started</b></a></li>
       </ul>
-      <i class="fas fa-bars hamburger"></i>
     </div>
   </nav> <!-- Closing Navbar -->
 
@@ -207,9 +209,8 @@
         
         <div class="icons-column icons-column1">
           <div class="heading">
-            <h2>Moving In?
-              <i class="fas fa-bars howitworks-hamburger"></i>
-            </h2>
+            <h2>Moving In?</h2>
+            <i class="fas fa-bars howitworks-hamburger"></i>
           </div>
           <ul class="moving-in-list">
             <li><h4>Browse Marketplace of Listings</h4></li>
@@ -231,9 +232,8 @@
 
         <div class="icons-column icons-column3">
           <div class="heading">
-            <h2>Moving Out?
-              <i class="fas fa-bars howitworks-hamburger"></i>
-            </h2>
+            <h2>Moving Out?</h2>
+            <i class="fas fa-bars howitworks-hamburger"></i>
           </div>
           <ul class="moving-out-list">
             <li><h4>Post Your Lease To Our Marketplace</h4></li>

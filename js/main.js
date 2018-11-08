@@ -58,15 +58,39 @@ $('.header-mobile svg.fa-angle-down').addClass('fade-in')
 $('.header-mobile svg.fa-angle-down').css({'opacity': '1'})
 
 
+let navVisible = false;
 // Hamburger Menu
-$('.nav-right').on('click', function() {
-  console.log('hey dude')
+$('.nav-hamburger-container').on('click', function() {
+  navVisible = true;
+  const windowWidth = $(window).width()
+  if(windowWidth <= 1000 && windowWidth >= 720) {
+    $('.nav-right').toggleClass('slide-left')
+    $('.nav-left').toggleClass('fade-away')
+  }
+  else if (windowWidth < 720) {
+    $('body').toggleClass('body-mobile-nav')
+    $('.nav').toggleClass('nav-mobile')
+    $('.nav-right').toggleClass('nav-right-mobile')
+  }
+});
+
+$('.nav li').on('click', function() {
+  if (navVisible === true) {
+    $('body').toggleClass('body-mobile-nav')
+    $('.nav').toggleClass('nav-mobile')
+    $('.nav-right').toggleClass('nav-right-mobile')
+  }
 })
 
+
+// How It Works Move In List Reveal
 $('.howitworks .icons-column1 .heading').on('click', function() {
   $('.howitworks .moving-in-list').toggle({'display': 'block'})
 })
-
+// How It Works Move Out List Reveal
 $('.howitworks .icons-column3 .heading').on('click', function () {
   $('.howitworks .moving-out-list').toggle({ 'display': 'block' })
 })
+
+// Mobile Nav
+
