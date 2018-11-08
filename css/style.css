@@ -131,11 +131,14 @@ header, section {
   }
 }
 
-/* @media (max-height: 900px) {
-  header, section {
+@media (max-height: 1030px) {
+  header, 
+  section.howitworks,
+  section.tenants,
+  section.seekers {
     height: 100%;
   }
-} */
+}
 
 /* Links */
 
@@ -383,7 +386,7 @@ header h3 {
     background-color: #1abc9c;
     width: 100%;
     position: relative;
-    padding-top: 35%;
+    padding-top: 110px;
   }
   .header-mobile img {
     width: 350px;
