@@ -484,35 +484,37 @@
         </div> <!-- Closing footer-top-column 1 -->
   
         <!-- Vertical Line Divider -->
-        <div class="footer-divider footer-divider-left"></div>
-  
-        <!-- footer-top-column 2 Phone Number -->
-        <a href="#">
-          <div class="footer-top-column footer-top-column2"> 
-            <div class="footer-icon">
-              <i class="fas fa-mobile-alt"></i>
+        
+        <div class="footer-mobile-bottom-row">
+          <div class="footer-divider footer-divider-left"></div>
+          <!-- footer-top-column 2 Phone Number -->
+          <a href="#">
+            <div class="footer-top-column footer-top-column2"> 
+              <div class="footer-icon">
+                <i class="fas fa-mobile-alt"></i>
+      
+              </div>
+              <div class="text-container">
+                <p class="footer-top-text">+1 (800) 123 4567</p>
+              </div>
+            </div> 
+          </a> <!-- Closing footer-top-column 2 -->
     
-            </div>
-            <div class="text-container">
-              <p class="footer-top-text">+1 (800) 123 4567</p>
-            </div>
-          </div> 
-        </a> <!-- Closing footer-top-column 2 -->
-  
-        <!-- Vertical Line Divider -->
-        <div class="footer-divider footer-divider-right"></div>
-  
-        <!-- footer-top-column 3 Email -->
-        <a href="#">
-          <div class="footer-top-column footer-top-column3"> 
-            <div class="footer-icon">
-              <i class="far fa-envelope"></i>
-            </div>
-            <div class="text-container">
-              <p class="footer-top-text">jason@sublee.com</p>
-            </div>
-          </div> 
-        </a> <!-- Closing footer-top-column 3 -->
+          <!-- Vertical Line Divider -->
+          <div class="footer-divider footer-divider-right"></div>
+    
+          <!-- footer-top-column 3 Email -->
+          <a href="#">
+            <div class="footer-top-column footer-top-column3"> 
+              <div class="footer-icon">
+                <i class="far fa-envelope"></i>
+              </div>
+              <div class="text-container">
+                <p class="footer-top-text">jason@sublee.com</p>
+              </div>
+            </div> 
+          </a> <!-- Closing footer-top-column 3 -->
+        </div> <!-- Closing Footer Mobile Bottom Row -->
       </div> <!-- Closing Wrapper -->
     </div> <!-- Closing Footer Top -->
 

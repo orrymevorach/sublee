@@ -385,12 +385,13 @@ header h3 {
 .header-right {
   float: right;
   width: 50%;
+  margin-top: 80px;
 }
 
 /* Formatting The Logo */
 .header-logo {
   display: block;
-  width: 450px;
+  width: 400px;
   margin: 0px auto 0;
   opacity: 0;
 }
@@ -423,9 +424,10 @@ header h3 {
   }
   .header-right {
     width: 40%;
+    margin-top: 40px;
   }
   .header-logo {
-    width: 320px;
+    width: 290px;
     margin-top: 30%;
   }
   .header-button {
@@ -1051,7 +1053,8 @@ footer h3 {
 }
 
 .footer-top .wrapper,
-.footer-top .footer-top-column {
+.footer-top .footer-top-column,
+.footer-mobile-bottom-row {
   display: flex;
 }
 
@@ -1150,6 +1153,38 @@ footer h3 {
   padding-top: 6px;
 }
 
+@media (max-width: 880px) {
+  .footer-mobile-bottom-row {
+    display: block;
+    margin-left: 25px;
+    padding-left: 25px;
+  }
+  .footer-divider {
+    display: none;
+  }
+  .footer-top .footer-top-column2 {
+    margin: 0;
+  }
+  .footer-top-column1 {
+    padding-top: 5px;
+  }
+  .footer-top .footer-top-column2 {
+    margin-bottom: 10px;
+  }
+  .footer-top-text {
+    margin: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .footer-top .wrapper {
+    flex-direction: column;
+  }
+  .footer-mobile-bottom-row {
+    margin: 10px 0 0 0;
+    padding-left: 0;
+  }
+}
 
 
 
