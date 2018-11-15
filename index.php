@@ -22,22 +22,24 @@
 <body>
 
   <!-- Fixed navbar -->
+  <div class="logo-top-container">
+    <img src="img/icons8-home-100.png" alt="Sublee Icon" class="logo-top">
+  </div>
   <nav class="nav clearfix">
     <div class="nav-hamburger-container">
       <i class="fas fa-bars nav-hamburger"></i>
     </div>
     <div class="nav-left">
-      <img src="img/icons8-home-100.png" alt="Sublee Icon">
       <a href="#topofpage" class="smoothscroll">Sublee</a>
     </div>
         
     <div class="nav-right">
       <ul>
-        <li><a href="#aboutus" class="smoothscroll"><b>About Us</b></a></li>
-        <li><a href="#howitworks" class="smoothscroll"><b>How It Works</b></a></li>
-        <li><a href="#tenants" class="smoothscroll"><b>Current Tenants</b></a></li>
-        <li><a href="#seekers" class="smoothscroll"><b>Sublet Seekers</b></a></li>
-        <li><a data-toggle="modal" data-target="#exampleModal"><b>Get Started</b></a></li>
+        <li><a href="#aboutus" class="smoothscroll">About Us</a></li>
+        <li><a href="#howitworks" class="smoothscroll">How It Works</a></li>
+        <li><a href="#tenants" class="smoothscroll">Current Tenants</a></li>
+        <li><a href="#seekers" class="smoothscroll">Sublet Seekers</a></li>
+        <li class="get-started"><a data-toggle="modal" data-target="#exampleModal">Get Started</a></li>
       </ul>
     </div>
   </nav> <!-- Closing Navbar -->
@@ -63,7 +65,7 @@
       </h3> 
 
       <a href="#howitworks" class="smoothscroll">
-        <button type="submit" class="btn btn-warning btn-lg header-button">Learn More</button>
+        <button type="submit" class="btn btn-warning btn-lg header-button">Learn more</button>
       </a>
     </div> <!-- Closing Left -->
 
@@ -140,6 +142,7 @@
 
                 <div class="col col2">
                   <div class="form-check">
+                    <label>Please Select One <span class="contact-form-required">*required</span></label>
                     <label class="LCL">
                       <input type="checkbox" class="form-check-input">
                       I am trying to get out of my current lease.
@@ -213,11 +216,11 @@
             <i class="fas fa-bars howitworks-hamburger"></i>
           </div>
           <ul class="moving-in-list">
-            <li><h4>Browse Marketplace of Listings</h4></li>
-            <li><h4>Connect with Current Tenants</h4></li>
-            <li><h4>Get Verified & Approved</h4></li>
-            <li><h4>Agree To Terms & Sign</h4></li>
-            <li><h4>Submit Payment and Relax</h4></li>
+            <li><p class="text bold">Browse Marketplace of Listings</p></li>
+            <li><p class="text bold">Connect with Current Tenants</p></li>
+            <li><p class="text bold">Get Verified & Approved</p></li>
+            <li><p class="text bold">Agree to Terms & Sign</p></li>
+            <li><p class="text bold">Submit Payment & Relax</p></li>
           </ul>
         </div>
 
@@ -236,136 +239,53 @@
             <i class="fas fa-bars howitworks-hamburger"></i>
           </div>
           <ul class="moving-out-list">
-            <li><h4>Post Your Lease To Our Marketplace</h4></li>
-            <li><h4>Connect With Potential Subtenants</h4></li>
-            <li><h4>Verify the Incoming Tenant</h4></li>
-            <li><h4>Customize Contract and Sign</h4></li>
-            <li><h4>Let Us Handle the Payment</h4></li>
+            <li><p class="text bold">Post Your Lease to Our Marketplace</p></li>
+            <li><p class="text bold">Connect with Potential Subtenants</p></li>
+            <li><p class="text bold">Verify the Incoming Tenant</p></li>
+            <li><p class="text bold">Customize Contract & Sign</p></li>
+            <li><p class="text bold">Let Us Handle the Payment</p></li>
           </ul>
         </div>
         
-        <!-- <div class="icon icon-first">
-          <img src="img/Picture1.png" alt="">
-          <h4>Search our marketplace </br>of listings</h4>
-        </div>
-  
-        <i class="fas fa-arrow-circle-right arrow-right-1"></i>
-        
-        <div class="icon">
-          <img src="img/Connect with tenants (how it works).png" alt="">
-          <h4>Connect with </br> interested tenants</h4>
-        </div>
-  
-        <i class="fas fa-arrow-circle-right arrow-right-2"></i>
-  
-        <div class="icon">
-          <img src="img/Profile approval (how it works).png" alt="">
-          <h4>Get verified</br> & approved</h4>
-        </div>
-  
-        <i class="fas fa-arrow-circle-right arrow-right-3"></i>
-        
-        <div class="icon">
-          <img src="img/handshake (how it works).png" alt="">
-          <h4>Agree to terms  </br>& sign</h4>
-        </div>
-  
-        <i class="fas fa-arrow-circle-right arrow-right-4"></i>
-        
-        <div class="icon">
-          <img src="img/make payment (how it works).png" alt="">
-          <h4>Submit payment </br> & relax </h4>
-        </div> -->
-        
       </div> <!-- /row Closing Icons-->
 
-      <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Get Started</button>
+      <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Get started</button>
 
 
     </div>
     
   </section> <!-- Closing How It Works -->
   
-  <section class="review">
-    <div class="black-screen"></div>
-  </section>
-
   <!-- Opening Tenants -->
   <section id="tenants" class="tenants">
     <div class="wrapper">
       <h1>Current Tenants</h1>
       <h2>Subletting your apartment shouldn’t be complicated, so we’ve built a product with you in mind</h2>
+      
       <div class="tenants-main">
-        <div class="tenants-left">
-        
-          <div class="tenants-column1">
-            <img src="img/icon-apartment-lead-generation.png">
-            <img  src="img/icon-verification.png">
-            <img src="img/contracts.png">
-            <img src="img/icon-handling.png">
-          </div> <!-- Closing Tenants Left -->
-          
-          <div class="tenants-column2">
-            <p class="text"><span class="bold">Apartment lead generation;</span> we’ll make sure people notice your place</p>
-            <p class="text"><span class="bold">Tenant Background Verification;</span> our team will do the homework for you</p>
-            <p class="text"><span class="bold">Customized Lease Contracts;</span> protective over that new paint job? Include the clause in the contract</p>
-            <p class="text"><span class="bold">Payment Handling;</span> worried about organizing  payment? We’ll make sure everyone get’s their cake<p>
-          </div> <!-- Closing Tenants Right -->
-        
-        </div> <!-- Closing Tenants Icon Container -->
-        <div class="tenants-right">
-            <!-- Carousel Section -->
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-
-            </ol>
-          
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <img src="img/kitchen-stove-sink-kitchen-counter-349749.jpeg" alt="...">
-                <div class="carousel-caption">
-                
-                </div>
-              </div>
-              
-              <div class="item">
-                <img src="img/living-room-couch-interior-room-584399.jpeg" alt="...">
-                <div class="carousel-caption">
-                
-                </div>
-              </div>
-
-              <div class="item">
-                <img src="img/pexels-photo-1234462.jpeg" alt="...">
-                <div class="carousel-caption">
-                
-                </div>
-              </div>
-
-            </div> <!-- Closing Carousel Inner -->
-          
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-  
-          </div> <!-- Closing Carousel Main Div -->
-          <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Post my lease</button>
-        </div> <!-- Closing Tenants Carousel Container -->
-      </div> <!-- CLosing Tenants Main -->
+        <div class="tenants-column tenants-column1">
+          <img src="img/icon-apartment-lead-generation.png">
+          <p class="text-header bold">Apartment Lead Generation</p>
+          <p>We’ll make sure people notice your place</p>
+        </div>
+        <div class="tenants-column tenants-column2">
+          <img  src="img/icon-verification.png">
+          <p class="text-header bold">Tenant Background Verification</p>
+          <p>Our team will do the homework for you</p>
+        </div>
+        <div class="tenants-column tenants-column3">
+          <img src="img/contracts.png">
+          <p class="text-header bold">Customized Lease Contracts</p>
+          <p>Protective over that new paint job? Include the clause in the contract</p>
+        </div>
+        <div class="tenants-column tenants-column4">
+          <img src="img/icon-handling.png">
+          <p class="text-header bold">Payment Handling</p>
+          <p>Worried about organizing  payment? We’ll make sure everyone get’s their cake<p>
+        </div>
+      </div>
       
-      
+      <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Post my lease</button>
 
     </div> <!-- CLosing Wrapper -->
   </section> <!-- Closing Tenants  -->
@@ -374,98 +294,89 @@
   <!-- seekers Heading Text -->
   <section id="seekers" class="seekers">
     <div class="wrapper">
-      <div class="seekers-heading">
         <h1>Sublet Seekers</h1>  
-        <h2>Stay a while - actually, stay for however long you want</h2>
-        <h3>find the right lease, for the right length of time</h3>
-      </div>
+        <h2>Stay a while - actually, stay for however long you want. Find the right lease, for the right length of time</h2>
       
-      <div class="seekers-main-container">
-        <div class="seekers-left">
-          <!-- Carousel Section -->
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  
-              </ol>
-            
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                  <img src="img/kitchen-stove-sink-kitchen-counter-349749.jpeg" alt="...">
-                  <div class="carousel-caption">
-                  
-                  </div>
-                </div>
-                
-                <div class="item">
-                  <img src="img/living-room-couch-interior-room-584399.jpeg" alt="...">
-                  <div class="carousel-caption">
-                  
-                  </div>
-                </div>
-  
-                <div class="item">
-                  <img src="img/pexels-photo-1234462.jpeg" alt="...">
-                  <div class="carousel-caption">
-                  
-                  </div>
-                </div>
-  
-              </div> <!-- Closing Carousel Inner -->
-            
-              <!-- Controls -->
-              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-  
-              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-  
-          </div> <!-- Closing Carousel Main Div -->
-        </div>
-        
-        <div class="seekers-right">
   
           <!-- Icons -->
-          <div class="icon-container">
+          <div class="seekers-main">
   
-            <div class="icon icon-1">
+            <div class="seekers-column seekers-column1">
               <img src="img/short-term contracts.png">
-              <p class="text">
-                <span class="bold">Short-term leasing options;</span> find lease options between 2-12 months
-              </p>
+              <p class="text-header bold">Short-Term Leasing Options</p>
+              <p>Find lease options between 2-12 months</p>
             </div>
   
-            <div class="icon icon-2">
+            <div class="seekers-column seekers-column2">
               <img  src="img/auto payment.png">
-              <p class="text">
-                <span class="bold">Automated rent payments;</span> rip up those rent checks, we’ll send your payment to the appropriate party
-              </p>
+              <p class="text-header bold">Automated Rent Payments</p>
+              <p>Rip up those rent checks, we’ll send your payment to the appropriate party</p>
             </div>
   
-            <div class="icon icon-3">
+            <div class="seekers-column seekers-column3">
               <img src="img/lease from anywhere.png">
-              <p class="text">
-                <span class="bold">Get approved from anywhere;</span> can’t visit the apartment before signing? Don’t worry – if we can vet you, you’re in
-              </p>
+              <p class="text-header bold">Get approved from anywhere</p>
+              <p>can’t visit the apartment before signing? Don’t worry – if we can vet you, you’re in</p>
             </div>
   
           </div> <!-- Closing Icon Container -->
           <!-- Start Sublet Button -->
-          <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Find A Short Term Lease</button>
+          <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Find my sublet</button>
   
         </div> <!-- Closing Renter's Right -->
   
       </div> <!-- Closing seekers Main Container -->
     </div> <!-- Closing Wrapper -->
   </section> <!-- CLosing seekers -->
+
+  <!-- Carousel Section -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+
+      </ol>
+    
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="black-screen"></div>  
+        <div class="item active">
+          <img src="img/kitchen-stove-sink-kitchen-counter-349749.jpeg" alt="...">
+          <div class="carousel-caption">
+          
+          </div>
+        </div>
+        
+        <div class="item">
+          <img src="img/living-room-couch-interior-room-584399.jpeg" alt="...">
+          <div class="carousel-caption">
+          
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/pexels-photo-1234462.jpeg" alt="...">
+          <div class="carousel-caption">
+          
+          </div>
+        </div>
+
+      </div> <!-- Closing Carousel Inner -->
+    
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+  </div> <!-- Closing Carousel Main Div -->
 
   <footer>
     <!-- Opening Footer Top w/ Grey Background -->
