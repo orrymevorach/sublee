@@ -396,6 +396,10 @@ li.get-started:hover > a {
 
 header {
   padding-top: 10%;
+  background-image: url(../img/background3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 /* Reduce space at top for smaller screen sizes */

@@ -260,28 +260,30 @@
   <section id="tenants" class="tenants">
     <div class="wrapper">
       <h1>Current Tenants</h1>
-      <h2>Subletting your apartment shouldn’t be complicated, so we’ve built a product with you in mind</h2>
+      <h2>Subleasing your apartment shouldn’t be difficult, so we built a product to make your
+life, the tenant’s, a whole lot easier.</h2>
       
       <div class="tenants-main">
         <div class="tenants-column tenants-column1">
           <img src="img/icon-apartment-lead-generation.png">
-          <p class="text-header bold">Apartment Lead Generation</p>
-          <p>We’ll make sure people notice your place</p>
+          <p class="text-header bold">Lead Generation</p>
+          <p>Our team will advertise your listing and make sure it gets the attention from
+renters that it deserves.</p>
         </div>
         <div class="tenants-column tenants-column2">
           <img  src="img/icon-verification.png">
-          <p class="text-header bold">Tenant Background Verification</p>
-          <p>Our team will do the homework for you</p>
+          <p class="text-header bold">Subtenant Verification</p>
+          <p>We’ll pre-approve and background check potential sub-tenants for you.</p>
         </div>
         <div class="tenants-column tenants-column3">
           <img src="img/contracts.png">
           <p class="text-header bold">Customized Lease Contracts</p>
-          <p>Protective over that new paint job? Include the clause in the contract</p>
+          <p>Loving that new renovation you just did? Protect it with a customized lease contract.</p>
         </div>
         <div class="tenants-column tenants-column4">
           <img src="img/icon-handling.png">
-          <p class="text-header bold">Payment Handling</p>
-          <p>Worried about organizing  payment? We’ll make sure everyone get’s their cake<p>
+          <p class="text-header bold">Seamless Rent Payments</p>
+          <p>Sublee will make sure you or your landlord get paid, in full, on-time, and without any hassle.<p>
         </div>
       </div>
       
@@ -295,7 +297,7 @@
   <section id="seekers" class="seekers">
     <div class="wrapper">
         <h1>Sublet Seekers</h1>  
-        <h2>Stay a while - actually, stay for however long you want. Find the right lease, for the right length of time</h2>
+        <h2>Stay a while. Actually, stay as long as you’d like. Find the right lease for the right amount of time.</h2>
       
   
           <!-- Icons -->
@@ -303,20 +305,20 @@
   
             <div class="seekers-column seekers-column1">
               <img src="img/short-term contracts.png">
-              <p class="text-header bold">Short-Term Leasing Options</p>
-              <p>Find lease options between 2-12 months</p>
+              <p class="text-header bold">Leases That Fit Your Schedule</p>
+              <p>Find sublet options between 2 to 12 months</p>
             </div>
   
             <div class="seekers-column seekers-column2">
               <img  src="img/auto payment.png">
-              <p class="text-header bold">Automated Rent Payments</p>
-              <p>Rip up those rent checks, we’ll send your payment to the appropriate party</p>
+              <p class="text-header bold">Rent Payments, Automatic</p>
+              <p>Use those hard-earned dollars and get some points. Set up automatic rent payments with your credit card or bank account. We’ll make sure the right person gets their cash.</p>
             </div>
   
             <div class="seekers-column seekers-column3">
               <img src="img/lease from anywhere.png">
-              <p class="text-header bold">Get approved from anywhere</p>
-              <p>can’t visit the apartment before signing? Don’t worry – if we can vet you, you’re in</p>
+              <p class="text-header bold">Get Approved From Anywhere</p>
+              <p>Can’t visit the apartment? Sublee will verify your profile, so you can sublease that apartment sight un-seen.</p>
             </div>
   
           </div> <!-- Closing Icon Container -->
