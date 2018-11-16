@@ -38,7 +38,7 @@
         <li><a href="#aboutus" class="smoothscroll">About Us</a></li>
         <li><a href="#howitworks" class="smoothscroll">How It Works</a></li>
         <li><a href="#tenants" class="smoothscroll">Current Tenants</a></li>
-        <li><a href="#seekers" class="smoothscroll">Sublet Seekers</a></li>
+        <li><a href="#seekers" class="smoothscroll">Sublease Seekers</a></li>
         <li class="get-started"><a data-toggle="modal" data-target="#exampleModal">Get Started</a></li>
       </ul>
     </div>
@@ -61,7 +61,7 @@
       <h1>Subletting,<br/>
       simplified.</h1>
       <h3>Sublee makes getting out of your lease or into a sublet, easy. 
-        Whether it’s a new job in a new city, a 6-month back packing trip across the globe, or a new condo you’ve set your sights on – don’t let a contract stop you from life’s journey
+        Whether it’s a new job in a new city, a 6-month back packing trip across the globe, or a new condo you’ve set your sights on – don’t let a contract stop you from life’s journey.
       </h3> 
 
       <a href="#howitworks" class="smoothscroll">
@@ -197,7 +197,7 @@
   <section id="howitworks" class="howitworks">
     <div class="wrapper">
       <h1>How It Works</h1>
-      <h2>Sublee streamlines the subletting process, taking you from listing search to close in one day</h2>
+      <h2>Sublee streamlines the subletting process, taking you from listing search to close in one day.</h2>
       <!-- <h2>Sublee is designed to streamline the subletting process, taking you from apartment search to close within one day</h2> -->
   
       <!-- Icons -->
@@ -260,8 +260,8 @@
   <section id="tenants" class="tenants">
     <div class="wrapper">
       <h1>Current Tenants</h1>
-      <h2>Subleasing your apartment shouldn’t be difficult, so we built a product to make your
-life, the tenant’s, a whole lot easier.</h2>
+      <h2>Subletting your apartment shouldn’t be difficult, so we built a product to make your
+life a whole lot easier.</h2>
       
       <div class="tenants-main">
         <div class="tenants-column tenants-column1">
@@ -296,7 +296,7 @@ renters that it deserves.</p>
   <!-- seekers Heading Text -->
   <section id="seekers" class="seekers">
     <div class="wrapper">
-        <h1>Sublet Seekers</h1>  
+        <h1>Sublease Seekers</h1>  
         <h2>Stay a while. Actually, stay as long as you’d like. Find the right lease for the right amount of time.</h2>
       
   
@@ -306,7 +306,7 @@ renters that it deserves.</p>
             <div class="seekers-column seekers-column1">
               <img src="img/short-term contracts.png">
               <p class="text-header bold">Leases That Fit Your Schedule</p>
-              <p>Find sublet options between 2 to 12 months</p>
+              <p>Find sublet options between 2 to 12 months.</p>
             </div>
   
             <div class="seekers-column seekers-column2">
