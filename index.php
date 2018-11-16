@@ -267,23 +267,23 @@ life a whole lot easier.</h2>
         <div class="tenants-column tenants-column1">
           <img src="img/icon-apartment-lead-generation.png">
           <p class="text-header bold">Lead Generation</p>
-          <p>Our team will advertise your listing and make sure it gets the attention from
+          <p class="text-subheader">Our team will advertise your listing and make sure it gets the attention from
 renters that it deserves.</p>
         </div>
         <div class="tenants-column tenants-column2">
           <img  src="img/icon-verification.png">
           <p class="text-header bold">Subtenant Verification</p>
-          <p>We’ll pre-approve and background check potential sub-tenants for you.</p>
+          <p class="text-subheader">We’ll pre-approve and background check potential sub-tenants for you.</p>
         </div>
         <div class="tenants-column tenants-column3">
           <img src="img/contracts.png">
           <p class="text-header bold">Customized Lease Contracts</p>
-          <p>Loving that new renovation you just did? Protect it with a customized lease contract.</p>
+          <p class="text-subheader">Loving that new renovation you just did? Protect it with a customized lease contract.</p>
         </div>
         <div class="tenants-column tenants-column4">
           <img src="img/icon-handling.png">
           <p class="text-header bold">Seamless Rent Payments</p>
-          <p>Sublee will make sure you or your landlord get paid, in full, on-time, and without any hassle.<p>
+          <p class="text-subheader">Sublee will make sure you or your landlord get paid, in full, on-time, and without any hassle.<p>
         </div>
       </div>
       
@@ -306,19 +306,19 @@ renters that it deserves.</p>
             <div class="seekers-column seekers-column1">
               <img src="img/short-term contracts.png">
               <p class="text-header bold">Leases That Fit Your Schedule</p>
-              <p>Find sublet options between 2 to 12 months.</p>
+              <p class="text-subheader">Find sublet options between 2 to 12 months.</p>
             </div>
   
             <div class="seekers-column seekers-column2">
               <img  src="img/auto payment.png">
               <p class="text-header bold">Rent Payments, Automatic</p>
-              <p>Use those hard-earned dollars and get some points. Set up automatic rent payments with your credit card or bank account. We’ll make sure the right person gets their cash.</p>
+              <p class="text-subheader">Use those hard-earned dollars and get some points. Set up automatic rent payments with your credit card or bank account. We’ll make sure the right person gets their cash.</p>
             </div>
   
             <div class="seekers-column seekers-column3">
               <img src="img/lease from anywhere.png">
               <p class="text-header bold">Get Approved From Anywhere</p>
-              <p>Can’t visit the apartment? Sublee will verify your profile, so you can sublease that apartment sight un-seen.</p>
+              <p class="text-subheader">Can’t visit the apartment? Sublee will verify your profile, so you can sublease that apartment sight un-seen.</p>
             </div>
   
           </div> <!-- Closing Icon Container -->
