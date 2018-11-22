@@ -265,25 +265,57 @@ life a whole lot easier.</h2>
       
       <div class="tenants-main">
         <div class="tenants-column tenants-column1">
-          <img src="img/icon-apartment-lead-generation.png">
-          <p class="text-header bold">Lead Generation</p>
-          <p class="text-subheader">Our team will advertise your listing and make sure it gets the attention from
-renters that it deserves.</p>
+          <div class="col1">
+            <img src="img/icon-apartment-lead-generation.png">
+          </div>
+          <div class="col2">
+            <p class="text-header bold">Lead Generation</p>
+          </div>
+          <div class="col3">
+            <p class="text-subheader">Our team will advertise your listing and make sure it gets the attention from renters that it deserves.</p>
+          </div>
+          
+          
+
         </div>
         <div class="tenants-column tenants-column2">
-          <img  src="img/icon-verification.png">
-          <p class="text-header bold">Subtenant Verification</p>
-          <p class="text-subheader">We’ll pre-approve and background check potential sub-tenants for you.</p>
+          <div class="col1">
+            <img  src="img/icon-verification.png">
+          </div>
+          <div class="col2">
+            <p class="text-header bold">Subtenant Verification</p>
+          </div>
+          <div class="col3">
+            <p class="text-subheader">We’ll pre-approve and background check potential sub-tenants for you.</p>
+          </div>
+          
+          
         </div>
         <div class="tenants-column tenants-column3">
-          <img src="img/contracts.png">
-          <p class="text-header bold">Customized Lease Contracts</p>
-          <p class="text-subheader">Loving that new renovation you just did? Protect it with a customized lease contract.</p>
+          <div class="col1">
+            <img src="img/contracts.png">
+          </div>
+          <div class="col2">
+            <p class="text-header bold">Customized Lease Contracts</p>
+          </div>
+          <div class="col3">
+            <p class="text-subheader">Loving that new renovation you just did? Protect it with a customized lease contract.</p>
+          </div>
+          
+          
         </div>
         <div class="tenants-column tenants-column4">
-          <img src="img/icon-handling.png">
-          <p class="text-header bold">Seamless Rent Payments</p>
-          <p class="text-subheader">Sublee will make sure you or your landlord get paid, in full, on-time, and without any hassle.<p>
+          <div class="col1">
+            <img src="img/icon-handling.png">
+          </div>
+          <div class="col2">
+            <p class="text-header bold">Seamless Rent Payments</p>
+          </div>
+          <div class="col3">
+            <p class="text-subheader">Sublee will make sure you or your landlord get paid, in full, on-time, and without any hassle.<p>
+          </div>
+          
+          
         </div>
       </div>
       
@@ -304,21 +336,45 @@ renters that it deserves.</p>
           <div class="seekers-main">
   
             <div class="seekers-column seekers-column1">
-              <img src="img/short-term contracts.png">
-              <p class="text-header bold">Leases That Fit Your Schedule</p>
-              <p class="text-subheader">Find sublet options between 2 to 12 months.</p>
+              <div class="col1">
+                <img src="img/short-term contracts.png">
+              </div>
+              <div class="col2">
+                <p class="text-header bold">Leases That Fit Your Schedule</p>
+              </div>
+              <div class="col3">
+                <p class="text-subheader">Find sublet options between 2 to 12 months.</p>
             </div>
+              </div>
+              
+              
   
             <div class="seekers-column seekers-column2">
-              <img  src="img/auto payment.png">
-              <p class="text-header bold">Rent Payments, Automatic</p>
-              <p class="text-subheader">Use those hard-earned dollars and get some points. Set up automatic rent payments with your credit card or bank account. We’ll make sure the right person gets their cash.</p>
+              <div class="col1">
+                <img  src="img/auto payment.png">
+              </div>
+              <div class="col2">
+                <p class="text-header bold">Rent Payments, Automatic</p>
+              </div>
+              <div class="col3">
+                <p class="text-subheader">Use those hard-earned dollars and get some points. Set up automatic rent payments with your credit card or bank account. We’ll make sure the right person gets their cash.</p>
+              </div>
+              
+              
             </div>
   
             <div class="seekers-column seekers-column3">
-              <img src="img/lease from anywhere.png">
-              <p class="text-header bold">Get Approved From Anywhere</p>
-              <p class="text-subheader">Can’t visit the apartment? Sublee will verify your profile, so you can sublease that apartment sight un-seen.</p>
+              <div class="col1">
+                <img src="img/lease from anywhere.png">
+              </div>
+              <div class="col2">
+                <p class="text-header bold">Get Approved From Anywhere</p>
+              </div>
+              <div class="col3">
+                <p class="text-subheader">Can’t visit the apartment? Sublee will verify your profile, so you can sublease that apartment sight un-seen.</p>
+              </div>
+              
+              
             </div>
   
           </div> <!-- Closing Icon Container -->
@@ -381,67 +437,31 @@ renters that it deserves.</p>
   </div> <!-- Closing Carousel Main Div -->
 
   <footer>
-    <!-- Opening Footer Top w/ Grey Background -->
-    <div class="footer-top">
-      <div class="wrapper">
-
-        <!-- Box 1 - Address -->
-        <div class="footer-top-column footer-top-column1"> 
+    <div class="footer-left">
+      <img src="img/icons8-home-500-grey.png" alt="Sublee Icon">
+      <p class="company">Sublee</p>
+    </div>
+    
+      <div class="footer-middle">
+        <div class="footer-icon">
+          <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <div class="text-container">
+          <p class="footer-top-text">Made in Toronto, Canada</p>
+        </div>
+      </div> <!-- Closing Footer-Middle -->
+  
+      <div class="footer-right">
+        <a href="#" data-toggle="modal" data-target="#exampleModal">
           <div class="footer-icon">
-            <i class="fas fa-map-marker-alt"></i>
+            <i class="far fa-envelope"></i>
           </div>
           <div class="text-container">
-            <p class="footer-top-text">123 Jasons Office Address, Toronto</p>
-            <p class="footer-top-text">Canada, M9M1M1</p>
+            <p class="footer-top-text">Contact Us</p>
           </div>
-        </div> <!-- Closing footer-top-column 1 -->
-  
-        <!-- Vertical Line Divider -->
-        
-        <div class="footer-mobile-bottom-row">
-          <div class="footer-divider footer-divider-left"></div>
-          <!-- footer-top-column 2 Phone Number -->
-          <a href="#">
-            <div class="footer-top-column footer-top-column2"> 
-              <div class="footer-icon">
-                <i class="fas fa-mobile-alt"></i>
+        </a> 
+      </div> <!-- Closing Footer Right -->
       
-              </div>
-              <div class="text-container">
-                <p class="footer-top-text">+1 (800) 123 4567</p>
-              </div>
-            </div> 
-          </a> <!-- Closing footer-top-column 2 -->
-    
-          <!-- Vertical Line Divider -->
-          <div class="footer-divider footer-divider-right"></div>
-    
-          <!-- footer-top-column 3 Email -->
-          <a href="#">
-            <div class="footer-top-column footer-top-column3"> 
-              <div class="footer-icon">
-                <i class="far fa-envelope"></i>
-              </div>
-              <div class="text-container">
-                <p class="footer-top-text">jason@sublee.com</p>
-              </div>
-            </div> 
-          </a> <!-- Closing footer-top-column 3 -->
-        </div> <!-- Closing Footer Mobile Bottom Row -->
-      </div> <!-- Closing Wrapper -->
-    </div> <!-- Closing Footer Top -->
-
-    <!-- Opening Footer Bottom w/ Green Background -->
-    <div class="footer-bottom">
-      <div class="wrapper">
-        <div class="footer-left">
-          <img src="img/icons8-home-50.png" alt="Sublee Icon">
-          <p class="company">Sublee</p>
-        </div>
-        <h3>Copyright &copy; Sublee 2018</h3>
-      </div>
-    </div> <!-- Closing Footer Bottom -->
-
   </footer>
 
 
