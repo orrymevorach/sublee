@@ -67,7 +67,7 @@ function sendEmail(){
 
 
 
-    $to = 'jason@mysublee.com';
+    $to = 'startsublee@gmail.com';
 
     $subject = 'Website Form Submission';
 
@@ -105,7 +105,7 @@ function sendEmail(){
     $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
     $mail->Host = "smtp.gmail.com";
     $mail->Port = 465; // or 587
-    $mail->Username = 'jason@mysublee.com';                 // SMTP username
+    $mail->Username = 'startsublee@gmail.com';                 // SMTP username
     $mail->Password = 'Jaggeejason1';
 
 
