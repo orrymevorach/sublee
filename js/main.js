@@ -84,15 +84,13 @@ $('.nav li').on('click', function() {
 
 
 // How It Works Move In List Reveal
-if($(window).width() <= 700) {
-  $('.howitworks .icons-column1 .heading').on('click', function() {
-    $('.howitworks .moving-in-list').toggle({'display': 'block'})
-  })
-  // How It Works Move Out List Reveal
-  $('.howitworks .icons-column3 .heading').on('click', function () {
-    $('.howitworks .moving-out-list').toggle({ 'display': 'block' })
-  })
-}
+$('.howitworks .icons-column1 .heading').on('click', function() {
+  $('.howitworks .moving-in-list').toggle({'display': 'block'})
+})
+// How It Works Move Out List Reveal
+$('.howitworks .icons-column3 .heading').on('click', function () {
+  $('.howitworks .moving-out-list').toggle({ 'display': 'block' })
+})
 
 // Mobile Nav
 
