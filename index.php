@@ -35,7 +35,7 @@
         
     <div class="nav-right">
       <ul>
-        <li><a href="#aboutus" class="smoothscroll">About Us</a></li>
+        <li><a href="#about" class="smoothscroll">About Us</a></li>
         <li><a href="#howitworks" class="smoothscroll">How It Works</a></li>
         <li><a href="#tenants" class="smoothscroll">Current Tenants</a></li>
         <li><a href="#seekers" class="smoothscroll">Sublease Seekers</a></li>
