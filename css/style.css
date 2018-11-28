@@ -12,6 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   height:100%;
+  position: relative;
 }
 .carousel-inner{
   height: 100%;
@@ -272,7 +273,7 @@ li.get-started:hover {
   background-color: rgba(255, 255, 255, 1);
 }
 li.get-started:hover > a {
-  
+
   color: #1abc9c;
 }
 
@@ -483,7 +484,7 @@ header h3 {
   }
   .header-button {
     margin-bottom: 30px;
-  } 
+  }
   .header-right {
     width: 40%;
     margin-top: 40px;
@@ -542,7 +543,7 @@ header h3 {
   section#aboutus {
     /* Height is 100%, set about in general styles */
     width: 100%;
-  }  
+  }
 }
 
 #aboutus{
@@ -858,7 +859,7 @@ padding-top: 5px;}
     height: 60px;
   }
   .howitworks img {
-    width: 60px; 
+    width: 60px;
   }
   .howitworks p {
     font-size: 15px;
@@ -886,7 +887,7 @@ padding-top: 5px;}
   }
   .howitworks img {
     padding: 15px;
-    width: 80px; 
+    width: 80px;
   }
   .howitworks h2 {
     padding: 0;
@@ -894,7 +895,7 @@ padding-top: 5px;}
 }
 
 @media (max-width: 700px) {
-  
+
   .howitworks .moving-in-list,
   .howitworks .moving-out-list{
     display: none;
@@ -933,7 +934,7 @@ padding-top: 5px;}
   .howitworks .icons-column p {
     height: 35px;
   }
-  
+
 }
 
 @media(max-width:500px) {
@@ -1011,7 +1012,7 @@ padding-top: 5px;}
   height: 1px;
   width: 30px;
   background-color: lightgrey;
-} 
+}
 .tenants-column:first-of-type:before,
 .seekers-column:first-of-type:before {
   display: none;
@@ -1101,28 +1102,27 @@ footer {
   display: flex;
   justify-content: space-around;
   color: white;
-  
 }
 
 footer p {
   font-size: 18px;
 }
 
-.footer-left,
-.footer-middle,
-.footer-right a {
+.footer-sublee,
+.footer-location,
+.footer-contact a,
+.footer-privacy {
   display: flex;
   align-items: center;
   padding: 10px 0;
 }
 
-
-.footer-left img {
+.footer-sublee img {
   height: 50px;
   width: 50px;
 }
 /* Sublee Text */
-.footer-left .company {
+.footer-sublee .company {
   font-size: 22px;
   color: white;
   padding-top: 17px;
@@ -1151,45 +1151,92 @@ footer .text-container {
   margin-left: 10px;
 }
 
-.footer-right {
+.footer-contact {
   padding-top: 5px;
 }
 
-.footer-right .text-container {
+.footer-privacy {
+  padding-top: 8px;
+}
+
+.footer-privacy {
+  cursor: pointer;
+}
+
+.footer-contact .text-container,
+.footer-privacy .text-container a {
   text-decoration: none;
   color: white;
   padding-top: 7px;
 }
 
-
-@media(max-width:600px) {
+@media(max-width:700px) {
   footer p {
     font-size: 14px;
   }
-  .footer-left,
-  .footer-middle,
-  .footer-right,
-  .footer-right a {
-    width: 200px;
+  .footer-sublee,
+  .footer-location,
+  .footer-contact,
+  .footer-contact a,
+  .footer-privacy {
+    width: 220px;
     margin: 0 auto;
     padding: 0;
   }
   footer {
     flex-direction: column;
   }
+
+  .footer-location,
+  .footer-contact {
+    padding-left: 12px;
+  }
+  .footer-privacy {
+    padding-left: 40px;
+  }
 }
 
+/* Privacy Policy Modal */
 
+.privacy-policy-modal {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
 
+.overlay {
+  background-color: rgba(0,0,0,0.8);
+  height: 100%;
+  width: 100%;
+  z-index: 200;
+}
 
+.privacy-modal-text {
+  background: white;
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  height: 70vh;
+  overflow: scroll;
+  transform: translateX(-50%);
+  border: 10px solid #1abc9c;
+  padding: 20px;
+  z-index: 201;
+}
 
+.privacy-text-container {
+  padding: 30px;
+}
 
+.privacy-close-2 {
+  display: block;
+  margin: 0 auto;
+}
 
-
-
-
-
-
-
-
-
+.stopscroll {
+  overflow: hidden;
+  position: fixed;
+}

@@ -94,5 +94,28 @@ if ($(window).width() <= 700) {
   })
 }
 
-// Mobile Nav
+// Privacy Modal
+let footerPrivacyModalDisplay = false
+
+// Show Privacy Policy Modal onClick
+$('.footer-privacy').on('click', function () {
+  $('.privacy-policy-modal').css({ 'display': 'block' })
+  $('body').addClass('stopscroll')
+  footerPrivacyModalDisplay = true
+})
+
+// Close Privacy Policiy Modal on escape
+$(document).on('keydown', function (e) {
+  if (e.which === 27 && footerPrivacyModalDisplay === true) {
+    $('.privacy-policy-modal').css({ 'display': 'none' })
+    footerPrivacyModalDisplay = false
+  }
+})
+
+// Close Privacy Policiy Modal onClick of (x) and close button
+$('.privacy-close').on('click', function () {
+  $('.privacy-policy-modal').css({ 'display': 'none' })
+  footerPrivacyModalDisplay = false
+})
+
 
