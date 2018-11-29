@@ -100,7 +100,7 @@ let footerPrivacyModalDisplay = false
 // Show Privacy Policy Modal onClick
 $('.footer-privacy').on('click', function () {
   $('.privacy-policy-modal').css({ 'display': 'block' })
-  $('body').addClass('stopscroll')
+  $('body').removeClass('stopscroll')
   footerPrivacyModalDisplay = true
 })
 
@@ -108,6 +108,7 @@ $('.footer-privacy').on('click', function () {
 $(document).on('keydown', function (e) {
   if (e.which === 27 && footerPrivacyModalDisplay === true) {
     $('.privacy-policy-modal').css({ 'display': 'none' })
+    $('body').addClass('stopscroll')
     footerPrivacyModalDisplay = false
   }
 })
@@ -115,6 +116,7 @@ $(document).on('keydown', function (e) {
 // Close Privacy Policiy Modal onClick of (x) and close button
 $('.privacy-close').on('click', function () {
   $('.privacy-policy-modal').css({ 'display': 'none' })
+  $('body').removeClass('stopscroll')
   footerPrivacyModalDisplay = false
 })
 
