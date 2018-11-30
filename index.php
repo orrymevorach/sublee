@@ -300,7 +300,7 @@ life a whole lot easier.</h2>
             <p class="text-header bold">Subtenant Verification</p>
           </div>
           <div class="col3">
-            <p class="text-subheader">We’ll pre-approve and background check potential sub-tenants for you.</p>
+            <p class="text-subheader">We’ll pre-approve and background check potential subtenants for you.</p>
           </div>
 
 
@@ -357,7 +357,7 @@ life a whole lot easier.</h2>
                 <p class="text-header bold">Leases That Fit Your Schedule</p>
               </div>
               <div class="col3">
-                <p class="text-subheader">Find sublet options between 2 to 12 months.</p>
+                <p class="text-subheader">Find sublease options between 2 to 12 months.</p>
             </div>
               </div>
 
@@ -393,7 +393,7 @@ life a whole lot easier.</h2>
 
           </div> <!-- Closing Icon Container -->
           <!-- Start Sublet Button -->
-          <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Find my sublet</button>
+          <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Find my sublease</button>
 
         </div> <!-- Closing Renter's Right -->
 
