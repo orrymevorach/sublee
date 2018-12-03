@@ -670,6 +670,10 @@ form button {
   margin: 30px auto 0;
 }
 
+.temporary-text {
+  padding: 0 30px;
+}
+
 @media (max-width: 1050px) {
   .modal-dialog {
     width: 90%;
@@ -773,6 +777,13 @@ padding-top: 5px;}
 
 /* How It works */
 
+.howitworks,
+.seekers {
+  background-color: rgb(233, 233, 233);
+  border-top: 1px solid rgb(221, 221, 221);
+  border-bottom: 1px solid rgb(221,221,221);
+}
+
 .howitworks h1,
 .howitworks h2 {
   padding: 0 50px;
@@ -806,7 +817,6 @@ padding-top: 5px;}
 .howitworks .icons-container h2 {
     margin: 0 0 20px 0;
 }
-
 
 .howitworks .icons-column1,
 .howitworks .icons-column3 {
@@ -945,11 +955,6 @@ padding-top: 5px;}
 
 /* Tenants / Seekers */
 
-.tenants {
-  background-color: rgb(233, 233, 233);
-  border-top: 1px solid rgb(221, 221, 221);
-  border-bottom: 1px solid rgb(221,221,221);
-}
 .seekers,
 .tenants {
   padding-top: 40px;

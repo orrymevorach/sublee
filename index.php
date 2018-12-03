@@ -37,6 +37,7 @@
   <div class="logo-top-container">
     <img src="img/icons8-home-100.png" alt="Sublee Icon" class="logo-top">
   </div>
+
   <nav class="nav clearfix">
     <div class="nav-hamburger-container">
       <i class="fas fa-bars nav-hamburger"></i>
@@ -47,16 +48,14 @@
 
     <div class="nav-right">
       <ul>
-        <li><a href="#aboutus" class="smoothscroll">About Us</a></li>
         <li><a href="#howitworks" class="smoothscroll">How It Works</a></li>
         <li><a href="#tenants" class="smoothscroll">Current Tenants</a></li>
         <li><a href="#seekers" class="smoothscroll">Sublease Seekers</a></li>
+        <li><a href="#aboutus" class="smoothscroll">About Us</a></li>
         <li class="get-started"><a data-toggle="modal" data-target="#exampleModal">Get Started</a></li>
       </ul>
     </div>
   </nav> <!-- Closing Navbar -->
-
-
 
   <!-- Opening Header -->
   <div class="header-mobile">
@@ -93,7 +92,9 @@
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
             </button>
-            <h2 class="modal-title" id="exampleModalLabel">Sign Up</br></h2>
+            <h2 class="modal-title" id="exampleModalLabel">Sign Up</h2>
+            </br>
+            <p class="temporary-text">Hey there! You found us before we’re ready but we’re working hard to bring you the ultimate subletting experience soon. Get in touch with us to stay up to date on our launch or tell us about your current leasing needs, and an expert from our team will reach out to see if we can help!</p>
           </div> <!-- Closing Modal Header -->
 
           <!-- Modal Body -->
@@ -194,19 +195,6 @@
 
   </header>
 
-  <!-- About Us -->
-  <section id="aboutus">
-    <!-- Black Screen -->
-    <div class="black-screen">
-      <!-- Text Container -->
-      <div class="text-container">
-        <h1>About Us</h1>
-        <h3>Sublee is designed to democratize the Canadian leasing process. Let’s face it, long-term commitments like 12 month leases don’t work for everyone. Sublee is here to lift the constraints on year long contracts enabling people to find flexible, short-term, market rate options, while providing current tenants the safety and peace of mind with subletting their apartment. Our team is excited to introduce Sublee, and to bring Canadians the flexible apartment living they deserve.
-        </h3>
-      </div> <!-- Closing Text Container -->
-    </div>
-  </section> <!-- Closing About Us Container -->
-
   <!-- How It Works Section -->
   <section id="howitworks" class="howitworks">
     <div class="wrapper">
@@ -253,7 +241,7 @@
             <i class="fas fa-bars howitworks-hamburger"></i>
           </div>
           <ul class="moving-out-list">
-            <li><p class="text bold">Post Your Lease to Our Marketplace</p></li>
+            <li><p class="text bold">Post Your Listing to Our Marketplace</p></li>
             <li><p class="text bold">Connect with Potential Subtenants</p></li>
             <li><p class="text bold">Verify the Incoming Tenant</p></li>
             <li><p class="text bold">Customize Contract & Sign</p></li>
@@ -274,8 +262,7 @@
   <section id="tenants" class="tenants">
     <div class="wrapper">
       <h1>Current Tenants</h1>
-      <h2>Subletting your apartment shouldn’t be difficult, so we built a product to make your
-life a whole lot easier.</h2>
+      <h2>Subletting your apartment shouldn’t be difficult, so we built a product to make your life a whole lot easier.</h2>
 
       <div class="tenants-main">
         <div class="tenants-column tenants-column1">
@@ -286,10 +273,8 @@ life a whole lot easier.</h2>
             <p class="text-header bold">Lead Generation</p>
           </div>
           <div class="col3">
-            <p class="text-subheader">Our team will advertise your listing and make sure it gets the attention from renters that it deserves.</p>
+            <p class="text-subheader">Our team will advertise your listing for you.</p>
           </div>
-
-
 
         </div>
         <div class="tenants-column tenants-column2">
@@ -313,7 +298,7 @@ life a whole lot easier.</h2>
             <p class="text-header bold">Customized Lease Contracts</p>
           </div>
           <div class="col3">
-            <p class="text-subheader">Loving that new renovation you just did? Protect it with a customized lease contract.</p>
+            <p class="text-subheader">Transfer ownership of your lease and never worry about it again.</p>
           </div>
 
 
@@ -326,14 +311,14 @@ life a whole lot easier.</h2>
             <p class="text-header bold">Seamless Rent Payments</p>
           </div>
           <div class="col3">
-            <p class="text-subheader">Sublee will make sure you or your landlord get paid, in full, on-time, and without any hassle.<p>
+            <p class="text-subheader">We’ll make sure your or your landlord get paid, on-time, without hassle.<p>
           </div>
 
 
         </div>
       </div>
 
-      <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Post my lease</button>
+      <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Post my listing</button>
 
     </div> <!-- CLosing Wrapper -->
   </section> <!-- Closing Tenants  -->
@@ -371,7 +356,7 @@ life a whole lot easier.</h2>
                 <p class="text-header bold">Rent Payments, Automatic</p>
               </div>
               <div class="col3">
-                <p class="text-subheader">Use those hard-earned dollars and get some points. Set up automatic rent payments with your credit card or bank account. We’ll make sure the right person gets their cash.</p>
+                <p class="text-subheader">Pay rent with your bank account or credit card to earn points.</p>
               </div>
 
 
@@ -385,7 +370,7 @@ life a whole lot easier.</h2>
                 <p class="text-header bold">Get Approved From Anywhere</p>
               </div>
               <div class="col3">
-                <p class="text-subheader">Can’t visit the apartment? Sublee will verify your profile, so you can sublease that apartment sight un-seen.</p>
+                <p class="text-subheader">Sublee will verify your profile so you can sublease that apartment without needing to visit.</p>
               </div>
 
 
@@ -393,13 +378,25 @@ life a whole lot easier.</h2>
 
           </div> <!-- Closing Icon Container -->
           <!-- Start Sublet Button -->
-          <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Find my sublease</button>
+          <button type="submit" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#exampleModal">Find a sublease</button>
 
         </div> <!-- Closing Renter's Right -->
 
       </div> <!-- Closing seekers Main Container -->
     </div> <!-- Closing Wrapper -->
   </section> <!-- CLosing seekers -->
+
+  <!-- About Us -->
+  <section id="aboutus">
+    <!-- Black Screen -->
+    <div class="black-screen">
+      <!-- Text Container -->
+      <div class="text-container">
+        <h1>About Us</h1>
+        <h3>Let’s face it, long-term commitments like 12-month leases don’t work for everyone. Sublee is here to lift the constraints on yearlong contracts enabling people to find flexible, short-term market rate options, while providing current tenants safety and peace of mind with subletting. Our team is excited to introduce Sublee, and to bring Canadians the flexible apartment living they deserve.</h3>
+      </div> <!-- Closing Text Container -->
+    </div>
+  </section> <!-- Closing About Us Container -->
 
   <!-- Carousel Section -->
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -495,7 +492,7 @@ life a whole lot easier.</h2>
         <div class="privacy-text-container">
           <h1>Our Privacy Policy</h1>
           <p>
-            <h1>Privacy Policy</h1>
+            <!-- <h1>Privacy Policy</h1> -->
 
             <p>Effective date: November 27, 2018</p>
 
