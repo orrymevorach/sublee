@@ -93,14 +93,16 @@
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
             </button>
             <h2 class="modal-title" id="exampleModalLabel">Sign Up</h2>
-            </br>
-            <p class="temporary-text">Hey there! You found us before we’re ready but we’re working hard to bring you the ultimate subletting experience soon. Get in touch with us to stay up to date on our launch or tell us about your current leasing needs, and an expert from our team will reach out to see if we can help!</p>
           </div> <!-- Closing Modal Header -->
 
           <!-- Modal Body -->
           <div class="modal-body">
 
             <form method="post" action="mailSend.php" onSubmit="return validate();" >
+            </br>
+            <p class="temporary-text">Hey there! You found us before we’re ready but we’re working hard to bring you the ultimate subletting experience soon. Get in touch with us to stay up to date on our launch or tell us about your current leasing needs, and an expert from our team will reach out to see if we can help!</p>
+            </br>
+            </br>
 
               <!-- Form -->
               <div class="row row1">
@@ -262,7 +264,7 @@
   <section id="tenants" class="tenants">
     <div class="wrapper">
       <h1>Current Tenants</h1>
-      <h2>Subletting your apartment shouldn’t be difficult, so we built a product to make your life a whole lot easier.</h2>
+      <h2>Subletting your apartment shouldn’t be so difficult, so we’ve decided to handle everything for you.</h2>
 
       <div class="tenants-main">
         <div class="tenants-column tenants-column1">
@@ -328,7 +330,7 @@
   <section id="seekers" class="seekers">
     <div class="wrapper">
         <h1>Sublease Seekers</h1>
-        <h2>Stay a while. Actually, stay as long as you’d like. Find the right lease for the right amount of time.</h2>
+        <h2>Stay a while. Actually, stay as long as you’d like. Find verified listings for your ideal timeline.</h2>
 
 
           <!-- Icons -->
@@ -399,17 +401,17 @@
   </section> <!-- Closing About Us Container -->
 
   <!-- Carousel Section -->
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"> -->
       <!-- Indicators -->
-      <ol class="carousel-indicators">
+      <!-- <ol class="carousel-indicators">
         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
 
-      </ol>
+      </ol> -->
 
       <!-- Wrapper for slides -->
-      <div class="carousel-inner" role="listbox">
+      <!-- <div class="carousel-inner" role="listbox">
         <div class="black-screen"></div>
         <div class="item active">
           <img src="img/kitchen-stove-sink-kitchen-counter-349749.jpeg" alt="...">
@@ -430,12 +432,12 @@
           <div class="carousel-caption">
 
           </div>
-        </div>
+        </div> -->
 
-      </div> <!-- Closing Carousel Inner -->
+      <!-- </div> Closing Carousel Inner -->
 
       <!-- Controls -->
-      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <!-- <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
@@ -445,7 +447,7 @@
         <span class="sr-only">Next</span>
       </a>
 
-  </div> <!-- Closing Carousel Main Div -->
+  </div> Closing Carousel Main Div -->
 
   <footer>
     <div class="footer-sublee">

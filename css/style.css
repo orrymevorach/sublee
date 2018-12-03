@@ -619,6 +619,10 @@ header h3 {
   min-width: 200px;
 }
 
+.modal-title {
+  font-size: 28px;
+}
+
 .modal-dialog {
   max-width: 1020px;
 }
