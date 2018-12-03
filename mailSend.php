@@ -106,7 +106,6 @@ function sendEmail(){
     $mail->Host = "smtp.gmail.com";
     $mail->Port = 465; // or 587
     $mail->Username = 'startsublee@gmail.com';                 // SMTP username
-    $mail->Password = 'Jasonsublee1';
 
 
     $mail->isHTML(true);
